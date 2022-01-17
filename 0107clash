@@ -5,471 +5,287 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇹🇼TW_290, server: 123.59.72.193, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_280, server: 106.75.233.91, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
-  - {name: US_1746, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1178, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: HK_487, server: 118.107.244.109, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Pool_🇭🇰HK_486, server: 118.107.244.112, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1664, server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1654, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1665, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US, server: 172.99.190.232, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1755, server: 38.91.102.86, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1759, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US 2, server: 38.75.137.9, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1648, server: 142.202.48.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1675, server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_861, server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US 3, server: 172.99.190.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1692, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1747, server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Pool_🇭🇰HK_469, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1655, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: HK_484, server: 118.107.244.111, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1292, server: 142.202.48.77, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1643, server: 142.202.48.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1674, server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1202, server: 142.202.48.78, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US 4, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1659, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1760, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US 5, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1425, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1653, server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US 6, server: 142.202.48.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1300, server: 142.202.48.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1641, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US 7, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1497, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US 8, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US 9, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US 10, server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1744, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1673, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US 11, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1639, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1749, server: 38.64.138.145, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1334, server: 38.114.114.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US 12, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US 13, server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1738, server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1650, server: 142.202.48.114, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1628, server: 167.88.63.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1636, server: 38.75.136.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US 14, server: 149.7.16.10, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1628 2, server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1298, server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1752, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1785, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1753, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1640, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1725, server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1730, server: 38.91.102.86, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1559, server: 38.75.136.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1741, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1745, server: 167.88.63.107, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US 15, server: 172.99.190.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1756, server: 38.64.138.145, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US 16, server: 38.91.101.221, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US 17, server: 38.75.136.102, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1406, server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1757, server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1652, server: 38.91.107.225, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1380, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1647, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1815, server: 142.202.48.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1605, server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1740, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1260, server: 38.114.114.67, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1656, server: 38.75.137.9, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US 18, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1635, server: 38.114.114.67, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1646, server: 38.114.114.67, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1739, server: 38.91.102.86, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_947, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1729, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1634, server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US 19, server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1742, server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US 20, server: 167.88.63.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1727, server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US 21, server: 142.202.48.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1345, server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1737, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1303, server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1772, server: 142.202.48.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1751, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1657, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1726, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1347, server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1323, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1378, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US 22, server: 142.202.48.78, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1735, server: 38.64.138.145, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_851, server: 172.99.190.205, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1203, server: 142.202.48.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1754, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1245, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1642, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US 23, server: 38.75.137.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_855, server: 38.107.226.132, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_934, server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1736, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_784, server: 81.90.189.172, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
+  - {name: Pool_🇭🇰HK_466, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1485, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Pool_🇭🇰HK_462, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_🇭🇰HK_472, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇭🇰HK_464, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK_481, server: 118.107.244.111, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_544, server: 141.164.35.41, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1792, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Pool_🇭🇰HK_483, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1739, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_949, server: 38.75.137.66, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1745, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_911, server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_826, server: 38.75.136.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1499, server: 167.88.62.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1433, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1801, server: 192.46.209.215, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1503, server: 167.88.61.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1514, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1500, server: 38.68.134.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1489, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_902, server: 38.91.100.207, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_539, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1773, server: 167.88.63.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1747, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1748, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1497, server: 167.88.63.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1800, server: 142.202.48.77, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1705, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1751, server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1211, server: 172.99.190.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_887, server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1783, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_979, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_554, server: 172.105.251.193, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_542, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_838, server: 172.99.190.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_989, server: 142.202.48.17, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1492, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1486, server: 172.99.190.57, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_557, server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1682, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_273, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_538, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1507, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1728, server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1487, server: 38.68.135.93, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇭🇰HK_478, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1754, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1650, server: 142.202.48.114, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1066, server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1767, server: 38.64.138.145, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1667, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1504, server: 38.68.134.69, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1782, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1643, server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1490, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1495, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1771, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1494, server: 167.88.63.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1790, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1794, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1275, server: 167.88.63.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1795, server: 167.88.63.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US, server: 172.99.190.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -488,118 +304,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -610,353 +380,215 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -972,118 +604,72 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_290
-      - Relay_🇨🇳CN-🇹🇼TW_280
-      - US_1746
-      - US_1178
-      - HK_487
-      - Pool_🇭🇰HK_486
-      - US_1664
-      - US_1654
-      - US_1665
-      - US
-      - US_1755
-      - US_1759
-      - US 2
-      - _US_美国
-      - US_1648
-      - US_1675
-      - US_861
-      - US 3
-      - US_1692
-      - US_1747
-      - Pool_🇭🇰HK_469
-      - US_1655
-      - HK_484
-      - US_1292
-      - US_1643
-      - US_1674
-      - US_1202
-      - US 4
-      - US_1659
-      - US_1760
-      - US 5
-      - US_1425
-      - US_1653
-      - US 6
-      - US_1300
-      - US_1641
-      - US 7
-      - US_1497
-      - US 8
-      - US 9
-      - US 10
-      - US_1744
-      - US_1673
-      - US 11
-      - US_1639
-      - US_1749
-      - US_1334
-      - US 12
-      - US 13
-      - US_1738
-      - US_1650
-      - US_1628
-      - US_1636
-      - US 14
-      - US_1628 2
-      - US_1298
-      - US_1752
-      - US_1785
-      - US_1753
-      - US_1640
-      - US_1725
-      - US_1730
-      - US_1559
-      - US_1741
-      - US_1745
-      - US 15
-      - US_1756
-      - US 16
-      - US 17
-      - US_1406
-      - US_1757
-      - US_1652
-      - US_1380
-      - US_1647
-      - US_1815
-      - US_1605
-      - US_1740
-      - US_1260
-      - US_1656
-      - US 18
-      - US_1635
-      - US_1646
+      - Relay_🇸🇬SG-🇸🇬SG_784
+      - Pool_🇭🇰HK_466
+      - US_1485
+      - Pool_🇭🇰HK_462
+      - Pool_🇭🇰HK_472
+      - Pool_🇭🇰HK_464
+      - HK_481
+      - JP_544
+      - US_1792
+      - Pool_🇭🇰HK_483
       - US_1739
-      - US_947
-      - US_1729
-      - US_1634
-      - US 19
-      - US_1742
-      - US 20
-      - US_1727
-      - US 21
-      - US_1345
-      - US_1737
-      - US_1303
-      - US_1772
+      - US_949
+      - US_1745
+      - US_911
+      - US_826
+      - US_1499
+      - US_1433
+      - US_1801
+      - US_1503
+      - US_1514
+      - US_1500
+      - US_1489
+      - US_902
+      - JP_539
+      - US_1773
+      - US_1747
+      - US_1748
+      - US_1497
+      - US_1800
+      - US_1705
       - US_1751
-      - US_1657
-      - US_1726
-      - US_1347
-      - US_1323
-      - US_1378
-      - US 22
-      - US_1735
-      - US_851
-      - US_1203
+      - US_1211
+      - US_887
+      - US_1783
+      - US_979
+      - JP_554
+      - JP_542
+      - US_838
+      - US_989
+      - US_1492
+      - US_1486
+      - JP_557
+      - US_1682
+      - Relay_🇨🇳CN-🇭🇰HK_273
+      - JP_538
+      - US_1507
+      - US_1728
+      - US_1487
+      - Pool_🇭🇰HK_478
       - US_1754
-      - US_1245
-      - US_1642
-      - US 23
-      - US_855
-      - US_934
-      - US_1736
+      - US_1650
+      - US_1066
+      - US_1767
+      - US_1667
+      - US_1504
+      - US_1782
+      - US_1643
+      - US_1490
+      - US_1495
+      - US_1771
+      - US_1494
+      - US_1790
+      - US_1794
+      - US_1275
+      - US_1795
+      - US
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
