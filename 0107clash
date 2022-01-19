@@ -5,507 +5,447 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Pool_🇭🇰HK_464, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1728, server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1064, server: 38.114.114.69, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_949, server: 38.75.137.66, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1066, server: 38.114.114.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1063, server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1499, server: 167.88.62.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1489, server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1767, server: 167.88.63.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1036, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1060, server: 38.75.136.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1789, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1342, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1771, server: 167.88.63.114, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1195, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1650, server: 142.202.48.114, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1809, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1503, server: 167.88.61.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1061, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_842, server: 142.202.48.58, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1203, server: 142.202.48.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_982, server: 38.75.136.117, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1772, server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1748, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1495, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_826, server: 38.75.136.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1336, server: 142.202.48.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1275, server: 167.88.63.79, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1739, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1497, server: 167.88.63.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1725, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_985, server: 142.202.48.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1352, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1782, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_989, server: 142.202.48.17, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_983, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1745, server: 38.86.135.27, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1778, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1777, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_840, server: 167.88.63.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_987, server: 142.202.48.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1768, server: 172.99.190.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_898, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1782 2, server: 172.99.190.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_989 2, server: 167.88.63.89, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1779, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_845, server: 38.91.102.96, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1759, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1823, server: pr1.mooncloud.bike, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pr1.mooncloud.bike}, udp: true}
-  - {name: JP_542, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1752, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1323, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_990, server: 142.202.48.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1744, server: 38.86.135.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_838, server: 172.99.190.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1504, server: 38.68.134.69, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1507, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1682, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_940, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1514, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_991, server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_995, server: 38.107.226.48, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1200, server: 38.91.100.207, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1066 2, server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1318, server: 142.202.48.45, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1762, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1783, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1776, server: 38.107.226.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1487, server: 38.68.135.93, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1734, server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP_544, server: 141.164.35.41, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1621, server: 142.202.48.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Pool_🇭🇰HK_481, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1705, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1490, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1810, server: 167.88.63.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_979, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1790, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1433, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_902, server: 38.91.100.207, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1769, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Pool_🇭🇰HK_489, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1764, server: 38.86.135.27, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1494, server: 167.88.63.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1340, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1784, server: 167.88.63.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1492, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1804, server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1178, server: 162.251.61.221, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1794, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1486, server: 172.99.190.57, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1745 2, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Pool_🇭🇰HK_482, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1324, server: 142.202.48.14, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1800, server: 142.202.48.77, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: JP_557, server: 172.105.251.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Pool_🇭🇰HK_488, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: SG_746, server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_911, server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: HK_487, server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1805, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Pool_🇭🇰HK_466, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1348, server: 142.202.48.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1485, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1751, server: 38.64.138.145, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_1824, server: rb1.moonfree.top, port: 8443, type: vmess, uuid: f1533fd1-4562-4935-a1e6-832685d4a919, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rb1.moonfree.top}, udp: true}
-  - {name: US_1807, server: 192.46.208.123, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1314, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: JP_539, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_887, server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_784, server: 81.90.189.172, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
-  - {name: US_1201, server: 167.88.63.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1667, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1765, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1811, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1754, server: 38.91.102.86, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1767 2, server: 38.64.138.145, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1808, server: 192.46.208.123, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1643, server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1806, server: 192.46.208.123, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1827, server: 173.82.240.245, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: 173.82.240.245}, udp: true}
+  - {name: JP_537, server: 5.181.5.136, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_864, server: 38.91.102.96, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|11.74Mb", server: 134.195.196.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_893, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_868, server: 38.91.102.96, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "| 5.81Mb", server: 134.195.196.97, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|11.58Mb", server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|10.79Mb", server: 134.195.196.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_936, server: 38.91.100.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|12.28Mb", server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_878, server: 38.75.136.58, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_925, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|12.22Mb", server: 134.195.196.163, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_877, server: 38.114.114.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|11.22Mb", server: 134.195.196.163, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_529, server: 172.105.251.193, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|11.40Mb", server: 134.195.196.133, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_861, server: 38.91.102.96, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|12.20Mb", server: 134.195.196.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_924, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|10.24Mb", server: 134.195.196.133, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_913, server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|12.22Mb 2", server: 134.195.196.163, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_923, server: 38.91.100.207, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|11.11Mb", server: 134.195.196.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|12.06Mb", server: 134.195.196.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|11.03Mb", server: 134.195.196.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|20.47Mb", server: 169.197.143.157, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_922, server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: HK_456, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_824, server: 38.75.136.93, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 8.69Mb", server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1024, server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_883, server: 38.75.137.66, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|11.31Mb", server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|11.63Mb", server: 134.195.196.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|10.89Mb", server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|12.00Mb", server: 134.195.196.52, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|12.25Mb", server: 134.195.196.199, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_835, server: 38.91.101.221, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|11.59Mb", server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|21.22Mb", server: 169.197.143.157, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "| 6.16Mb", server: 134.195.196.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1536, server: 167.88.62.62, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|11.88Mb", server: 134.195.196.52, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_867, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_920, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_870, server: 38.75.136.93, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1268, server: 167.88.63.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|21.25Mb", server: 169.197.143.157, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|11.42Mb", server: 134.195.196.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|11.65Mb", server: 134.195.196.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|11.56Mb", server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|12.00Mb 2", server: 134.195.196.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_919, server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|12.44Mb", server: 139.162.189.117, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1026, server: 167.88.62.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_926, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Pool_🇭🇰HK_454, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|10.81Mb", server: 134.195.198.250, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_887, server: 167.88.61.130, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|11.35Mb", server: 134.195.196.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_829, server: 38.91.102.86, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|11.42Mb 2", server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|11.23Mb", server: 134.195.196.199, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_554, server: 172.105.244.165, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|12.05Mb", server: 134.195.196.44, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|12.03Mb", server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|16.74Mb", server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_553, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Pool_🇭🇰HK_464, server: 118.107.244.110, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_856, server: 38.91.102.96, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|11.97Mb", server: 134.195.196.33, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|12.60Mb", server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Pool_🇭🇰HK_455, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK_462, server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|10.26Mb", server: 134.195.198.178, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|23.20Mb", server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|11.45Mb", server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|10.52Mb", server: 134.195.196.163, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇭🇰HK_451, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1265, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|16.34Mb", server: 169.197.143.157, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 9.21Mb", server: 134.195.198.250, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1527, server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇭🇰HK_463, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 2.62Mb", server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|12.03Mb 2", server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇭🇰HK_449, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|16.28Mb", server: 134.195.198.250, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_918, server: 38.91.100.27, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_825, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_866, server: 38.91.102.96, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|11.96Mb", server: 134.195.196.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|12.16Mb", server: 134.195.196.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 2.87Mb", server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 6.42Mb", server: 93.186.201.124, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_260, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "| 3.04Mb", server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: "| 9.93Mb", server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_881, server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh, udp: true}
+  - {name: "| 6.67Mb", server: 93.186.201.124, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_547, server: 5.181.5.136, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_541, server: 89.31.126.150, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_526, server: 185.160.24.217, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_263, server: 14.29.124.174, port: 20700, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -524,127 +464,112 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -655,380 +580,335 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1044,127 +924,112 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_🇭🇰HK_464
-      - US_1728
-      - US_1064
-      - US_949
-      - US_1066
-      - US_1063
-      - US_1499
-      - US_1489
-      - US_1767
-      - US_1036
-      - US_1060
-      - US_1789
-      - US_1342
-      - US_1771
-      - US_1195
-      - US_1650
-      - US_1809
-      - US_1503
-      - US_1061
-      - US_842
-      - US_1203
-      - US_982
-      - US_1772
-      - US_1748
-      - US_1495
-      - US_826
-      - US_1336
-      - US_1275
-      - US_1739
-      - US_1497
-      - US_1725
-      - US_985
-      - US_1352
-      - US_1782
-      - US_989
-      - US_983
-      - US_1745
-      - US_1778
-      - US_1777
-      - US_840
-      - US_987
-      - US_1768
-      - US_898
-      - US_1782 2
-      - US_989 2
-      - US_1779
-      - US_845
-      - US_1759
-      - Relay_🇺🇸US-🇺🇸US_1823
-      - JP_542
-      - US_1752
-      - US_1323
-      - US_990
-      - US_1744
-      - US_838
-      - US_1504
-      - US_1507
-      - US_1682
-      - US_940
-      - US_1514
-      - US_991
-      - US_995
-      - US_1200
-      - US_1066 2
-      - US_1318
-      - US_1762
-      - US_1783
-      - US_1776
-      - US_1487
-      - US_1734
-      - JP_544
-      - US_1621
-      - Pool_🇭🇰HK_481
-      - US_1705
-      - US_1490
-      - US_1810
-      - US_979
-      - US_1790
-      - US_1433
-      - US_902
-      - US_1769
-      - Pool_🇭🇰HK_489
-      - US_1764
-      - US_1494
-      - US_1340
-      - US_1784
-      - US_1492
-      - US_1804
-      - US_1178
-      - US_1794
-      - US_1486
-      - US_1745 2
-      - Pool_🇭🇰HK_482
-      - US_1324
-      - US_1800
-      - JP_557
-      - Pool_🇭🇰HK_488
-      - SG_746
-      - US_911
-      - HK_487
-      - US_1805
-      - Pool_🇭🇰HK_466
-      - US_1348
-      - US_1485
-      - US_1751
-      - Relay_🇺🇸US-🇯🇵JP_1824
-      - US_1807
-      - US_1314
-      - JP_539
+      - JP_537
+      - US_864
+      - "|11.74Mb"
+      - US_893
+      - US_868
+      - "| 5.81Mb"
+      - "|11.58Mb"
+      - "|10.79Mb"
+      - US_936
+      - "|12.28Mb"
+      - US_878
+      - US_925
+      - "|12.22Mb"
+      - US_877
+      - "|11.22Mb"
+      - JP_529
+      - "|11.40Mb"
+      - US_861
+      - "|12.20Mb"
+      - US_924
+      - "|10.24Mb"
+      - US_913
+      - "|12.22Mb 2"
+      - US_923
+      - "|11.11Mb"
+      - "|12.06Mb"
+      - "|11.03Mb"
+      - "|20.47Mb"
+      - US_922
+      - HK_456
+      - US_824
+      - "| 8.69Mb"
+      - US_1024
+      - US_883
+      - "|11.31Mb"
+      - "|11.63Mb"
+      - "|10.89Mb"
+      - "|12.00Mb"
+      - "|12.25Mb"
+      - US_835
+      - "|11.59Mb"
+      - "|21.22Mb"
+      - "| 6.16Mb"
+      - US_1536
+      - "|11.88Mb"
+      - US_867
+      - US_920
+      - US_870
+      - US_1268
+      - "|21.25Mb"
+      - "|11.42Mb"
+      - "|11.65Mb"
+      - "|11.56Mb"
+      - "|12.00Mb 2"
+      - US_919
+      - "|12.44Mb"
+      - US_1026
+      - US_926
+      - Pool_🇭🇰HK_454
+      - "|10.81Mb"
       - US_887
-      - Relay_🇸🇬SG-🇸🇬SG_784
-      - US_1201
-      - US_1667
-      - US_1765
-      - US_1811
-      - US_1754
-      - US_1767 2
-      - US_1808
-      - US_1643
-      - US_1806
-      - US_1827
+      - "|11.35Mb"
+      - US_829
+      - "|11.42Mb 2"
+      - "|11.23Mb"
+      - JP_554
+      - "|12.05Mb"
+      - "|12.03Mb"
+      - "|16.74Mb"
+      - JP_553
+      - Pool_🇭🇰HK_464
+      - US_856
+      - "|11.97Mb"
+      - "|12.60Mb"
+      - Pool_🇭🇰HK_455
+      - HK_462
+      - "|10.26Mb"
+      - "|23.20Mb"
+      - "|11.45Mb"
+      - "|10.52Mb"
+      - Pool_🇭🇰HK_451
+      - US_1265
+      - "|16.34Mb"
+      - "| 9.21Mb"
+      - US_1527
+      - Pool_🇭🇰HK_463
+      - "| 2.62Mb"
+      - "|12.03Mb 2"
+      - Pool_🇭🇰HK_449
+      - "|16.28Mb"
+      - US_918
+      - US_825
+      - US_866
+      - "|11.96Mb"
+      - "|12.16Mb"
+      - "| 2.87Mb"
+      - "| 6.42Mb"
+      - Relay_🇨🇳CN-🇸🇬SG_260
+      - "| 3.04Mb"
+      - "| 9.93Mb"
+      - Relay_🇺🇸US-🇺🇸US_881
+      - "| 6.67Mb"
+      - JP_547
+      - Relay_🇯🇵JP-🇯🇵JP_541
+      - JP_526
+      - Relay_🇨🇳CN-🇹🇼TW_263
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
