@@ -5,503 +5,551 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: "|15.67Mb", server: 192.46.209.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|20.76Mb", server: 167.88.63.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: NO | 6.63Mb, server: 91.189.183.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|18.02Mb", server: 167.88.61.70, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|53.91Mb", server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|20.94Mb", server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|45.89Mb", server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US |13.78Mb, server: 38.107.226.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US |13.39Mb, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |12.22Mb, server: 142.202.48.78, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US |14.37Mb, server: 38.75.137.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ |10.45Mb, server: 169.197.143.157, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US |10.45Mb, server: 142.202.48.14, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|19.86Mb", server: 38.75.136.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: HK | 2.68Mb, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US |12.59Mb, server: 38.68.134.190, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US |12.42Mb, server: 38.91.107.225, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|19.09Mb", server: 38.68.134.190, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US | 9.91Mb, server: 38.68.134.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|19.26Mb", server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Pool_ |15.94Mb, server: 185.99.3.108, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
-  - {name: "|19.78Mb", server: 38.68.134.202, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|17.12Mb", server: 167.88.63.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|19.92Mb", server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|22.38Mb", server: 38.91.102.86, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US |12.42Mb 2, server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|16.98Mb", server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: NO | 4.94Mb, server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|21.15Mb", server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|22.75Mb", server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US |11.93Mb, server: 38.107.226.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Pool_ |20.46Mb, server: 185.99.3.102, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
-  - {name: "|15.63Mb", server: 38.91.102.86, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|19.88Mb", server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|18.55Mb", server: 38.75.136.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|18.73Mb", server: 167.88.63.61, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|17.79Mb", server: 38.107.226.146, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|15.60Mb", server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: JP |30.85Mb, server: 45.11.1.158, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|18.43Mb", server: 38.68.134.190, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US |12.82Mb, server: 38.107.226.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US | 9.50Mb, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|50.40Mb", server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "| 4.76Mb", server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|17.94Mb", server: 167.88.61.70, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Pool_ |23.23Mb, server: 185.99.3.108, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
-  - {name: US | 9.66Mb, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US |11.78Mb, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|16.09Mb", server: 37.120.147.230, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US |12.06Mb, server: 38.86.135.27, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US |14.73Mb, server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US |12.02Mb, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US |10.35Mb, server: 142.202.48.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|15.23Mb", server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|17.57Mb", server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Pool_🇺🇸US |11.31Mb, server: 38.68.134.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|10.65Mb", server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|20.18Mb", server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US |11.63Mb, server: 172.104.207.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: "|18.00Mb", server: 167.88.61.70, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US |11.76Mb, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|16.47Mb", server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|17.02Mb", server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.50Mb", server: 167.88.63.11, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|35.41Mb", server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|20.46Mb", server: 198.57.27.200, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|20.96Mb", server: 141.95.0.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US |11.36Mb, server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |13.83Mb, server: 142.202.48.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ | 9.20Mb, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: "|19.67Mb", server: 38.75.136.58, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ | 9.99Mb, server: 169.197.143.29, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|19.60Mb", server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|17.82Mb", server: 198.57.27.191, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US |12.02Mb, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|44.61Mb", server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|22.11Mb", server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ |11.78Mb, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ | 8.15Mb, server: 169.197.143.157, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ |13.93Mb, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |30.40Mb, server: 172.99.190.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: "|22.69Mb", server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|20.25Mb", server: 193.9.114.34, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|20.72Mb", server: 38.75.136.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: NO | 7.23Mb, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|18.93Mb", server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|26.30Mb", server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|27.54Mb", server: 172.99.190.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|20.15Mb", server: 169.197.141.92, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: US |14.23Mb, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: AU | 9.54Mb, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|20.35Mb", server: 198.57.27.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: NO | 4.82Mb, server: 46.29.219.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: NO | 4.84Mb, server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|24.94Mb", server: 118.107.244.110, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|52.61Mb", server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: AU |10.79Mb, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|28.99Mb", server: 139.162.80.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Pool_ |23.97Mb, server: 185.99.3.212, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: ZZ |11.69Mb, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US |13.07Mb, server: 172.245.218.162, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Pool_ |18.76Mb, server: 185.99.3.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
-  - {name: AU |11.45Mb, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|23.22Mb", server: 51.77.53.200, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|20.34Mb", server: 167.88.63.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|20.86Mb", server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "| 5.22Mb", server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|52.74Mb", server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|19.31Mb", server: 45.11.1.158, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|259.41Mb", server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|24.81Mb", server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|19.16Mb", server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|23.41Mb", server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Pool_ |20.75Mb, server: 185.99.3.108, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: NO | 5.01Mb, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|18.91Mb", server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|25.61Mb", server: 91.232.105.253, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|50.53Mb", server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US |10.11Mb, server: 38.91.101.221, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|20.39Mb", server: 193.9.114.34, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US |14.75Mb, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: PL | 8.40Mb, server: 51.77.53.200, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|19.26Mb", server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ |10.23Mb, server: 134.195.198.178, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|26.08Mb", server: 145.239.7.164, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: SG |34.53Mb, server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG | 9.36Mb, server: 172.104.50.106, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Relay_ |23.78Mb, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |30.80Mb, server: 172.99.190.235, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US |11.63Mb 2, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Pool_ |21.07Mb, server: 185.99.3.214, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: "|20.76Mb", server: 167.88.63.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US | 6.75Mb, server: 142.202.48.45, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 4.37Mb", server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|26.45Mb", server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US |30.19Mb, server: 172.99.190.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|29.01Mb", server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|10.65Mb", server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|19.86Mb", server: 38.75.136.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|29.90Mb", server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US | 8.65Mb, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ |11.78Mb, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|16.61Mb", server: 172.99.190.153, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US |10.98Mb, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|166.33Mb", server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ |13.93Mb, server: 169.197.142.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA | 6.75Mb, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|50.53Mb", server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: JP | 7.85Mb, server: 172.105.251.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US |30.61Mb, server: 172.99.190.246, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US |30.09Mb, server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|20.82Mb", server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US |11.36Mb, server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|24.06Mb", server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|260.94Mb", server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_244 | 9.75Mb, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_ |23.48Mb, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|198.55Mb", server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US |30.34Mb, server: 172.99.190.92, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "| 6.91Mb", server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|24.56Mb", server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|18.71Mb", server: 38.91.100.207, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|20.39Mb", server: 193.9.114.34, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|15.60Mb", server: 38.91.102.86, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|17.79Mb", server: 38.107.226.146, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: "|17.92Mb", server: 38.68.134.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|20.77Mb", server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US |30.40Mb, server: 172.99.190.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|16.87Mb", server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|15.86Mb", server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|26.93Mb", server: 51.77.52.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US |11.76Mb, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|18.41Mb", server: 38.75.137.66, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US |13.81Mb, server: 142.202.48.17, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|19.88Mb", server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|20.78Mb", server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|19.16Mb", server: 167.88.63.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|27.26Mb", server: 163.172.110.53, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|20.72Mb", server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 1.89Mb", server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Pool_ |21.34Mb, server: 185.99.3.108, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "|20.38Mb", server: 142.202.48.7, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: NO | 5.49Mb, server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US |14.34Mb, server: 167.88.63.89, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|20.17Mb", server: 142.202.48.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_ |23.54Mb, server: 185.99.3.108, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: Pool_🇧🇦BA | 8.45Mb, server: 185.99.3.108, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: "|50.70Mb", server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|24.15Mb", server: 172.105.234.211, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ |10.15Mb, server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP |30.82Mb, server: 45.11.1.158, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US |10.98Mb, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|16.75Mb", server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|35.30Mb", server: 38.75.137.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|259.41Mb", server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|20.70Mb", server: 198.57.27.243, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|18.55Mb", server: 38.75.136.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|18.75Mb", server: 198.57.27.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US |12.35Mb, server: 38.91.100.207, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|17.12Mb", server: 167.88.63.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US |13.71Mb, server: 38.68.134.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|17.74Mb", server: 38.68.134.190, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US |11.79Mb, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US |14.03Mb, server: 38.91.100.207, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Relay_ |23.55Mb, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: DE_292 | 5.84Mb, server: 93.186.201.124, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US |14.12Mb, server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|18.91Mb", server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_ |20.46Mb, server: 185.99.3.102, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: US |13.71Mb 2, server: 38.68.134.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.30Mb", server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|17.89Mb", server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|20.78Mb 2", server: 193.9.114.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|52.61Mb", server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US | 8.36Mb, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|58.04Mb", server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|19.50Mb", server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|33.68Mb", server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|36.42Mb", server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|15.21Mb", server: 162.251.61.221, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: NL |12.62Mb, server: 37.120.192.158, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US |30.34Mb, server: 172.99.190.92, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US |10.23Mb, server: 38.91.102.96, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US |11.85Mb, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |13.80Mb, server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|21.25Mb", server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US |12.82Mb, server: 38.107.226.146, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|22.36Mb", server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|20.34Mb", server: 167.88.63.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US | 9.36Mb, server: 172.245.218.162, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US |12.78Mb, server: 38.68.135.93, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US | 8.16Mb, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|18.64Mb", server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|20.40Mb", server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ | 9.99Mb, server: 169.197.143.29, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Relay_ |23.48Mb, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US |11.32Mb, server: 142.202.48.14, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|20.50Mb 2", server: 142.202.48.81, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US |13.91Mb, server: 38.68.135.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|20.44Mb", server: 169.197.141.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|24.06Mb", server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "|20.51Mb", server: 198.57.27.243, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -520,126 +568,138 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -650,377 +710,413 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1036,126 +1132,138 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "|15.67Mb"
+      - "|20.76Mb"
+      - NO | 6.63Mb
+      - "|18.02Mb"
+      - "|53.91Mb"
+      - "|20.94Mb"
+      - "|45.89Mb"
+      - US |13.78Mb
+      - US |13.39Mb
+      - US |12.22Mb
+      - US |14.37Mb
+      - ZZ |10.45Mb
+      - US |10.45Mb
+      - "|19.86Mb"
       - HK | 2.68Mb
-      - US |12.59Mb
-      - US |12.42Mb
-      - "|19.09Mb"
-      - US | 9.91Mb
-      - "|19.26Mb"
-      - Pool_ |15.94Mb
-      - "|19.78Mb"
-      - "|17.12Mb"
-      - "|19.92Mb"
-      - "|22.38Mb"
-      - US |12.42Mb 2
-      - "|16.98Mb"
-      - NO | 4.94Mb
-      - "|21.15Mb"
-      - "|22.75Mb"
-      - US |11.93Mb
-      - Pool_ |20.46Mb
-      - "|15.63Mb"
-      - "|19.88Mb"
-      - "|18.55Mb"
-      - "|18.73Mb"
-      - "|17.79Mb"
-      - "|15.60Mb"
-      - JP |30.85Mb
-      - "|18.43Mb"
-      - US |12.82Mb
-      - US | 9.50Mb
-      - "|50.40Mb"
-      - "| 4.76Mb"
-      - "|17.94Mb"
-      - Pool_ |23.23Mb
-      - US | 9.66Mb
-      - US |11.78Mb
-      - "|16.09Mb"
-      - US |12.06Mb
-      - US |14.73Mb
-      - US |12.02Mb
-      - US |10.35Mb
+      - "|15.23Mb"
+      - "|17.57Mb"
+      - Pool_🇺🇸US |11.31Mb
+      - "|10.65Mb"
+      - "|20.18Mb"
+      - US |11.63Mb
       - "|18.00Mb"
-      - US |11.76Mb
-      - "|16.47Mb"
+      - "|17.02Mb"
+      - "|20.50Mb"
+      - "|35.41Mb"
+      - "|20.46Mb"
+      - "|20.96Mb"
+      - US |11.36Mb
+      - US |13.83Mb
+      - ZZ | 9.20Mb
       - "|19.67Mb"
-      - ZZ | 9.99Mb
+      - "|19.60Mb"
+      - "|17.82Mb"
+      - US |12.02Mb
+      - "|44.61Mb"
+      - "|22.11Mb"
+      - ZZ |11.78Mb
+      - ZZ | 8.15Mb
+      - ZZ |13.93Mb
+      - US |30.40Mb
       - "|22.69Mb"
-      - "|20.25Mb"
-      - "|20.72Mb"
-      - NO | 7.23Mb
-      - "|18.93Mb"
-      - "|26.30Mb"
-      - "|27.54Mb"
-      - "|20.15Mb"
       - US |14.23Mb
       - AU | 9.54Mb
-      - "|20.35Mb"
-      - NO | 4.82Mb
-      - NO | 4.84Mb
-      - "|24.94Mb"
-      - "|52.61Mb"
-      - AU |10.79Mb
-      - "|28.99Mb"
-      - Pool_ |23.97Mb
-      - ZZ |11.69Mb
-      - US |13.07Mb
-      - Pool_ |18.76Mb
-      - AU |11.45Mb
-      - "|23.22Mb"
-      - "|20.34Mb"
-      - "|20.86Mb"
-      - "| 5.22Mb"
-      - "|52.74Mb"
-      - "|19.31Mb"
-      - "|259.41Mb"
-      - "|24.81Mb"
-      - "|19.16Mb"
-      - "|23.41Mb"
-      - Pool_ |20.75Mb
-      - NO | 5.01Mb
-      - "|18.91Mb"
-      - "|25.61Mb"
-      - "|50.53Mb"
-      - US |10.11Mb
-      - "|20.39Mb"
-      - US |14.75Mb
-      - PL | 8.40Mb
+      - "|19.26Mb"
+      - ZZ |10.23Mb
+      - "|26.08Mb"
+      - SG |34.53Mb
+      - SG | 9.36Mb
+      - Relay_ |23.78Mb
+      - US |30.80Mb
+      - US |11.63Mb 2
       - Pool_ |21.07Mb
-      - "|20.76Mb"
-      - US | 6.75Mb
-      - "| 4.37Mb"
-      - "|26.45Mb"
-      - US |30.19Mb
-      - "|29.01Mb"
-      - "|10.65Mb"
-      - "|19.86Mb"
-      - "|29.90Mb"
-      - US | 8.65Mb
-      - ZZ |11.78Mb
-      - "|16.61Mb"
-      - US |10.98Mb
-      - "|166.33Mb"
-      - ZZ |13.93Mb
+      - CA | 6.75Mb
+      - "|50.53Mb"
       - JP | 7.85Mb
-      - US |30.61Mb
-      - US |30.09Mb
-      - "|20.82Mb"
-      - US |11.36Mb
-      - "|24.06Mb"
-      - "|260.94Mb"
-      - US_244 | 9.75Mb
-      - Relay_ |23.48Mb
-      - "|198.55Mb"
-      - US |30.34Mb
-      - "| 6.91Mb"
-      - "|24.56Mb"
+      - "|18.71Mb"
+      - "|20.39Mb"
+      - "|15.60Mb"
+      - "|17.79Mb"
       - "|17.92Mb"
-      - "|20.77Mb"
-      - US |30.40Mb
-      - "|16.87Mb"
+      - "|15.86Mb"
+      - "|26.93Mb"
+      - US |11.76Mb
+      - "|18.41Mb"
+      - US |13.81Mb
+      - "|19.88Mb"
+      - "|20.78Mb"
+      - "|19.16Mb"
+      - "|27.26Mb"
+      - "|20.72Mb"
+      - "| 1.89Mb"
+      - Pool_ |21.34Mb
+      - "|20.38Mb"
+      - NO | 5.49Mb
+      - US |14.34Mb
+      - "|20.17Mb"
+      - Pool_ |23.54Mb
+      - Pool_🇧🇦BA | 8.45Mb
+      - "|50.70Mb"
+      - "|24.15Mb"
+      - ZZ |10.15Mb
+      - JP |30.82Mb
+      - US |10.98Mb
+      - "|16.75Mb"
+      - "|35.30Mb"
+      - "|259.41Mb"
+      - "|20.70Mb"
+      - "|18.55Mb"
+      - "|18.75Mb"
+      - US |12.35Mb
+      - "|17.12Mb"
+      - US |13.71Mb
+      - "|17.74Mb"
+      - US |11.79Mb
+      - US |14.03Mb
       - Relay_ |23.55Mb
-      - DE_292 | 5.84Mb
+      - US |14.12Mb
+      - "|18.91Mb"
+      - Pool_ |20.46Mb
+      - US |13.71Mb 2
+      - "|20.30Mb"
+      - "|17.89Mb"
+      - "|20.78Mb 2"
+      - "|52.61Mb"
+      - US | 8.36Mb
+      - "|58.04Mb"
+      - "|19.50Mb"
+      - "|33.68Mb"
+      - "|36.42Mb"
+      - "|15.21Mb"
+      - NL |12.62Mb
+      - US |30.34Mb
+      - US |10.23Mb
+      - US |11.85Mb
+      - US |13.80Mb
+      - "|21.25Mb"
+      - US |12.82Mb
+      - "|22.36Mb"
+      - "|20.34Mb"
+      - US | 9.36Mb
+      - US |12.78Mb
+      - US | 8.16Mb
+      - "|18.64Mb"
+      - "|20.40Mb"
+      - ZZ | 9.99Mb
+      - Relay_ |23.48Mb
+      - US |11.32Mb
+      - "|20.50Mb 2"
+      - US |13.91Mb
+      - "|20.44Mb"
+      - "|24.06Mb"
+      - "|20.51Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
