@@ -5,87 +5,395 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |24.04Mb, server: us2-aws.surplus.buzz, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: b3491975-1cdc-44e3-888a-2b2e148ce136, udp: true}
-  - {name: Relay_ |10.74Mb, server: us-ny-rn.licom.ga, port: 10001, type: trojan, password: b3491975-1cdc-44e3-888a-2b2e148ce136, sni: us-ny-rn.licom.ga, skip-cert-verify: true, udp: true}
-  - {name: "|22.45Mb", server: 209.141.35.147, port: 48919, type: trojan, password: 52911320-db53-40ff-917a-e5de797c28e7, skip-cert-verify: true, udp: true}
-  - {name: "|28.42Mb", server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_ | 6.59Mb, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 8a233a34-36f4-400d-b7c8-93024e518ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: "|25.12Mb", server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|20.39Mb", server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|28.47Mb", server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|14.77Mb", server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|10.36Mb", server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|22.28Mb", server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|10.41Mb", server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|10.52Mb", server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_2580 | 3.80Mb, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "| 6.82Mb", server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "| 4.62Mb", server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1255, server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1658, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|23.95Mb", server: 217.182.199.168, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|12.85Mb", server: 198.57.27.200, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|20.50Mb", server: 198.57.27.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1944, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1236, server: 142.202.48.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1480, server: 142.202.48.114, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1526, server: 38.91.100.27, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1763, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1590, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1497, server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1388, server: 38.68.135.239, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|25.43Mb", server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_954, server: 142.202.48.14, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_952, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1505, server: 142.202.48.114, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1413, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1801, server: 142.202.48.83, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1785, server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "|17.95Mb", server: 169.197.142.4, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1416, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|19.61Mb", server: 38.68.134.190, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|19.74Mb", server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1848, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1647, server: 38.91.100.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_🇺🇸US_1010, server: 167.88.61.236, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|18.14Mb", server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1718, server: 167.88.62.34, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|11.48Mb", server: 169.197.143.157, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1136, server: 142.202.48.78, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1707, server: 38.64.138.145, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1733, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "| 3.24Mb", server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1363, server: 167.88.62.34, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1420, server: 167.88.63.79, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|20.19Mb", server: 198.57.27.233, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1668, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1163, server: 38.75.137.9, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|20.69Mb", server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1742, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1404, server: 167.88.63.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1489, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|14.58Mb", server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1765, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|11.59Mb", server: 169.197.143.157, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1403, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1356, server: 38.68.134.69, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1859, server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1215, server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|19.84Mb", server: 169.197.142.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_866, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_847, server: 142.202.48.83, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|17.80Mb", server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|13.13Mb", server: 51.159.30.61, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1296, server: 172.99.190.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|20.45Mb", server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1568, server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1872, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|10.11Mb", server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1239, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|24.78Mb", server: 139.162.130.101, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1317, server: 142.202.48.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1506, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1405, server: 167.88.63.11, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|17.93Mb", server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1118, server: 38.107.226.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|14.59Mb", server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|17.54Mb", server: 167.88.62.104, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|26.75Mb", server: 51.255.87.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|11.42Mb", server: 169.197.143.157, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1469, server: 38.114.114.67, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1891, server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|14.17Mb", server: 38.68.134.190, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "| 9.15Mb", server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|14.42Mb", server: 51.159.30.61, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_955, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|11.25Mb", server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|28.34Mb", server: 54.38.72.170, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1031, server: 38.91.100.27, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_993, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|19.65Mb", server: 169.197.142.4, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1860, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1304, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1814, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|23.22Mb", server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1211, server: 142.202.48.55, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1596, server: 38.143.66.112, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1948, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|24.16Mb", server: 38.143.66.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "|18.17Mb", server: 38.68.134.190, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1820, server: 38.143.66.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|20.33Mb", server: 198.57.27.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,22 +412,99 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -130,65 +515,296 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,22 +820,99 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |24.04Mb
-      - Relay_ |10.74Mb
-      - "|22.45Mb"
-      - "|28.42Mb"
-      - Relay_ | 6.59Mb
-      - "|25.12Mb"
-      - "|20.39Mb"
-      - "|28.47Mb"
-      - "|14.77Mb"
-      - "|10.36Mb"
-      - "|22.28Mb"
-      - "|10.41Mb"
-      - "|10.52Mb"
-      - ZZ_2580 | 3.80Mb
-      - "| 6.82Mb"
-      - "| 4.62Mb"
+      - US_1255
+      - US_1658
+      - "|23.95Mb"
+      - "|12.85Mb"
+      - "|20.50Mb"
+      - US_1944
+      - US_1236
+      - US_1480
+      - US_1526
+      - US_1763
+      - US_1590
+      - US_1497
+      - US_1388
+      - "|25.43Mb"
+      - US_954
+      - US_952
+      - US_1505
+      - US_1413
+      - US_1801
+      - US_1785
+      - "|17.95Mb"
+      - US_1416
+      - "|19.61Mb"
+      - "|19.74Mb"
+      - US_1848
+      - US_1647
+      - Pool_🇺🇸US_1010
+      - "|18.14Mb"
+      - US_1718
+      - "|11.48Mb"
+      - US_1136
+      - US_1707
+      - US_1733
+      - "| 3.24Mb"
+      - US_1363
+      - US_1420
+      - "|20.19Mb"
+      - US_1668
+      - US_1163
+      - "|20.69Mb"
+      - US_1742
+      - US_1404
+      - US_1489
+      - "|14.58Mb"
+      - US_1765
+      - "|11.59Mb"
+      - US_1403
+      - US_1356
+      - US_1859
+      - US_1215
+      - "|19.84Mb"
+      - US_866
+      - US_847
+      - "|17.80Mb"
+      - "|13.13Mb"
+      - US_1296
+      - "|20.45Mb"
+      - US_1568
+      - US_1872
+      - "|10.11Mb"
+      - US_1239
+      - "|24.78Mb"
+      - US_1317
+      - US_1506
+      - US_1405
+      - "|17.93Mb"
+      - US_1118
+      - "|14.59Mb"
+      - "|17.54Mb"
+      - "|26.75Mb"
+      - "|11.42Mb"
+      - US_1469
+      - US_1891
+      - "|14.17Mb"
+      - "| 9.15Mb"
+      - "|14.42Mb"
+      - US_955
+      - "|11.25Mb"
+      - "|28.34Mb"
+      - US_1031
+      - US_993
+      - "|19.65Mb"
+      - US_1860
+      - US_1304
+      - US_1814
+      - "|23.22Mb"
+      - US_1211
+      - US_1596
+      - US_1948
+      - "|24.16Mb"
+      - "|18.17Mb"
+      - US_1820
+      - "|20.33Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
