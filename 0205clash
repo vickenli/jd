@@ -5,143 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_350, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_343, server: in04.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_352, server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_356, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: "|14.00Mb 2", server: 172.99.190.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|17.43Mb", server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|18.85Mb", server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.43Mb", server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.76Mb 2", server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|36.20Mb", server: 172.105.59.32, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|14.12Mb", server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|14.68Mb", server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|11.85Mb", server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|47.31Mb", server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.87Mb", server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|28.47Mb", server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.93Mb", server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|19.34Mb", server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|11.69Mb", server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.88Mb", server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|19.79Mb", server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.60Mb", server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.28Mb", server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|14.92Mb", server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.55Mb", server: 169.197.143.157, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|31.14Mb", server: 141.164.59.168, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|11.33Mb", server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.17Mb", server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|10.10Mb", server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.13Mb", server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_356, server: fc.dg.wokuaitule.xyz, port: 17752, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fc.dg.wokuaitule.xyz}, udp: true}
+  - {name: Relay_ |85.29Mb, server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: gzbgpss.8n4t.cn, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 1.64Mb, server: jpoo.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: jpoo.77710086.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_864, server: aws.jp.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.jp.tgproxy.wtf}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_ |18.53Mb, server: zjcm.relay.qchwnd.moe, port: 10202, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_351, server: fc.st.wokuaitule.xyz, port: 40015, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 15.wokuaitule.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_353, server: fc.gzbgp.wokuaitule.xyz, port: 10010, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 10.wokuaitule.xyz}, udp: true}
+  - {name: Relay_ |12.46Mb, server: azhk.relay.qchwnd.moe, port: 10215, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_362, server: fc.jm.wokuaitule.xyz, port: 17719, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fc.jm.wokuaitule.xyz}, udp: true}
+  - {name: Relay_ |11.07Mb, server: azhk.relay.qchwnd.moe, port: 10217, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_364, server: fc.jm.wokuaitule.xyz, port: 40012, type: vmess, uuid: 0c48ffd7-d507-3b89-b8a2-f0101a4fe8e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 12.wokuaitule.xyz}, udp: true}
+  - {name: Relay_ | 9.27Mb, server: zjcm.relay.qchwnd.moe, port: 10206, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |21.64Mb, server: 198.52.125.218, port: 55432, type: trojan, password: bab4574d-dd84-4003-8926-f45512c39aa3, skip-cert-verify: true, udp: true}
+  - {name: 香港2-tg频道:@ripaojiedian, server: 0220hk05.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0220hk05.fans8.xyz}, udp: true}
+  - {name: Relay_ |13.80Mb, server: zjcm.relay.qchwnd.moe, port: 10200, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |24.19Mb, server: zjcm.relay.qchwnd.moe, port: 10204, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 9.08Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "|15.17Mb", server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_2682 | 6.21Mb, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_ | 6.74Mb, server: zjcm.relay.qchwnd.moe, port: 10205, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "| 5.17Mb", server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 5.76Mb", server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: "| 8.72Mb", server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: "| 5.84Mb", server: 134.195.196.147, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 7.95Mb", server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|14.49Mb", server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_ | 6.78Mb, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,147 +152,140 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港2-tg频道:@ripaojiedian
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +301,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_350
-      - Relay_🇨🇳CN-🇺🇸US_343
-      - Relay_🇨🇳CN-🇺🇸US_352
-      - Relay_🇨🇳CN-🇭🇰HK_356
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|12.43Mb"
-      - "|20.76Mb 2"
-      - "|36.20Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|11.85Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|19.79Mb"
-      - "|20.60Mb"
-      - "|20.28Mb"
-      - "|14.92Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|10.10Mb"
-      - "|20.13Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_356
+      - Relay_ |85.29Mb
+      - Relay_ | 1.64Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - Relay_🇨🇳CN-🇺🇸US_296 | 4.22Mb
+      - Relay_ |18.53Mb
+      - Relay_🇨🇳CN-🇸🇬SG_351
+      - Relay_🇨🇳CN-🇨🇦CA_353
+      - Relay_ |12.46Mb
+      - Relay_🇨🇳CN-🇺🇸US_362
+      - Relay_ |11.07Mb
+      - Relay_🇨🇳CN-🇸🇬SG_364
+      - Relay_ | 9.27Mb
+      - Relay_ |21.64Mb
+      - 香港2-tg频道:@ripaojiedian
+      - Relay_ |13.80Mb
+      - Relay_ |24.19Mb
+      - Relay_ | 9.08Mb
+      - "|15.17Mb"
+      - ZZ_2682 | 6.21Mb
+      - Relay_ | 6.74Mb
+      - "| 5.17Mb"
+      - "| 5.76Mb"
+      - "| 8.72Mb"
+      - "| 5.84Mb"
+      - "| 7.95Mb"
+      - "|14.49Mb"
+      - Relay_ | 6.78Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
