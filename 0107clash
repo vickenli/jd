@@ -5,335 +5,195 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|10.56Mb", server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|30.45Mb", server: 172.99.190.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|14.00Mb", server: 35.177.29.114, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|14.00Mb 2", server: 172.99.190.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|17.43Mb", server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|18.85Mb", server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.76Mb", server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|12.43Mb", server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.56Mb", server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.76Mb 2", server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.74Mb", server: 134.195.196.150, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|26.15Mb", server: 172.105.251.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|36.20Mb", server: 172.105.59.32, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|19.55Mb", server: 198.57.27.191, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.54Mb", server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|19.54Mb", server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|30.69Mb", server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|14.12Mb", server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|14.68Mb", server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|18.74Mb", server: 134.195.196.214, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.85Mb", server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|11.72Mb", server: 134.195.198.178, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|18.90Mb", server: 38.75.137.9, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|17.51Mb", server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.68Mb", server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.86Mb", server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|47.31Mb", server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.87Mb", server: 172.105.244.165, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.48Mb", server: 198.57.27.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|14.97Mb", server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|49.17Mb", server: 172.105.58.152, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|28.47Mb", server: 145.239.7.164, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.93Mb", server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|19.34Mb", server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|18.59Mb", server: 167.88.62.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|16.80Mb", server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.43Mb", server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.69Mb", server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.88Mb", server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|11.26Mb", server: 172.105.59.32, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|19.49Mb", server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|19.79Mb", server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.86Mb", server: 167.88.63.74, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.60Mb", server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|14.90Mb", server: 134.195.196.219, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|17.45Mb", server: 38.75.136.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.04Mb", server: 198.57.27.152, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|13.61Mb", server: 142.202.48.77, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.28Mb", server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.41Mb", server: 134.195.196.36, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|23.39Mb", server: 38.143.66.186, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|16.57Mb", server: 167.88.61.130, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|18.93Mb", server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|14.92Mb", server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|29.80Mb", server: 149.202.82.153, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 9.94Mb", server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.68Mb", server: 134.195.196.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.55Mb", server: 169.197.143.157, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|31.14Mb", server: 141.164.59.168, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|15.48Mb", server: 45.79.121.166, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.88Mb", server: 134.195.198.95, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.69Mb", server: 134.195.196.52, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|18.93Mb 2", server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.33Mb", server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.17Mb", server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|58.98Mb", server: 45.11.1.158, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|19.69Mb", server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|10.10Mb", server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|16.53Mb", server: 38.68.134.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.13Mb", server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|20.48Mb 2", server: 134.195.196.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|28.36Mb", server: 54.38.72.170, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|25.06Mb", server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|12.35Mb", server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|24.89Mb", server: 158.247.203.40, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 8.30Mb", server: 134.195.196.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|17.22Mb", server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|11.58Mb", server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|+4.28Mb", server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb, server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: Ze9baeS5.com}, udp: true}
+  - {name: 59.125.11.158:8158, server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "| 5.46Mb", server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}, udp: true}
+  - {name: "|15.73Mb", server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}, udp: true}
+  - {name: 美国-13.10MB/s(Youtube:不良林), server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|+5.17Mb", server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb, server: 117.28.243.141, port: 6193, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb, server: jike1-gzyd.jiserver.xyz, port: 38567, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-gzyd.jiserver.xyz}, udp: true}
+  - {name: "|12.14Mb", server: 209.141.47.137, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb, server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "|+5.25Mb", server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA_132 |20.67Mb, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大-876.6KB/s(Youtube:不良林), server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|+4.32Mb", server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 9.57Mb", server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3097 | 5.74Mb, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|+5.84Mb", server: 134.195.196.147, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb, server: jike1-gzyd.jiserver.xyz, port: 39601, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-gzyd.jiserver.xyz}, udp: true}
+  - {name: Relay_ |33.76Mb, server: jike-gzyd.jiserver.xyz, port: 39203, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
+  - {name: JP_318 |13.72Mb, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: "| 9.70Mb", server: 209.141.47.137, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
+  - {name: Relay_ | 5.66Mb, server: shlt.jiserver.xyz, port: 39401, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: shlt.jiserver.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb, server: jike1-gzyd.jiserver.xyz, port: 29893, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-gzyd.jiserver.xyz}, udp: true}
+  - {name: "|10.03Mb", server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: test.0dc.cn}, udp: true}
+  - {name: Relay_ | 9.78Mb, server: jike1-gzyd.jiserver.xyz, port: 38555, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-gzyd.jiserver.xyz}, udp: true}
+  - {name: 45.77.48.44:8099, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: "| 4.40Mb", server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 9.31Mb", server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}, udp: true}
+  - {name: "| 6.72Mb", server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_ |50.11Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: AU_48+|11.30Mb, server: 172.105.177.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: AU_26+|11.37Mb, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA_146 |20.79Mb, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA_113 |17.86Mb, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 日本-896.1KB/s(Youtube:不良林), server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |42.48Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_864, server: aws.jp.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.jp.tgproxy.wtf}, udp: true}
+  - {name: "|69.14Mb", server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb, server: jike-gzyd.jiserver.xyz, port: 29853, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb, server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: gzbgpss.8n4t.cn, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb, server: shlt.jiserver.xyz, port: 39403, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: shlt.jiserver.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb, server: jike-gzyd.jiserver.xyz, port: 29711, type: vmess, uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -352,84 +212,49 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -440,251 +265,146 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -700,84 +420,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|10.56Mb"
-      - "|30.45Mb"
-      - "|14.00Mb"
-      - "|14.00Mb 2"
-      - "|17.43Mb"
-      - "|18.85Mb"
-      - "|20.76Mb"
-      - "|12.43Mb"
-      - "|12.56Mb"
-      - "|20.76Mb 2"
-      - "|20.74Mb"
-      - "|26.15Mb"
-      - "|36.20Mb"
-      - "|19.55Mb"
-      - "|20.54Mb"
-      - "|19.54Mb"
-      - "|30.69Mb"
-      - "|14.12Mb"
-      - "|14.68Mb"
-      - "|18.74Mb"
-      - "|11.85Mb"
-      - "|11.72Mb"
-      - "|18.90Mb"
-      - "|17.51Mb"
-      - "|11.68Mb"
-      - "|20.86Mb"
-      - "|47.31Mb"
-      - "|12.87Mb"
-      - "|20.48Mb"
-      - "|14.97Mb"
-      - "|49.17Mb"
-      - "|28.47Mb"
-      - "|12.93Mb"
-      - "|19.34Mb"
-      - "|18.59Mb"
-      - "|16.80Mb"
-      - "|20.43Mb"
-      - "|11.69Mb"
-      - "|20.88Mb"
-      - "|11.26Mb"
-      - "|19.49Mb"
-      - "|19.79Mb"
-      - "|12.86Mb"
-      - "|20.60Mb"
-      - "|14.90Mb"
-      - "|17.45Mb"
-      - "|11.04Mb"
-      - "|13.61Mb"
-      - "|20.28Mb"
-      - "|20.41Mb"
-      - "|23.39Mb"
-      - "|16.57Mb"
-      - "|18.93Mb"
-      - "|14.92Mb"
-      - "|29.80Mb"
-      - "| 9.94Mb"
-      - "|20.68Mb"
-      - "|11.55Mb"
-      - "|31.14Mb"
-      - "|15.48Mb"
-      - "|11.88Mb"
-      - "|20.69Mb"
-      - "|18.93Mb 2"
-      - "|11.33Mb"
-      - "|12.17Mb"
-      - "|58.98Mb"
-      - "|19.69Mb"
-      - "|10.10Mb"
-      - "|16.53Mb"
-      - "|20.13Mb"
-      - "|20.48Mb 2"
-      - "|28.36Mb"
-      - "|25.06Mb"
-      - "|12.35Mb"
-      - "|24.89Mb"
-      - "| 8.30Mb"
-      - "|17.22Mb"
-      - "|11.58Mb"
+      - "|+4.28Mb"
+      - Relay_🇦🇺AU-🇦🇺AU_54 |16.20Mb
+      - 59.125.11.158:8158
+      - "| 5.46Mb"
+      - "|15.73Mb"
+      - 美国-13.10MB/s(Youtube:不良林)
+      - "|+5.17Mb"
+      - Relay_🇨🇳CN-🇩🇪DE_295 | 4.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_342 | 9.58Mb
+      - "|12.14Mb"
+      - Relay_🇨🇳CN-🇹🇼TW_289+|+7.90Mb
+      - "|+5.25Mb"
+      - CA_132 |20.67Mb
+      - 加拿大-876.6KB/s(Youtube:不良林)
+      - "|+4.32Mb"
+      - "| 9.57Mb"
+      - ZZ_3097 | 5.74Mb
+      - "|+5.84Mb"
+      - Relay_🇨🇳CN-🇺🇸US_336 | 7.51Mb
+      - Relay_ |33.76Mb
+      - JP_318 |13.72Mb
+      - "| 9.70Mb"
+      - Relay_ | 5.66Mb
+      - Relay_🇨🇳CN-🇮🇷IR_359 |21.16Mb
+      - "|10.03Mb"
+      - Relay_ | 9.78Mb
+      - 45.77.48.44:8099
+      - "| 4.40Mb"
+      - "| 9.31Mb"
+      - "| 6.72Mb"
+      - Relay_ |50.11Mb
+      - AU_48+|11.30Mb
+      - AU_26+|11.37Mb
+      - CA_146 |20.79Mb
+      - CA_113 |17.86Mb
+      - 日本-896.1KB/s(Youtube:不良林)
+      - Relay_ |42.48Mb
+      - Relay_🇯🇵JP-🇯🇵JP_864
+      - "|69.14Mb"
+      - Relay_🇨🇳CN-🇦🇺AU_354 |35.00Mb
+      - Relay_🇨🇳CN-🇭🇰HK_154 |10.36Mb
+      - Relay_🇨🇳CN-🇭🇰HK_346 | 5.22Mb
+      - Relay_🇨🇳CN-🇭🇰HK_358 |38.53Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
