@@ -5,279 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇭🇰HK-🇺🇸US_688, server: 104.208.90.84, port: 41532, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.208.90.84}, udp: true}
-  - {name: _US_美国, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_28, server: 134.195.196.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: GB_油管 TG 8度科技, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Ytb:鹏哥分享_美国_12, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 3, server: 167.88.61.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|17.94Mb", server: 134.195.196.221, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 4, server: 38.86.135.36, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|20.60Mb", server: 134.195.196.200, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Ytb:鹏哥分享_美国_42, server: 38.75.136.93, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 5, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 6, server: 38.91.100.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|14.66Mb", server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 7, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 8, server: 38.68.134.85, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_1, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 3, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 9, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_63, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 10, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|14.61Mb", server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|34.57Mb", server: 141.164.59.168, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 11, server: 38.86.135.36, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 12, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 13, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_美国_4, server: 38.114.114.67, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|14.67Mb", server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "| 7.25Mb", server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.217, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_18, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|18.77Mb", server: 38.86.135.36, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 14, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|19.00Mb", server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Ytb:鹏哥分享_美国_32, server: 167.88.63.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Ytb:鹏哥分享_美国_36, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Relay_🇭🇰HK-🇺🇸US_690, server: china-f4s-az-hk.898868.xyz, port: 38483, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-f4s-az-hk.898868.xyz}, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_53, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 15, server: 38.91.100.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: GB_油管 TG 8度科技 2, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 16, server: 38.91.100.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|12.24Mb", server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国, server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 2.35Mb", server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ‌‌🇨🇦CA_7307 @WangCai_1, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb, server: 117.28.243.141, port: 6193, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: JP_油管 TG 8度科技, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_油管 TG 8度科技, server: 209.141.47.137, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 17, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 9, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_30, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "| 3.06Mb", server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Ytb:鹏哥分享_英国_58, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Ytb:鹏哥分享_英国_56, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_法国_54, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: Ytb:鹏哥分享_香港_57, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team, skip-cert-verify: true, udp: true}
+  - {name: US_1093 |13.40Mb, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: ZZ_3160, server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_36, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_3279, server: 169.197.142.4, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_3540, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_3532, server: 169.197.142.4, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay__16.37Mb, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _ 2.54Mb, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CN_欢迎使用软件库APP, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_388 | 9.55Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: "", server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 134.195.196.81:5600, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_52, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_39, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_11, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 134.195.196.81:7001, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:鹏哥分享_美国_56, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _ 4.43Mb, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ZZ_3112 | 3.13Mb, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_31, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1373, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -296,284 +140,127 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Ytb:鹏哥分享_香港_57
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -589,70 +276,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🇺🇸US_688
-      - _US_美国
-      - _US_美国 2
-      - Ytb:鹏哥分享_加拿大_28
-      - GB_油管 TG 8度科技
-      - _CA_加拿大
-      - Ytb:鹏哥分享_美国_12
-      - _US_美国 3
-      - _CA_加拿大 2
-      - "|17.94Mb"
-      - _US_美国 4
-      - "|20.60Mb"
-      - Ytb:鹏哥分享_美国_42
-      - _US_美国 5
-      - _US_美国 6
-      - "|14.66Mb"
-      - _US_美国 7
-      - _US_美国 8
-      - Ytb:鹏哥分享_加拿大_1
-      - _CA_加拿大 3
-      - _US_美国 9
-      - Ytb:鹏哥分享_加拿大_63
-      - _US_美国 10
-      - "|14.61Mb"
-      - "|34.57Mb"
-      - _CA_加拿大 4
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国 13
-      - Ytb:鹏哥分享_美国_4
-      - _CA_加拿大 5
-      - "|14.67Mb"
-      - _CA_加拿大 6
-      - "| 7.25Mb"
-      - _CA_加拿大 7
-      - Ytb:鹏哥分享_加拿大_18
-      - "|18.77Mb"
-      - _US_美国 14
-      - "|19.00Mb"
-      - Ytb:鹏哥分享_美国_32
-      - Ytb:鹏哥分享_美国_36
-      - Relay_🇭🇰HK-🇺🇸US_690
-      - Ytb:鹏哥分享_加拿大_53
-      - _US_美国 15
-      - GB_油管 TG 8度科技 2
-      - _US_美国 16
-      - "|12.24Mb"
-      - _GB_英国
-      - "| 2.35Mb"
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7307 @WangCai_1
-      - Relay_🇨🇳CN-🇩🇪DE_281 | 2.97Mb
-      - JP_油管 TG 8度科技
-      - US_油管 TG 8度科技
-      - _GB_英国 2
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - _US_美国 17
-      - _CA_加拿大 9
-      - Ytb:鹏哥分享_加拿大_30
-      - "| 3.06Mb"
-      - Ytb:鹏哥分享_英国_58
-      - Ytb:鹏哥分享_英国_56
-      - Ytb:鹏哥分享_法国_54
-      - Ytb:鹏哥分享_香港_57
+      - US_1093 |13.40Mb
+      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
+      - ZZ_3160
+      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
+      - Ytb:鹏哥分享_加拿大_36
+      - ZZ_3279
+      - ZZ_3540
+      - ZZ_3532
+      - Relay__16.37Mb
+      - _ 2.54Mb
+      - CN_欢迎使用软件库APP
+      - CN_388 | 9.55Mb
+      - ""
+      - 134.195.196.81:5600
+      - Ytb:鹏哥分享_加拿大_52
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_加拿大_39
+      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
+      - Ytb:鹏哥分享_加拿大_11
+      - 134.195.196.81:7001
+      - Ytb:鹏哥分享_美国_56
+      - _ 4.43Mb
+      - ZZ_3112 | 3.13Mb
+      - Ytb:鹏哥分享_加拿大_31
+      - US_1373
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
