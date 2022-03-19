@@ -5,123 +5,615 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_1093 |13.40Mb, server: 167.88.63.89, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: ZZ_3160, server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_36, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_3279, server: 169.197.142.4, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_3540, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_3532, server: 169.197.142.4, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_2708 |15.90Mb, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_2793 |14.69Mb, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_555, server: 124.156.146.231, port: 22836, type: vmess, uuid: b6cb8c79-9af3-440e-9781-813ac0a1e8e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_40, server: 162.159.204.77, port: 443, type: vmess, uuid: 204a334a-d58e-40ce-e954-1605d0d6993f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /freebaipiao, ws-headers: {Host: euserv1.aifx.eu.org}, udp: true}
+  - {name: Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _14.09Mb, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: _ 3.57Mb, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _ 3.75Mb, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _ 5.93Mb, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_32, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _ 4.62Mb, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Ytb:鹏哥分享_美国_21, server: sg.az66.ml, port: 61001, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_57, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇧🇦BA_72 |10.48Mb, server: 185.99.3.212, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: Pool_🇧🇦BA_76 |11.38Mb, server: 185.99.3.108, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: Relay__ 0.92Mb, server: 117.28.243.164, port: 8007, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _ 3.16Mb, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _ 3.42Mb, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Relay__16.37Mb, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: ZZ_3018_ 1.62Mb, server: 134.195.196.187, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_37, server: 134.195.196.3, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_400, server: br-cn-east-cu1.node-fnf.xyz, port: 10306, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _ 3.37Mb, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _ 3.82Mb, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _ 7.67Mb, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _ 3.16Mb 2, server: 134.195.196.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _ 2.97Mb, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _ 7.14Mb, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_9, server: 134.195.196.3, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_美国_18, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _ 4.47Mb, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_25, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _ 5.94Mb, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: _ 2.54Mb, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN_欢迎使用软件库APP, server: zfd-unicom.ddnsnode.com, port: 16109, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_388 | 9.55Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: "", server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 134.195.196.81:5600, server: 134.195.196.81, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_52, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_39, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: Ytb:鹏哥分享_加拿大_11, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 134.195.196.81:7001, server: 134.195.196.81, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Ytb:鹏哥分享_美国_56, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _ 4.43Mb, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_3112 | 3.13Mb, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _ 7.48Mb, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_35, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _ 1.09Mb, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _ 5.04Mb, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU_53 |10.11Mb, server: 172.105.180.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_2580_ 8.12Mb, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _ 3.59Mb, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: Ytb:鹏哥分享_加拿大_31, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1373, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _10.39Mb, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _ 5.26Mb, server: 134.195.196.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _ 9.04Mb, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_27, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _ 7.85Mb, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _ 4.43Mb, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_17, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_3088_ 3.13Mb, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_53, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_43, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _ 5.98Mb, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _ 7.06Mb, server: 51.255.66.185, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_23, server: 134.195.196.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _ 6.90Mb, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_52, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _ 6.24Mb, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Ytb:鹏哥分享_加拿大_10, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_2755 |19.54Mb, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _ 5.78Mb, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Pool_🇧🇦BA_70 |11.16Mb, server: 185.99.3.108, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: Pool_🇧🇦BA_75 |11.44Mb, server: 185.99.3.102, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
+  - {name: _ 9.16Mb, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_2786 |21.68Mb, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _ 2.17Mb, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _ 5.80Mb, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_857, server: 160.16.115.151, port: 443, type: vmess, uuid: fb8ed8a9-ad61-4a12-90c6-55670a4a3332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: japanfastnetwork.club}, udp: true}
+  - {name: Ytb:鹏哥分享_美国_12, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Ytb:鹏哥分享_美国_56, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _ 8.16Mb, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_2787 |23.87Mb, server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇭🇰HK_560, server: 43.229.115.134, port: 47950, type: vmess, uuid: 7c6cd216-0f93-44e8-dabc-fed1308a9bcc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2737 |14.65Mb, server: 134.195.196.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _ 2.85Mb, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 25034, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2785 |20.61Mb, server: 169.197.141.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_2806 |24.94Mb, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_2784 |14.12Mb, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "台HiNet2[x0.75|NF|V2Ray]@480Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 10204, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb, server: 21.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 21.earths.team, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2758 |11.41Mb, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb, server: 22.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 22.earths.team, skip-cert-verify: true, udp: true}
+  - {name: _ 6.73Mb, server: 51.255.66.185, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Ytb:鹏哥分享_德国_58, server: 193.108.117.75, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "日AWS1[x0.75|NF*|V2Ray]@1Gbps", server: br-cn-east-cu1.node-fnf.xyz, port: 10302, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _ 4.05Mb, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb, server: 21.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 21.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.105.184.113, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Ytb:鹏哥分享_美国_41, server: 167.88.63.89, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1638 |18.41Mb, server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: DE_423, server: 194.195.240.132, port: 33210, type: vmess, uuid: f46d05d6-8d41-4e0a-993e-e2658ac29f85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 194.195.240.132}, udp: true}
+  - {name: 美國-费利蒙, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay__18.99Mb, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: ZZ_2757 |14.81Mb, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_2759 |14.48Mb, server: 134.195.196.199, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2768 |14.85Mb, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_🇧🇦BA_71 |11.50Mb, server: 185.99.3.108, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: CA_153, server: 198.57.27.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_2795 |13.99Mb, server: 134.195.196.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_2679 |20.56Mb, server: 169.197.141.24, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_2088, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.168.13.8}, udp: true}
+  - {name: ZZ_2769 |20.73Mb, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_348_22.00Mb, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: ZZ_2781 |11.22Mb, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZA_2121, server: 156.251.191.241, port: 32898, type: vmess, uuid: 7204d6b8-ddaf-417b-c8d8-5f983dc9f6cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美國-费利蒙 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2770 |20.38Mb, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_2802 |22.11Mb, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_2752 |20.46Mb, server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_2799 |20.72Mb, server: 134.195.196.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_2788 |21.92Mb, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _24.95Mb, server: 172.105.59.32, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_2800 |19.88Mb, server: 169.197.141.24, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: HU_568, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_2070, server: 107.175.62.31, port: 18205, type: vmess, uuid: 51ffe900-f9a4-4517-b123-9d512d0f5069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度(yudou66.com 玉豆分享), server: in1.qingyun123.xyz, port: 443, type: trojan, password: 3712e1c9-52ab-4c80-a270-7e89f67f0645, sni: in1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: "阿联酋AZ1[x1|V2Ray]@80Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 25014, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2783 |20.29Mb, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: AU_55 |10.84Mb, server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_2778 |20.41Mb, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_2777 |11.87Mb, server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "新AWS1[x0.75|NF*|V2Ray]@1Gbps", server: br-cn-south-cm1.node-fnf.xyz, port: 10216, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "瑞典[x1|NF|V2Ray]@240Mbps", server: br-cn-east-cu1.node-fnf.xyz, port: 15104, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2797 |21.53Mb, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "泰[x0.75|NF|V2Ray]@480Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 25042, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.184.113, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "台HiNet4[x0.75|NF|V2Ray]@480Mbps", server: br-cn-east-cu1.node-fnf.xyz, port: 10208, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _13.99Mb, server: 172.105.59.32, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "新AWS2[x0.75|NF*|V2Ray]@1Gbps", server: br-cn-south-cm1.node-fnf.xyz, port: 10218, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "马来西亚TM1[x0.75|NF|V2Ray]@240Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 25052, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2705 |11.15Mb, server: 169.197.143.157, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "澳大利亚NP1[x1|NF|V2Ray]@480Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 25072, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_2072, server: 47.241.191.179, port: 46104, type: vmess, uuid: 5b7f1d0e-4821-4108-e4bf-fa765ab28f2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2794 |21.04Mb, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "印AWS1[x1|V2Ray]@480Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 10502, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "新SI1[x0.75|NF|V2Ray]@1Gbps", server: br-cn-south-cm1.node-fnf.xyz, port: 10214, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "越FPT1[x0.75|NF|V2Ray]@480Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 25062, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "台HiNet1[x0.75|NF|V2Ray]@480Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 10202, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "韩AWS1[x0.75|V2Ray]@1Gbps", server: br-cn-east-cu1.node-fnf.xyz, port: 10402, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_795, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "韩AWS2[x0.75|V2Ray]@1Gbps", server: br-cn-east-cu1.node-fnf.xyz, port: 10406, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2801 |14.42Mb, server: 134.195.196.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "菲[x0.75|NF|V2Ray]@480Mbps", server: br-cn-south-cu1.node-fnf.xyz, port: 25032, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "港HKT2[x0.75|NF|V2Ray]@1Gbps", server: br-cn-south-iepl1.node-fnf.xyz, port: 10104, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,127 +632,623 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -276,31 +1264,154 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1093 |13.40Mb
-      - Relay_🇨🇳CN-🇹🇼TW_356_19.57Mb
-      - ZZ_3160
-      - Relay_🇨🇳CN-🇨🇳CN_313 |23.78Mb
-      - Ytb:鹏哥分享_加拿大_36
-      - ZZ_3279
-      - ZZ_3540
-      - ZZ_3532
+      - ZZ_2708 |15.90Mb
+      - ZZ_2793 |14.69Mb
+      - Relay_🇭🇰HK-🇭🇰HK_555
+      - Ytb:鹏哥分享_40
+      - Relay_🇨🇳CN-🇱🇺LU_346 | 3.86Mb
+      - Relay_🇨🇳CN-🇱🇺LU_348 | 2.17Mb
+      - _14.09Mb
+      - _ 3.57Mb
+      - _ 3.75Mb
+      - _ 5.93Mb
+      - Ytb:鹏哥分享_加拿大_32
+      - Relay_🇨🇳CN-🇱🇺LU_350 | 2.48Mb
+      - _ 4.62Mb
+      - Ytb:鹏哥分享_美国_21
+      - Relay_🇺🇸US-🇺🇸US_2200 |25.41Mb
+      - Ytb:鹏哥分享_加拿大_57
+      - Pool_🇧🇦BA_72 |10.48Mb
+      - Pool_🇧🇦BA_76 |11.38Mb
+      - Relay__ 0.92Mb
+      - _ 3.16Mb
+      - _ 3.42Mb
       - Relay__16.37Mb
+      - ZZ_3018_ 1.62Mb
+      - Ytb:鹏哥分享_加拿大_37
+      - Relay_🇨🇳CN-🇯🇵JP_400
+      - _ 3.37Mb
+      - _ 3.82Mb
+      - _ 7.67Mb
+      - _ 3.16Mb 2
+      - _ 2.97Mb
+      - _ 7.14Mb
+      - Ytb:鹏哥分享_加拿大_9
+      - Ytb:鹏哥分享_美国_18
+      - _ 4.47Mb
+      - Ytb:鹏哥分享_加拿大_25
+      - _ 5.94Mb
       - _ 2.54Mb
-      - CN_欢迎使用软件库APP
-      - CN_388 | 9.55Mb
-      - ""
-      - 134.195.196.81:5600
-      - Ytb:鹏哥分享_加拿大_52
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Ytb:鹏哥分享_加拿大_39
-      - Relay_🇨🇳CN-🇹🇼TW_321 | 9.19Mb
-      - Ytb:鹏哥分享_加拿大_11
-      - 134.195.196.81:7001
-      - Ytb:鹏哥分享_美国_56
-      - _ 4.43Mb
-      - ZZ_3112 | 3.13Mb
+      - _ 7.48Mb
+      - Ytb:鹏哥分享_加拿大_35
+      - _ 1.09Mb
+      - _ 5.04Mb
+      - AU_53 |10.11Mb
+      - ZZ_2580_ 8.12Mb
+      - _ 3.59Mb
       - Ytb:鹏哥分享_加拿大_31
-      - US_1373
+      - _10.39Mb
+      - _ 5.26Mb
+      - _ 9.04Mb
+      - Ytb:鹏哥分享_加拿大_27
+      - _ 7.85Mb
+      - _ 4.43Mb
+      - Ytb:鹏哥分享_加拿大_17
+      - ZZ_3088_ 3.13Mb
+      - Ytb:鹏哥分享_加拿大_53
+      - Ytb:鹏哥分享_加拿大_43
+      - _ 5.98Mb
+      - _ 7.06Mb
+      - Ytb:鹏哥分享_加拿大_23
+      - _ 6.90Mb
+      - Ytb:鹏哥分享_加拿大_52
+      - _ 6.24Mb
+      - Ytb:鹏哥分享_加拿大_10
+      - ZZ_2755 |19.54Mb
+      - _ 5.78Mb
+      - Pool_🇧🇦BA_70 |11.16Mb
+      - Pool_🇧🇦BA_75 |11.44Mb
+      - _ 9.16Mb
+      - ZZ_2786 |21.68Mb
+      - _ 2.17Mb
+      - _ 5.80Mb
+      - JP_857
+      - Ytb:鹏哥分享_美国_12
+      - Ytb:鹏哥分享_美国_56
+      - _ 8.16Mb
+      - ZZ_2787 |23.87Mb
+      - Pool_🇭🇰HK_560
+      - ZZ_2737 |14.65Mb
+      - _ 2.85Mb
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps
+      - ZZ_2785 |20.61Mb
+      - ZZ_2806 |24.94Mb
+      - ZZ_2784 |14.12Mb
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps
+      - Relay_🇬🇧GB-🇬🇧GB_545 |19.86Mb
+      - ZZ_2758 |11.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_563 |17.88Mb
+      - _ 6.73Mb
+      - Ytb:鹏哥分享_德国_58
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - _ 4.05Mb
+      - Relay_🇬🇧GB-🇬🇧GB_544 |17.37Mb
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Ytb:鹏哥分享_美国_41
+      - US_1638 |18.41Mb
+      - DE_423
+      - 美國-费利蒙
+      - Relay__18.99Mb
+      - ZZ_2757 |14.81Mb
+      - ZZ_2759 |14.48Mb
+      - ZZ_2768 |14.85Mb
+      - Pool_🇧🇦BA_71 |11.50Mb
+      - CA_153
+      - ZZ_2795 |13.99Mb
+      - ZZ_2679 |20.56Mb
+      - US_2088
+      - ZZ_2769 |20.73Mb
+      - Relay_🇨🇳CN-🇺🇸US_348_22.00Mb
+      - ZZ_2781 |11.22Mb
+      - ZA_2121
+      - 美國-费利蒙 2
+      - ZZ_2770 |20.38Mb
+      - ZZ_2802 |22.11Mb
+      - ZZ_2752 |20.46Mb
+      - ZZ_2799 |20.72Mb
+      - ZZ_2788 |21.92Mb
+      - _24.95Mb
+      - ZZ_2800 |19.88Mb
+      - HU_568
+      - US_2070
+      - 印度(yudou66.com 玉豆分享)
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps
+      - ZZ_2783 |20.29Mb
+      - AU_55 |10.84Mb
+      - ZZ_2778 |20.41Mb
+      - ZZ_2777 |11.87Mb
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps
+      - 瑞典[x1|NF|V2Ray]@240Mbps
+      - ZZ_2797 |21.53Mb
+      - 泰[x0.75|NF|V2Ray]@480Mbps
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps
+      - _13.99Mb
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps
+      - ZZ_2705 |11.15Mb
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps
+      - US_2072
+      - ZZ_2794 |21.04Mb
+      - 印AWS1[x1|V2Ray]@480Mbps
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps
+      - 韩AWS1[x0.75|V2Ray]@1Gbps
+      - SG_795
+      - 韩AWS2[x0.75|V2Ray]@1Gbps
+      - ZZ_2801 |14.42Mb
+      - 菲[x0.75|NF|V2Ray]@480Mbps
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
