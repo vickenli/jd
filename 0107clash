@@ -5,411 +5,327 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国_0822138, server: 113.142.205.92, port: 443, type: vmess, uuid: 400a1ff6-c0fb-49f9-dc82-83fc6f7f09ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgserverme.tk}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 9, server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: sg-sin-krn-tr.node.inforun.work, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(youtube阿伟科技), server: ru.hootfun.top, port: 42332, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: ru.hootfun.top, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 12, server: 38.75.136.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_156, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸 US-🇺🇸US_825, server: qoslsjws.hootfun.top, port: 25333, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: qoslsjws.hootfun.top, skip-cert-verify: true, udp: true}
-  - {name: :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_735, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vsg1.0bad.com}, udp: true}
-  - {name: 美国【付费推荐：a.c1n.cn】, server: 152.70.136.12, port: 23054, type: vmess, uuid: 199ab409-63c4-43f7-8164-7a8231be4a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_331, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp1.0bad.com}, udp: true}
-  - {name: 法国(youtube阿伟科技) 7, server: 199.247.8.5, port: 18441, type: trojan, password: My4jSNT2Zh, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-MyTrojan15, server: do.cloudorg.uk, port: 443, type: trojan, password: 1d276b77-3f29-45e2-b0d9-6cd410865fd0, sni: do.cloudorg.uk, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生]+香港B1+|+中转", server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix, server: 183.232.158.67, port: 9405, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: _CN_wmt(8.22a)_55, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本(youtube阿伟科技) 14, server: 66.42.36.195, port: 51662, type: trojan, password: cjK4f1AJlB, skip-cert-verify: true, udp: true}
-  - {name: :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix, server: 120.233.151.122, port: 9405, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 法国(youtube阿伟科技) 6, server: 199.247.8.5, port: 40576, type: trojan, password: I7Qv1ko04u, skip-cert-verify: true, udp: true}
-  - {name: 土耳其(youtube阿伟科技), server: trq-zf.jiashumao.net, port: 30606, type: trojan, password: 76529ec1-aa92-3125-ab1d-69596818c297, sni: trq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: +_CN_中国->🇭🇰_HK_香港, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_98, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: CA【付费推荐：a.c1n.cn】, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CN 12｜openit.pw, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国(youtube阿伟科技) 2, server: sh-gb-01-tr.node.inforun.work, port: 11889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: sh-gb-01-tr.node.inforun.work, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28, server: 54.163.190.148, port: 31468, type: vmess, uuid: 30c9f74f-2a80-463e-b3e4-a933d996309f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_96, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: "| 3.50Mb", server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: 763b2303-0e16-455e-926d-66d909c3e37b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: hk-hkg-it2-svm-v2.node.inforun.work}, udp: true}
-  - {name: :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix, server: 183.232.158.67, port: 9407, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_80, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_82, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰(youtube阿伟科技), server: wkl.jiashumao.net, port: 50519, type: trojan, password: 76529ec1-aa92-3125-ab1d-69596818c297, sni: wkl.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix, server: 183.232.158.66, port: 9407, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 美国 INAP, server: 45.43.27.122, port: 10001, type: vmess, uuid: 35b91e4f-4986-36cf-900b-9caaa903d728, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 中国香港(youtube阿伟科技) 11, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 76529ec1-aa92-3125-ab1d-69596818c297, sni: bnbq-zf.jiashumao.net, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 15, server: uiug.expirationv3.com, port: 9407, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 日本_0818103, server: 168.138.206.141, port: 80, type: vmess, uuid: ad05e01f-c2c0-41da-e79c-ff68237317f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 10, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1391, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 8, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 日本(youtube阿伟科技) 10, server: setup.beistu.xyz, port: 22358, type: vmess, uuid: 2024fb69-342a-4a9d-c0dd-cde6f1095748, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(youtube阿伟科技), server: us-sjc-01-v2.jd.cjhh.mom, port: 888, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 5, server: 42.186.175.8, port: 443, type: vmess, uuid: a928a26c-2adb-45fe-e57d-8a27dade309e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.cf}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 7, server: linux.nameserversv3.com, port: 9206, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 荷兰(youtube阿伟科技), server: 42.186.175.8, port: 443, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.33371648.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1946, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}, udp: true}
-  - {name: 中国台湾(youtube阿伟科技) 4, server: tw-tpe-h-v2.jd.cjhh.mom, port: 10088, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: US_1374, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_08181422, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)", server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: SG_898 |10.63Mb, server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 8.214.33.158}, udp: true}
-  - {name: Pool_🇸🇬SG_1367, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 202.61.141.130}, udp: true}
-  - {name: 美国_08221128, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_08221339, server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1389, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US【付费推荐：a.c1n.cn】, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US【付费推荐：a.c1n.cn】 2, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 19, server: 172.64.159.37, port: 2052, type: vmess, uuid: 72735294-b70e-4486-b0ac-e52e3782bc58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zxzz.zxzdy.buzz}, udp: true}
-  - {name: US_1383, server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_08221101, server: 51.81.223.14, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_172, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_0822117, server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1378, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_59, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _SG_wmt(8.22a)_13, server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: www.xyxdbp.xyz, port: 34136, type: vmess, uuid: 52e9ffc9-0831-4c9d-e8ec-e4312caad4c6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 14, server: us-sjc-ctg-02-v2.node.inforun.work, port: 888, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: 防失效github SubCrawler中国_0818005, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 4, server: aliyun.moble.vnupgcn.cn, port: 9043, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[08-24]-🇺🇸-美国-008-38.121.43.204", server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Pool_🇺🇸 US_821, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 154.94.214.2}, udp: true}
-  - {name: 新加坡_0822112, server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_55, server: 810hk01.fx6688.top, port: 443, type: vmess, uuid: f8dcfff8-3cb9-3221-bc82-5a58a336d4b9, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 810hk01.fx6688.top}, udp: true}
-  - {name: US_1370, server: 47.241.220.160, port: 46622, type: vmess, uuid: 4a8610cd-ec1f-471b-f3cf-51241f1de4ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 3, server: 172.64.159.37, port: 2052, type: vmess, uuid: 72735294-b70e-4486-b0ac-e52e3782bc58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zxzz.zxzdy.buzz}, udp: true}
-  - {name: US_1537 |45.67Mb, server: 51.81.223.30, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 未知_0822003, server: cf.naixii.top, port: 443, type: vmess, uuid: 5e6f7d1f-ae22-48b4-9d73-88314de4d4a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qvFvfAfHvz, ws-headers: {Host: bvm.naixii.top}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇩🇪DE_95, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: _1673 | 8.07Mb, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1384, server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5.35| 甲骨文东京ARM2trojan, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_153, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (Youtube/TG:俊佳科技JJ)_中国_11, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (Youtube/TG:俊佳科技JJ)_中国_11 2, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy 中国, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: https://t.me/axingTG}, udp: true}
-  - {name: 韩国(youtube阿伟科技) 8, server: aliyun.install01.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本(youtube阿伟科技) 9, server: aliyun.moble.vnupgcn.cn, port: 9034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1405, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_341, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1379, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 新加坡_0822033, server: sgp.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: sgp.jcnf.app}, udp: true}
-  - {name: 台湾_0822029, server: ff5c0fb.rd.cloudflare.systems, port: 80, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /s/ff5c0fb.fm.icloud.com:30513, ws-headers: {Host: ff5c0fb.rd.cloudflare.systems}, udp: true}
-  - {name: (Youtube/TG:俊佳科技JJ)_德国_13, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}, udp: true}
-  - {name: TG@资源分享师 🇨🇳 14, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: CN 11｜openit.pw, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22YouTube-aweikeji%22%7D"}, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_23, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-us-1.onebox6.org}, udp: true}
+  - {name: JP 日本(youtube阿伟科技), server: 110.80.3.4, port: 25027, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qingzhuanduoyun, ws-headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}, udp: true}
+  - {name: HK 香港(youtube阿伟科技), server: 110.80.3.4, port: 25026, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qingzhuanduoyun, ws-headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}, udp: true}
+  - {name: SG 新加坡(youtube阿伟科技), server: 110.80.3.4, port: 25028, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qingzhuanduoyun, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 2, server: bf98.cdn.node.a.ddns-ounk.com, port: 40206, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, ws-headers: {Host: bf98.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 3, server: mhfv46.cdn.node.a.ddns-ounk.com, port: 40263, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, ws-headers: {Host: mhfv46.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 4, server: pg57.cdn.node.a.ddns-ounk.com, port: 40310, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8, ws-headers: {Host: pg57.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: CN 中国山东(youtube阿伟科技), server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技, server: oss-cn-shanghai.westdatacloud.xyz, port: 20045, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 2, server: oss-cn-shanghai.westdatacloud.xyz, port: 20042, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 3, server: oss-cn-shanghai.westdatacloud.xyz, port: 20044, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 美国(youtube阿伟科技), server: 14.18.124.91, port: 45884, type: vmess, uuid: 1b23d9af-48f3-45e5-97e4-2f82c9f75ad0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 美国(youtube阿伟科技) 2, server: 14.18.124.91, port: 45884, type: vmess, uuid: 1b23d9af-48f3-45e5-97e4-2f82c9f75ad0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 5, server: gtnjzy.cdn.node.a.ddns-ounk.com, port: 40286, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, ws-headers: {Host: gtnjzy.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: SG+新加坡(youtube阿伟科技), server: moblev3-sg.mipglxi.cn, port: 6613, type: ss, cipher: aes-128-gcm, password: 4663645d-e401-4e86-bb96-f2ab1992465d, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 6, server: mhfv46.cdn.node.a.ddns-ounk.com, port: 40247, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, ws-headers: {Host: mhfv46.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: SG+新加坡(youtube阿伟科技) 2, server: moblev3-sg.mipglxi.cn, port: 6612, type: ss, cipher: aes-128-gcm, password: 4663645d-e401-4e86-bb96-f2ab1992465d, udp: true}
+  - {name: SG+新加坡(youtube阿伟科技) 3, server: moblev3-sg.mipglxi.cn, port: 6614, type: ss, cipher: aes-128-gcm, password: 4663645d-e401-4e86-bb96-f2ab1992465d, udp: true}
+  - {name: KR 韩国(youtube阿伟科技), server: 25.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 25.72img.xyz}, udp: true}
+  - {name: 油管阿伟科技 4, server: oss-cn-shanghai.westdatacloud.xyz, port: 20043, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW 台湾(youtube阿伟科技), server: bga5c1.cdn.node.a.ddns-ounk.com, port: 40326, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8, ws-headers: {Host: bga5c1.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: SG 新加坡(youtube阿伟科技) 2, server: b9v6w.cdn.node.a.ddns-ounk.com, port: 40289, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, ws-headers: {Host: b9v6w.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 3, server: 43.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.72img.xyz}, udp: true}
+  - {name: 油管阿伟科技 5, server: oss-cn-shanghai.westdatacloud.xyz, port: 20041, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 美国(youtube阿伟科技) 4, server: 2607:f130:0:103::72f9:6485, port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG+新加坡(youtube阿伟科技) 4, server: moblev3-sg.mipglxi.cn, port: 6609, type: ss, cipher: aes-128-gcm, password: 4663645d-e401-4e86-bb96-f2ab1992465d, udp: true}
+  - {name: US 美国(youtube阿伟科技) 5, server: 4.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 4.72img.xyz}, udp: true}
+  - {name: DE 德国(youtube阿伟科技), server: 162.55.214.110, port: 51549, type: vmess, uuid: 6399ab58-b7ce-4d24-be9e-92c581c93b44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 162.55.214.110}, udp: true}
+  - {name: 油管阿伟科技 6, server: 14.18.124.91, port: 45884, type: vmess, uuid: 1b23d9af-48f3-45e5-97e4-2f82c9f75ad0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 7, server: cos-ap-beijing.westdatacloud.top, port: 20067, type: trojan, password: 45B15CFA-ED28-1FA9-73F6-E1F52F76D98D, sni: cos-ap-beijing.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: PH+菲律宾(youtube阿伟科技), server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 油管阿伟科技 8, server: oss-cn-shanghai.westdatacloud.xyz, port: 20037, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 7, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: 761195f3-df19-4d48-9d98-8fdf2a687103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.kapoknode.com}, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 8, server: gd.zhuanfa.tk, port: 15415, type: vmess, uuid: 0e7dde68-b031-46b3-9ef2-40e204966b00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 9, server: gd.zhuanfa.tk, port: 15415, type: vmess, uuid: 0e7dde68-b031-46b3-9ef2-40e204966b00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 9, server: cos-ap-guangzhou.westdatacloud.top, port: 20066, type: trojan, password: 45B15CFA-ED28-1FA9-73F6-E1F52F76D98D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 10, server: 110.80.3.4, port: 25026, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qingzhuanduoyun, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 油管阿伟科技 10, server: oss-cn-shanghai.westdatacloud.xyz, port: 20031, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 11, server: oss-cn-shanghai.westdatacloud.top, port: 20065, type: trojan, password: 45B15CFA-ED28-1FA9-73F6-E1F52F76D98D, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 12, server: oss-cn-shanghai.westdatacloud.xyz, port: 20033, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 13, server: oss-cn-shanghai.westdatacloud.xyz, port: 20036, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW 台湾(youtube阿伟科技) 2, server: bf98.cdn.node.a.ddns-ounk.com, port: 40113, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, ws-headers: {Host: bf98.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 6, server: 14.18.124.91, port: 45884, type: vmess, uuid: 1b23d9af-48f3-45e5-97e4-2f82c9f75ad0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 11, server: pg57.cdn.node.a.ddns-ounk.com, port: 40295, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8, ws-headers: {Host: pg57.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 12, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: 8b1b6169-d4af-474c-826d-5e7b3308ab26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.kapoknode.com}, udp: true}
+  - {name: 油管阿伟科技 14, server: oss-cn-shanghai.westdatacloud.xyz, port: 20035, type: trojan, password: 6187E23B-1678-ECA9-CFED-DDA21FA069CC, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 油管阿伟科技 15, server: cos-ap-guangzhou.westdatacloud.top, port: 20069, type: trojan, password: 45B15CFA-ED28-1FA9-73F6-E1F52F76D98D, sni: cos-ap-guangzhou.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 13, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: 556b9320-c778-4166-b009-1ec14374a9c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.kapoknode.com}, udp: true}
+  - {name: FR 法国(youtube阿伟科技), server: 198.41.212.122, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: fr2.cfcdn4.xyz}, udp: true}
+  - {name: JP日本001, server: jp.liangyuandian.top, port: 443, type: trojan, password: 39042711-abea-4199-83f8-24d5f37873e1, sni: jp.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: ID 印尼(youtube阿伟科技), server: 198.41.212.100, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 14, server: 20014.purefast2.com, port: 20014, type: trojan, password: d3a422a0-0714-3196-9cc1-4b5f3e48237e, sni: 20014.purefast2.com, skip-cert-verify: true, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 15, server: rngnb9.cdn.node.a.ddns-ounk.com, port: 40250, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8, ws-headers: {Host: rngnb9.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 7, server: 33.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 33.72img.xyz}, udp: true}
+  - {name: NL 荷兰(youtube阿伟科技), server: king2.mmadserr.ml, port: 2095, type: vmess, uuid: dabdbbec-f774-41ff-a296-18026f469a97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fhf5hfth565fhtf, ws-headers: {Host: king2.mmadserr.ml}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 8, server: 17.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 17.72img.xyz}, udp: true}
+  - {name: DE 德国(youtube阿伟科技) 2, server: 5.161.105.171, port: 80, type: vmess, uuid: 5e9d0956-4f00-45ce-cb2f-f35d7c9b71aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.161.105.171}, udp: true}
+  - {name: HK 香港(youtube阿伟科技) 16, server: jkxc1.cdn.node.a.ddns-ounk.com, port: 40259, type: vmess, uuid: e3e0d326-86fb-3e26-9a13-01d5deb3a7a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a49dcd8b-ae4f-4c06-bbe3-d8a229363187.j.live002.m3u8, ws-headers: {Host: jkxc1.cdn.node.a.ddns-ounk.com}, udp: true}
+  - {name: FR 法国(youtube阿伟科技) 2, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: fr2.cfcdn4.xyz}, udp: true}
+  - {name: AU澳大利亚002, server: ap.liangyuandian.top, port: 443, type: trojan, password: 39042711-abea-4199-83f8-24d5f37873e1, sni: ap.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大002, server: ca.liangyuandian.top, port: 443, type: trojan, password: 39042711-abea-4199-83f8-24d5f37873e1, sni: ca.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: ID 印尼(youtube阿伟科技) 2, server: 198.41.203.3, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: lg1.cfcdn3.xyz}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 9, server: 198.41.212.100, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash1.trump2023.net}, udp: true}
+  - {name: AU 澳大利亚(youtube阿伟科技), server: 139.99.236.163, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 10, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 11, server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg1.cfcdn1.xyz}, udp: true}
+  - {name: DE+德国(youtube阿伟科技), server: h217022.waihuizhibiaowang.com, port: 15143, type: ss, cipher: chacha20-ietf-poly1305, password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2, udp: true}
+  - {name: USA美国001, server: usa.liangyuandian.top, port: 443, type: trojan, password: 39042711-abea-4199-83f8-24d5f37873e1, sni: usa.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: USAY美国亚特兰大001, server: usay.liangyuandian.top, port: 443, type: trojan, password: 39042711-abea-4199-83f8-24d5f37873e1, sni: usay.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: DE德国001, server: de.liangyuandian.top, port: 443, type: trojan, password: 39042711-abea-4199-83f8-24d5f37873e1, sni: de.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: US 美国(youtube阿伟科技) 12, server: 141.101.115.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}, udp: true}
+  - {name: US 美国(youtube阿伟科技) 13, server: 198.41.212.144, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash1.trump2023.net}, udp: true}
+  - {name: CA 加拿大(youtube阿伟科技), server: 44.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 44.72img.xyz}, udp: true}
+  - {name: UK英国001, server: uk.liangyuandian.top, port: 443, type: trojan, password: 39042711-abea-4199-83f8-24d5f37873e1, sni: uk.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: 哈萨克斯坦youtube阿伟科技, server: ip125.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: kz.cloudflare.quest}, udp: true}
+  - {name: RU 俄罗斯(youtube阿伟科技), server: 6.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 6.72img.xyz}, udp: true}
+  - {name: UK 英国(youtube阿伟科技), server: 198.41.212.122, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg1.cfcdn1.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -428,420 +344,349 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[LV2·原生]+香港B1+|+中转"
-      - +_CN_中国->🇭🇰_HK_香港
-      - 中国香港(youtube阿伟科技) 11
-      - 中国台湾(youtube阿伟科技) 4
-      - 台湾_0822029
+      - HK 香港(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - HK 香港(youtube阿伟科技) 5
+      - HK 香港(youtube阿伟科技) 6
+      - TW 台湾(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - HK 香港(youtube阿伟科技) 10
+      - TW 台湾(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - HK 香港(youtube阿伟科技) 13
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - HK 香港(youtube阿伟科技) 16
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -857,103 +702,82 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国_0822138
-      - 新加坡(youtube阿伟科技) 9
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 12
-      - Relay_🇨🇳CN-🇹🇼TW_156
-      - Relay_🇺🇸 US-🇺🇸US_825
-      - :美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
-      - Relay_🇸🇬SG-🇸🇬SG_735
-      - 美国【付费推荐：a.c1n.cn】
-      - Relay_🇯🇵JP-🇯🇵JP_331
-      - 法国(youtube阿伟科技) 7
-      - 新加坡-MyTrojan15
-      - "[LV2·原生]+香港B1+|+中转"
-      - :中国-ss-183.232.158.67:9405-可用-中转:38.94.108.252-不支持Netflix
-      - _CN_wmt(8.22a)_55
-      - 日本(youtube阿伟科技) 14
-      - :中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-      - 法国(youtube阿伟科技) 6
-      - 土耳其(youtube阿伟科技)
-      - +_CN_中国->🇭🇰_HK_香港
-      - Relay_🇨🇳CN-🇭🇰HK_98
-      - CA【付费推荐：a.c1n.cn】
-      - CN 12｜openit.pw
-      - 英国(youtube阿伟科技) 2
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 28
-      - Relay_🇨🇳 CN-🇭🇰HK_96
-      - "| 3.50Mb"
-      - :中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
-      - Relay_🇨🇳 CN-🇭🇰HK_80
-      - Relay_🇨🇳 CN-🇭🇰HK_82
-      - 乌克兰(youtube阿伟科技)
-      - :中国-ss-183.232.158.66:9407-可用-中转:38.94.108.253-不支持Netflix
-      - 美国 INAP
-      - 中国香港(youtube阿伟科技) 11
-      - 美国(youtube阿伟科技) 15
-      - 日本_0818103
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - Relay_🇺🇸US-🇺🇸US_1391
-      - github.com/freefq - 美国华盛顿Cogent通信公司 8
-      - 日本(youtube阿伟科技) 10
-      - :美国-ss-38.68.135.18:8009-可用-直连-不支持Netflix
-      - 美国(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 5
-      - 新加坡(youtube阿伟科技) 7
-      - 荷兰(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_1946
-      - 中国台湾(youtube阿伟科技) 4
-      - US_1374
-      - 美国_08181422
-      - "[vmess]🇺🇸[US]usa-dallas.lvuft.com:443(aba50dd4-5484-3b05-b14a-4661caf862d5)"
-      - SG_898 |10.63Mb
-      - Pool_🇸🇬SG_1367
-      - 美国_08221128
-      - 美国_08221339
-      - Relay_🇺🇸US-🇺🇸US_1389
-      - US【付费推荐：a.c1n.cn】
-      - US【付费推荐：a.c1n.cn】 2
-      - github.com/freefq - 美国CloudFlare节点 19
-      - US_1383
-      - 美国_08221101
-      - US_172
-      - 新加坡_0822117
-      - US_1378
-      - Relay_🇦🇺AU-🇦🇺AU_59
-      - _SG_wmt(8.22a)_13
-      - 美国(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 14
-      - 防失效github SubCrawler中国_0818005
-      - 新加坡(youtube阿伟科技) 4
-      - "[08-24]-🇺🇸-美国-008-38.121.43.204"
-      - Pool_🇺🇸 US_821
-      - 新加坡_0822112
-      - Relay_🇦🇺AU-🇦🇺AU_55
-      - US_1370
-      - 美国(youtube阿伟科技) 3
-      - US_1537 |45.67Mb
-      - 未知_0822003
-      - Relay_🇨🇳 CN-🇩🇪DE_95
-      - _1673 | 8.07Mb
-      - US_1384
-      - 5.35| 甲骨文东京ARM2trojan
-      - 美国【YouTube-由零開始】
-      - Relay_🇨🇳CN-🇭🇰HK_153
-      - (Youtube/TG:俊佳科技JJ)_中国_11
-      - (Youtube/TG:俊佳科技JJ)_中国_11 2
-      - Free Proxy 中国
-      - 韩国(youtube阿伟科技) 8
-      - 日本(youtube阿伟科技) 9
-      - Relay_🇺🇸US-🇺🇸US_1405
-      - Relay_🇯🇵JP-🇯🇵JP_341
-      - Relay_🇺🇸US-🇺🇸US_1379
-      - 新加坡_0822033
-      - 台湾_0822029
-      - (Youtube/TG:俊佳科技JJ)_德国_13
-      - TG@资源分享师 🇨🇳 14
-      - CN 11｜openit.pw
-      - Relay_🇨🇳CN-🏁ZZ_23
+      - JP 日本(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 3
+      - HK 香港(youtube阿伟科技) 4
+      - CN 中国山东(youtube阿伟科技)
+      - 油管阿伟科技
+      - 油管阿伟科技 2
+      - 油管阿伟科技 3
+      - US 美国(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 5
+      - SG+新加坡(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 6
+      - SG+新加坡(youtube阿伟科技) 2
+      - SG+新加坡(youtube阿伟科技) 3
+      - KR 韩国(youtube阿伟科技)
+      - 油管阿伟科技 4
+      - TW 台湾(youtube阿伟科技)
+      - SG 新加坡(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 3
+      - 油管阿伟科技 5
+      - US 美国(youtube阿伟科技) 4
+      - SG+新加坡(youtube阿伟科技) 4
+      - US 美国(youtube阿伟科技) 5
+      - DE 德国(youtube阿伟科技)
+      - 油管阿伟科技 6
+      - 油管阿伟科技 7
+      - PH+菲律宾(youtube阿伟科技)
+      - 油管阿伟科技 8
+      - HK 香港(youtube阿伟科技) 7
+      - HK 香港(youtube阿伟科技) 8
+      - HK 香港(youtube阿伟科技) 9
+      - 油管阿伟科技 9
+      - HK 香港(youtube阿伟科技) 10
+      - 油管阿伟科技 10
+      - 油管阿伟科技 11
+      - 油管阿伟科技 12
+      - 油管阿伟科技 13
+      - TW 台湾(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 6
+      - HK 香港(youtube阿伟科技) 11
+      - HK 香港(youtube阿伟科技) 12
+      - 油管阿伟科技 14
+      - 油管阿伟科技 15
+      - HK 香港(youtube阿伟科技) 13
+      - FR 法国(youtube阿伟科技)
+      - JP日本001
+      - ID 印尼(youtube阿伟科技)
+      - HK 香港(youtube阿伟科技) 14
+      - HK 香港(youtube阿伟科技) 15
+      - US 美国(youtube阿伟科技) 7
+      - NL 荷兰(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 8
+      - DE 德国(youtube阿伟科技) 2
+      - HK 香港(youtube阿伟科技) 16
+      - FR 法国(youtube阿伟科技) 2
+      - AU澳大利亚002
+      - CA加拿大002
+      - ID 印尼(youtube阿伟科技) 2
+      - US 美国(youtube阿伟科技) 9
+      - AU 澳大利亚(youtube阿伟科技)
+      - US 美国(youtube阿伟科技) 10
+      - US 美国(youtube阿伟科技) 11
+      - DE+德国(youtube阿伟科技)
+      - USA美国001
+      - USAY美国亚特兰大001
+      - DE德国001
+      - US 美国(youtube阿伟科技) 12
+      - US 美国(youtube阿伟科技) 13
+      - CA 加拿大(youtube阿伟科技)
+      - UK英国001
+      - 哈萨克斯坦youtube阿伟科技
+      - RU 俄罗斯(youtube阿伟科技)
+      - UK 英国(youtube阿伟科技)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
