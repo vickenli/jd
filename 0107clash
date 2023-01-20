@@ -5,595 +5,643 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港HKT2号-免流(三网优化), server: download2hkt.windowsupdate.lol, port: 80, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, ws-headers: {Host: tlu.dl.delivery.mp.microsoft.com}, udp: true}
-  - {name: Youtube顺丰资源 FR 法国, server: 162.159.135.42, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: PL波兰(youtube阿伟科技), server: gcspl.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsplnode, ws-headers: {Host: gcspl.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 US61, server: Get.TECH, port: 2086, type: vmess, uuid: f9ac8978-be94-40a7-eabd-b07d77037429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: sfodo.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 _美国_63, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 US 美国 11, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 PL波兰, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsplnode, ws-headers: {Host: gcspl.sylu.cyou}, udp: true}
-  - {name: 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjca.top}, udp: true}
-  - {name: Youtube顺丰资源 _美国_50, server: sun.prxpro.cc, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /p3573l6m92h1ham3q23t, ws-headers: {Host: sun.prxpro.cc}, udp: true}
-  - {name: US 美国(youtube阿伟科技), server: hohm.microsoft.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: HK(youtube阿伟科技), server: hohm.microsoft.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcorehknode, ws-headers: {Host: gcorehk.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 美国 35 2, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 FR 法国 6, server: 172.67.199.34, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 新加坡 2, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}, udp: true}
-  - {name: Youtube顺丰资源 PL 波兰, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoreplnode, ws-headers: {Host: gcorepl.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 8, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源 US 美国 10, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: 日本 | JP | IPLC专线, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/filestreamingservice/files/36f458e2-019a-99a8-88e2-p3a99a0b584b?ed=2048", ws-headers: {Host: jp1.pqjca.top}, udp: true}
-  - {name: Youtube顺丰资源 美国 38, server: 162.159.135.42, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: uk(youtube阿伟科技), server: grampfzin.uksouth.cloudapp.azure.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: OPIGHSeIZVBS7hDX, udp: true}
-  - {name: Youtube顺丰资源 _加拿大_31, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 🇺🇲 美国 31, server: 172.67.199.34, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 直新加坡G3678, server: gcsssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsssgnode, ws-headers: {Host: gcsssg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 法国, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 🇸🇬 新加坡 2, server: gcssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcssgnode, ws-headers: {Host: gcssg.sylu.cyou}, udp: true}
-  - {name: 日本 | 三网低延迟 | IPLC专线, server: 104.29.64.5, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/filestreamingservice/files/36f458e2-019a-99a8-88e2-p3a99a0b584b?ed=2048", ws-headers: {Host: jp1.pqjca.top}, udp: true}
-  - {name: Youtube顺丰资源 FR 法国 5, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13, server: 23.227.38.39, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 _美国_74, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcssgnode, ws-headers: {Host: gcssg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 _香港_121, server: gcorehk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcorehknode, ws-headers: {Host: gcorehk.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 美国 6, server: 162.159.128.7, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 5, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}, udp: true}
-  - {name: US 美国(youtube阿伟科技) 2, server: 162.159.135.42, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 5 2, server: 162.159.128.7, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresgnode, ws-headers: {Host: gcoresg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 美国 21, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcssgnode, ws-headers: {Host: gcssg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 🇸🇬 新加坡 3, server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: sg-lb.vhax.net}, udp: true}
-  - {name: Youtube顺丰资源 🇸🇬 新加坡 4, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcssgnode, ws-headers: {Host: gcssg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US 美国 7, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mR17oBKzZ7, ws-headers: {Host: d.pgypgykmoljklj.xyz}, udp: true}
-  - {name: 香港HKT-免流(三网优化), server: download1hkt.windowsupdate.lol, port: 80, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, ws-headers: {Host: tlu.dl.delivery.mp.microsoft.com}, udp: true}
-  - {name: Youtube顺丰资源 美国 9, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 HK香港, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsshknode, ws-headers: {Host: gcsshk.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 _加拿大_40, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 _美国_106, server: www.dynadot.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: kz.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 美国RFEngineering20674, server: 141.193.213.20, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 6, server: 162.159.128.7, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresggnode, ws-headers: {Host: gcoresgg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 HK香港 6, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsshknode, ws-headers: {Host: gcsshk.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 美国 28, server: 103.21.244.169, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: SG-244-255.shoptunnel.live}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 5 3, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresggnode, ws-headers: {Host: gcoresgg.sylu.cyou}, udp: true}
-  - {name: CA(youtube阿伟科技), server: hohm.microsoft.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42awsypcanode, ws-headers: {Host: awsypca.sylu.cyou}, udp: true}
-  - {name: KR(youtube阿伟科技), server: 172.67.199.34, port: 443, type: vmess, uuid: 64c14f0f-bdc6-42d4-a0cc-bae4029bd390, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: juzi1.82a.xyz}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 4, server: 162.159.128.7, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsssgnode, ws-headers: {Host: gcsssg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 -美国-1621591287_2426486, server: 162.159.128.7, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 10, server: cacerts.digicert.com, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1350195536/63a625eb069d5/, ws-headers: {Host: sg2-v2ray.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 🇸🇬 新加坡 5, server: 172.67.199.34, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}, udp: true}
-  - {name: Youtube顺丰资源 _美国_73, server: v47.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.toddns.tk}, udp: true}
-  - {name: Youtube顺丰资源 俄罗斯, server: eu-east-ruo.openssl3.com, port: 443, type: trojan, password: 9KogHwaY7hVD, sni: eu-east-ruo.openssl3.com, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 新加坡 6, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 新加坡306, server: gcoresg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresgnode, ws-headers: {Host: gcoresg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 _美国_86, server: uicdn.cf, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 直新加坡G2108, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresggnode, ws-headers: {Host: gcoresgg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 HK香港 7, server: investors.spotify.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcorehknode, ws-headers: {Host: gcorehk.sylu.cyou}, udp: true}
-  - {name: SG5(youtube阿伟科技)152, server: 198.41.208.200, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63b1af08c16fd/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 SG新加坡 5, server: 162.159.128.7, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 9, server: 162.159.128.7, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1350195536/63a625eb069d5/, ws-headers: {Host: sg2-v2ray.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 美国 46, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nl-unlimitxxx, ws-headers: {Host: v12a.toddns.tk}, udp: true}
-  - {name: Youtube顺丰资源 CA 加拿大, server: 172.67.199.34, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1350195536/63a625eb069d5/, ws-headers: {Host: sg2-v2ray.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 US 美国 21, server: www.digitalocean.com, port: 80, type: vmess, uuid: 695f885f-144b-4a6b-998a-885d9775d756, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v03.asuka.buzz}, udp: true}
-  - {name: Youtube顺丰资源 🇸🇬 新加坡 6, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresgnode, ws-headers: {Host: gcoresg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 _俄罗斯联邦_89, server: 45.8.158.51, port: 443, type: trojan, password: 9KogHwaY7hVD, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US 美国 25, server: 162.159.135.42, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 _LU_卢森堡105, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
-  - {name: Youtube顺丰资源 _美国_96, server: v47a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47a.toddns.tk}, udp: true}
-  - {name: Youtube顺丰资源 伯利兹-, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 日本 13, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
-  - {name: Youtube顺丰资源 新加坡 4 2, server: 141.193.213.10, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源  - 美国惠普公司 23, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: 15.235.147.186}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 8, server: 162.159.135.42, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadsa1dsadsa33434, ws-headers: {Host: xjp4h.mayaa.ml}, udp: true}
-  - {name: Youtube顺丰资源  - 丹麦  3, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 🇺🇲 美国 51, server: 141.193.213.10, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: 法国 | FR | BT、PT专用｜0.01x速, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/fr1?ed=2048", ws-headers: {Host: fr1.pqjca.top}, udp: true}
-  - {name: Youtube顺丰资源  - 美国  15 2, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcoresggnode, ws-headers: {Host: gcoresgg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 _伯利兹_49, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速, server: 104.29.64.5, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjca.top}, udp: true}
-  - {name: Youtube顺丰资源 US美国()60, server: 172.67.199.34, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 HK 香港, server: 141.193.213.20, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsshkknode, ws-headers: {Host: gcsshkk.sylu.cyou}, udp: true}
-  - {name: DE(youtube阿伟科技), server: 172.67.199.34, port: 443, type: vmess, uuid: 3f52e850-b697-4f61-c82c-6d1ca0e6d1b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: 51vfly1.win}, udp: true}
-  - {name: Youtube顺丰资源 🇺🇲 美国 16, server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/Variu88/634dab7abadf1/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
-  - {name: 美国 | US-LA | 允许长期跑满带宽-0.1x速, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/us1?ed=2048", ws-headers: {Host: us1.pqjca.top}, udp: true}
-  - {name: Youtube顺丰资源 _日本_183, server: ap-northeast-1.openssl3.com, port: 443, type: trojan, password: tune7jerky7HAYRICK, sni: ap-northeast-1.openssl3.com, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 SG 新加坡 3, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsssgnode, ws-headers: {Host: gcsssg.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 德国312, server: sun.prxpro.cc, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /g7970d1b58m1ixn3i16i, ws-headers: {Host: sun.prxpro.cc}, udp: true}
-  - {name: Youtube顺丰资源 美国 2 2, server: 172.67.199.34, port: 443, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.toddns.tk}, udp: true}
-  - {name: Youtube顺丰资源 HK 香港 5, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcorehkknode, ws-headers: {Host: gcorehkk.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚悉尼 2, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 HK 香港 5 2, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcorehknode, ws-headers: {Host: gcorehk.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 JP, server: 162.159.135.42, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: jp-ntt.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 美国 30, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 _美国_101, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 美国 9 2, server: 173.245.49.113, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: us-171-78.shoptunnel.live}, udp: true}
-  - {name: Youtube顺丰资源 US美国()56, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 -美国-17267200107553, server: 172.67.200.107, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: us-171-78.shoptunnel.live}, udp: true}
-  - {name: Youtube顺丰资源  - 美国CloudFlare节点 17, server: 172.67.199.34, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
-  - {name: Youtube顺丰资源 美国 11, server: 173.245.49.10, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: us-171-78.shoptunnel.live}, udp: true}
-  - {name: Youtube顺丰资源 _伯利兹_84, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: HK (youtube阿伟科技), server: 162.159.128.7, port: 443, type: vmess, uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /OB7jTM5cTTrL, ws-headers: {Host: hkbn.pgypgykmoljklj.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US 美国 19, server: www.digitalocean.com, port: 8080, type: vmess, uuid: 695f885f-144b-4a6b-998a-885d9775d756, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v01.asuka.buzz}, udp: true}
-  - {name: Youtube顺丰资源 JP 日本 3, server: 172.67.199.34, port: 443, type: vmess, uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hfhqqweqwxxx, ws-headers: {Host: jp1.mayaa.cf}, udp: true}
-  - {name: US 美国(youtube阿伟科技) 3, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 🇺🇲 美国 29, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 _哥斯达黎加_59, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 _美国_55, server: cacerts.digicert.com, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
-  - {name: Youtube顺丰资源 直香港G4107, server: gcsshkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsshkknode, ws-headers: {Host: gcsshkk.sylu.cyou}, udp: true}
+  - {name: CN_youtube@资源分享师_7, server: hn.xiaohouzi.club, port: 18432, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: AU 澳洲 (youtube阿伟科技), server: 162.159.128.100, port: 2086, type: vmess, uuid: 2ab46798-379c-47f0-84e9-998d3b9814e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: au.gcore.cloudflare.quest}, udp: true}
+  - {name: US_youtube@资源分享师_72, server: c26s3.jamjams3.net, port: 7058, type: vmess, uuid: 147591bc-585a-423f-877e-41f89c9601b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 DE__97, server: 5.78.68.26, port: 48803, type: vmess, uuid: f3789f17-fff0-4337-acd3-36e0b8bfa43a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 5.78.68.26}, udp: true}
+  - {name: LV拉脱维亚 (youtube阿伟科技), server: chat.openai.com, port: 2082, type: vmess, uuid: 60e08800-7b9a-460c-c0c3-6ccff6d1777a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: lv.cloudflare.quest}, udp: true}
+  - {name: NL_youtube@资源分享师_181, server: 188.114.99.9, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: Youtube顺丰资源 SG  7, server: jdosg.nmsl.pics, port: 8443, type: vmess, uuid: e6dad59a-4557-4fe2-eb21-ba270f9778fc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jdosg.nmsl.pics}, udp: true}
+  - {name: Youtube顺丰资源 _美国_196, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
+  - {name: IN印度 (youtube阿伟科技), server: in-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: in-ls03.nb1.fr}, udp: true}
   - {name: Youtube顺丰资源  - 丹麦  23, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 巴西圣保罗 CloudFlare节点, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 DE 德国, server: cacerts.digicert.com, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxdeovz1.fovi.tk}, udp: true}
-  - {name: Youtube顺丰资源 美国 32, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 _美国_112, server: get.tech, port: 80, type: vmess, uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shared, ws-headers: {Host: lv.awsbest.com}, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 11, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: SG (youtube阿伟科技) 8, server: fls-na-sg3.amazonwebservicess.com, port: 80, type: vmess, uuid: 2bc47952-6b4f-4e54-9983-0d30343c4866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady, ws-headers: {Host: fls-na-sg3.amazonwebservicess.com}, udp: true}
+  - {name: US_youtube@资源分享师_192, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: UK (youtube阿伟科技), server: gb-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: gb-ls03.nb1.fr}, udp: true}
+  - {name: SG (youtube阿伟科技) 6, server: media.sg2.amazonwebservicess.com, port: 80, type: vmess, uuid: 2bc47952-6b4f-4e54-9983-0d30343c4866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aws-china-media/Y699Gjx2rNw.mp4, ws-headers: {Host: media.sg2.amazonwebservicess.com}, udp: true}
+  - {name: 阿根廷 (youtube阿伟科技), server: cn-ar.dnspro.icu, port: 41000, type: vmess, uuid: 711f38b5-a53f-353d-a887-15252b0ec3d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /iso, ws-headers: {Host: cn-ar.dnspro.icu}, udp: true}
+  - {name: CN_youtube@资源分享师_35, server: hnm.xiaohouzi.club, port: 47553, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US  41, server: 43.153.104.184, port: 39904, type: vmess, uuid: 74a7311a-b0f1-499b-e594-08618a8fecf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技), server: ovh-3.555530.xyz, port: 80, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: ovh-3.555530.xyz}, udp: true}
+  - {name: CN_youtube@资源分享师_37, server: hnm.xiaohouzi.club, port: 36305, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 PL__309, server: 51.83.186.142, port: 80, type: trojan, password: 2959e4f7-7589-4a40-9b96-1be750ac7845, skip-cert-verify: true, udp: true}
+  - {name: AU (youtube阿伟科技), server: au-01.legeth.tk, port: 80, type: vmess, uuid: 4462d7fc-4443-44ab-8ade-65109600b284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: au-01.legeth.tk}, udp: true}
+  - {name: Youtube顺丰资源 AU__73, server: trxn.ballistics.top, port: 443, type: trojan, password: 2aecd807-bbff-4afe-8459-81b0a390fc50, sni: trxn.ballistics.top, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源 _美国_30, server: 66.235.200.21, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 _美国_16, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: jp-ntt.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 -美国-17264156232547, server: 172.64.156.232, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: us-171-78.shoptunnel.live}, udp: true}
-  - {name: Youtube顺丰资源 美国 14, server: 172.67.199.34, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 美国 18, server: 103.21.244.91, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: us-171-78.shoptunnel.live}, udp: true}
-  - {name: Youtube顺丰资源 卢森堡, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk.sharecentre.online}, udp: true}
+  - {name: JP (youtube阿伟科技) 28, server: 138.2.35.81, port: 80, type: vmess, uuid: a0733fc9-457e-498d-c363-9ec774a74946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jun, ws-headers: {Host: 138.2.35.81}, udp: true}
+  - {name: JP (youtube阿伟科技) 27, server: 138.2.39.67, port: 80, type: vmess, uuid: ab335c88-d14a-4e67-b52c-54ed8be80c48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 138.2.39.67}, udp: true}
+  - {name: Youtube顺丰资源 SG__175, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/Ertusg86/635014638c264/, ws-headers: {Host: 15.235.147.186}, udp: true}
+  - {name: HK (youtube阿伟科技) 36, server: 16.163.95.127, port: 32825, type: vmess, uuid: 4cd69f52-4441-44eb-d4f4-faa977d6d476, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 土耳其 (youtube阿伟科技), server: 162.159.152.100, port: 2086, type: vmess, uuid: 756913b7-3733-469c-d988-bed6abf08d43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: tr.cloudflare.quest}, udp: true}
+  - {name: Youtube顺丰资源 US__35, server: kr.nmsl.pics, port: 443, type: vmess, uuid: f054c65f-b727-4d66-9a89-afa40fadc945, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.nmsl.pics}, udp: true}
+  - {name: US (youtube阿伟科技) 2, server: wvvww.com, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: FR (youtube阿伟科技), server: v10a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fr-unlimitxxx, ws-headers: {Host: v10a.toddns.tk}, udp: true}
+  - {name: CN_youtube@资源分享师_124, server: hnm.xiaohouzi.club, port: 17113, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: CN_youtube@资源分享师_102, server: hnm.xiaohouzi.club, port: 19354, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技) 56, server: 117.164.185.221, port: 16105, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 JP__192, server: jp15.cctvvip.ml, port: 80, type: vmess, uuid: 04852071-6116-41ed-8455-2b04543f3c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6546, ws-headers: {Host: "%7B%22Host%22:%22jp15.cctvvip.ml%22%7D"}, udp: true}
+  - {name: Youtube顺丰资源 🇺🇲 美国 51, server: 141.193.213.10, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: SG (youtube阿伟科技), server: cacerts.digicert.com, port: 443, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshkit/1350195536/63a625eb069d5/, ws-headers: {Host: sg2-v2ray.sshkit.org}, udp: true}
+  - {name: Youtube顺丰资源 日本东京 Oracle Cloud, server: 141.147.181.219, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /roewesu, ws-headers: {Host: 141.147.181.219}, udp: true}
+  - {name: CR_youtube@资源分享师_79, server: 190.93.246.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: CN_youtube@资源分享师_79, server: uns.xiaohouzi.club, port: 13328, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: uns.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: CN_youtube@资源分享师_99, server: hnm.xiaohouzi.club, port: 47551, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技) 3, server: 172.67.201.14, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: CN_youtube@资源分享师_71, server: iplc.xiaohouzi.club, port: 20039, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 🇺🇲 美国 8, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mR17oBKzZ7, ws-headers: {Host: d.pgypgykmoljklj.xyz}, udp: true}
+  - {name: HK (youtube阿伟科技) 6, server: 183.240.60.119, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK (youtube阿伟科技), server: s3-ap-northeast-hk2.amazonwebservicess.com, port: 80, type: vmess, uuid: 2bc47952-6b4f-4e54-9983-0d30343c4866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady, ws-headers: {Host: s3-ap-northeast-hk2.amazonwebservicess.com}, udp: true}
+  - {name: CN_youtube@资源分享师_94, server: hn.xiaohouzi.club, port: 16012, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 JP__85, server: jp07.cctvvip.ml, port: 24429, type: vmess, uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22jp07.cctvvip.ml%22%7D"}, udp: true}
+  - {name: CN_youtube@资源分享师_103, server: hnm.xiaohouzi.club, port: 47552, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 _哥斯达黎加_48, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: JP (youtube阿伟科技) 26, server: 138.2.52.176, port: 24429, type: vmess, uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 138.2.52.176}, udp: true}
+  - {name: US_youtube@资源分享师_111, server: 172.64.152.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
   - {name: Youtube顺丰资源 欧洲, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 HK 香港 6, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcsshkknode, ws-headers: {Host: gcsshkk.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源 _美国_25, server: stock.hostmonit.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-do.behiasew98123.rocks}, udp: true}
-  - {name: Youtube顺丰资源 CA加拿大 2, server: 172.67.199.34, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42awsypcanode, ws-headers: {Host: awsypca.sylu.cyou}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6, server: 203.30.190.191, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 14, server: 162.159.128.7, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Falling42gcssjpnode, ws-headers: {Host: gcssjp.sylu.cyou}, udp: true}
+  - {name: 爱尔兰 (youtube阿伟科技), server: ie-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: ie-ls03.nb1.fr}, udp: true}
+  - {name: Youtube顺丰资源 CR__71, server: 190.93.246.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__80, server: us11.cctvvip.ml, port: 80, type: vmess, uuid: bce030bb-ba15-46e3-ea35-b5b034fe81f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: "%7B%22Host%22:%22us11.cctvvip.ml%22%7D"}, udp: true}
+  - {name: MO_youtube@资源分享师_101, server: 45.64.22.56, port: 443, type: trojan, password: !<str> 123456, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 GB__198, server: 88.150.137.177, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
+  - {name: JP (youtube阿伟科技) 23, server: 140.83.87.4, port: 80, type: vmess, uuid: 04852071-6116-41ed-8455-2b04543f3c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6546, ws-headers: {Host: 140.83.87.4}, udp: true}
+  - {name: CN_youtube@资源分享师_109, server: szf02.xiaohouzi.club, port: 36304, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: szf02.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  - 澳大利亚悉尼 4, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: US_youtube@资源分享师_58, server: 141.101.114.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: Youtube顺丰资源 CR__133, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: US (youtube阿伟科技) 2 2, server: azgy001.xibai6.top, port: 20789, type: trojan, password: f23a8308-7cf3-3e69-976a-de7246b02a2d, sni: azgy001.xibai6.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 | 三网低延迟 | IPLC专线, server: 104.29.64.5, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/sg1?ed=2048", ws-headers: {Host: sg1.pqjca.top}, udp: true}
+  - {name: Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 _加拿大_31, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 2, server: 190.93.244.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: CA_youtube@资源分享师_89, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: SG (youtube阿伟科技) 2, server: uicdn.cf, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63b1af7a5f43f/, ws-headers: {Host: sg3-v2ray.sshkit.org}, udp: true}
+  - {name: Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: CN_youtube@资源分享师_183, server: hn.xiaohouzi.club, port: 28456, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 JP__78, server: jp10.cctvvip.ml, port: 80, type: vmess, uuid: c287c071-d7f5-4f3a-db0e-0fb647186ae1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22jp10.cctvvip.ml%22%7D"}, udp: true}
+  - {name: Youtube顺丰资源 US__117, server: mggm1223136.175.178.121.xhtk.cc, port: 443, type: vmess, uuid: de7fe988-9b09-c525-c3ca-f6a82bd17a60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nciovws, ws-headers: {Host: mggm1223136.175.178.121.xhtk.cc}, udp: true}
+  - {name: Youtube顺丰资源 🇸🇬 新加坡 16, server: 198.41.208.200, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/1736960111/63b1af08c16fd/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
+  - {name: Youtube顺丰资源 伯利兹-, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: Youtube顺丰资源 JP__293, server: suzhihan.eu.org, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /roewesu, ws-headers: {Host: suzhihan.eu.org}, udp: true}
+  - {name: SG_youtube@资源分享师_130, server: trxjp.ballistics.top, port: 443, type: trojan, password: 2aecd807-bbff-4afe-8459-81b0a390fc50, sni: trxjp.ballistics.top, skip-cert-verify: true, udp: true}
+  - {name: CN_youtube@资源分享师_65, server: hnm.xiaohouzi.club, port: 47555, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 GB__64, server: trld.ballistics.top, port: 443, type: trojan, password: 2aecd807-bbff-4afe-8459-81b0a390fc50, sni: trld.ballistics.top, skip-cert-verify: true, udp: true}
+  - {name: HK (youtube阿伟科技) 35, server: shcn2-200m02.iplc188.com, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技) 4, server: us-01.legeth.tk, port: 80, type: vmess, uuid: 4462d7fc-4443-44ab-8ade-65109600b284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-01.legeth.tk}, udp: true}
+  - {name: Youtube顺丰资源 FR 5, server: v140.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fr-unlimitxxx, ws-headers: {Host: v140.toddns.tk}, udp: true}
+  - {name: Youtube顺丰资源 DE__185, server: 78.47.99.157, port: 12890, type: vmess, uuid: 89d419a8-4ddb-45b7-b4bb-1f47b30c5a06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 78.47.99.157}, udp: true}
+  - {name: US_youtube@资源分享师_40, server: 162.159.128.7, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: US (youtube阿伟科技) 3 2, server: trny.ballistics.top, port: 443, type: trojan, password: 2aecd807-bbff-4afe-8459-81b0a390fc50, sni: trny.ballistics.top, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 _美国_26, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: opc-jp.sharecentre.online}, udp: true}
+  - {name: Youtube顺丰资源 美国 9, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 84🇸🇬171, server: 172.67.199.34, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hkaa0, ws-headers: {Host: sg1021.hkaa0.tk}, udp: true}
+  - {name: DE (youtube阿伟科技), server: de-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: de-ls03.nb1.fr}, udp: true}
+  - {name: Youtube顺丰资源 _哥斯达黎加_59, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: Youtube顺丰资源 JP__77, server: jp05.cctvvip.ml, port: 80, type: vmess, uuid: ab335c88-d14a-4e67-b52c-54ed8be80c48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22qq.com%22%7D"}, udp: true}
+  - {name: CR_youtube@资源分享师_114, server: 190.93.244.200, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 4, server: 172.67.222.46, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
+  - {name: JP (youtube阿伟科技), server: 140.83.82.156, port: 80, type: vmess, uuid: c287c071-d7f5-4f3a-db0e-0fb647186ae1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.83.82.156}, udp: true}
+  - {name: SG (youtube阿伟科技) 3, server: 172.67.205.70, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
+  - {name: UK (youtube阿伟科技) 2, server: 162.159.152.100, port: 2082, type: vmess, uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: UK.CLOUDFLARE.QUEST}, udp: true}
+  - {name: Youtube顺丰资源 US__52, server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__118, server: 108.162.192.55, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/fdfadsfa/63848bfe228fd/, ws-headers: {Host: us-lb.sshkit.org}, udp: true}
+  - {name: US_youtube@资源分享师_68, server: cf-yd-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
+  - {name: US (youtube阿伟科技) 5, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: US_youtube@资源分享师_74, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: Youtube顺丰资源 JP__167, server: jp03.cctvvip.ml, port: 80, type: vmess, uuid: a0733fc9-457e-498d-c363-9ec774a74946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jun, ws-headers: {Host: "%7B%22Host%22:%22jp03.cctvvip.ml%22%7D"}, udp: true}
+  - {name: Youtube顺丰资源 PH__106, server: ph1.v2rayserv.com, port: 80, type: vmess, uuid: a267a68e-4b59-413e-96a4-6388948a401c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: ph1.v2rayserv.com}, udp: true}
   - {name: Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US 美国 4, server: 203.24.108.9, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 _英国_148, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: b640d791-ff83-4300-b509-c2a02f97f167, sni: uk1.trojanvh.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 SCPHK-CF-Gcore238, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 法国 2, server: 172.67.199.34, port: 443, type: vmess, uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /UMW36262, ws-headers: {Host: v2ray1.zhujicn2.org}, udp: true}
-  - {name: Youtube顺丰资源  - 丹麦  14, server: 185.162.228.229, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 HK 香港 5 3, server: 162.159.128.7, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk.sharecentre.online}, udp: true}
+  - {name: Youtube顺丰资源 HK__29, server: 20.187.165.108, port: 48721, type: vmess, uuid: 663f9461-2155-4603-8ace-2236da1af08b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP (youtube阿伟科技) 3, server: jp80-4.sanfen001.pics, port: 80, type: vmess, uuid: 8ac2b0db-3cd5-4256-bd67-44f8731dd7f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: jp80-4.sanfen001.pics}, udp: true}
+  - {name: US (youtube阿伟科技) 6, server: st.3wcdn.xyz, port: 443, type: vmess, uuid: 8467a939-b0c2-4444-cd72-aed162ea8c09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /gogo, ws-headers: {Host: st.3wcdn.xyz}, udp: true}
+  - {name: Youtube顺丰资源 SG__22, server: n1672657910.lyqrdde.cn, port: 443, type: vmess, uuid: 0166ca66-3bc2-49ab-b899-43ad7ed4efae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: n1672657910.lyqrdde.cn}, udp: true}
+  - {name: US (youtube阿伟科技) 7, server: 172.67.203.162, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: FR (youtube阿伟科技) 2, server: fr-01.legeth.tk, port: 80, type: vmess, uuid: 4462d7fc-4443-44ab-8ade-65109600b284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr-01.legeth.tk}, udp: true}
+  - {name: US (youtube阿伟科技) 8, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 _哥斯达黎加_88, server: 190.93.245.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: CN_youtube@资源分享师_187, server: hn.xiaohouzi.club, port: 18443, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技) 9, server: oplg1.cfcdn2.xyz, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: US_youtube@资源分享师_10, server: 172.67.127.250, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: JP (youtube阿伟科技) 11, server: adly.cctvvip.ml, port: 80, type: vmess, uuid: 8700cfbd-71dc-42b0-84f2-53cd7fe5645a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: adly03.cctvvip.gq}, udp: true}
+  - {name: Youtube顺丰资源 🇺🇲 美国 18, server: 203.30.188.120, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: Youtube顺丰资源  - 澳大利亚悉尼 4 2, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 US__100, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: Youtube顺丰资源 MO__193, server: 45.64.22.22, port: 443, type: vmess, uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /OB7jTM5cTTrL, ws-headers: {Host: hkbn.pgypgykmoljklj.xyz}, udp: true}
+  - {name: 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/us1?ed=2048", ws-headers: {Host: us1.pqjca.top}, udp: true}
+  - {name: US (youtube阿伟科技) 60, server: 104.29.64.36, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 PL波兰, server: speed.cloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: v2.chigua.tk}, udp: true}
+  - {name: SG (youtube阿伟科技) 4, server: sg-04.cctvvip.ml, port: 443, type: vmess, uuid: 44fda7b7-c6e9-4701-8c3c-c60f3482c3b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 21.hjdn.tk}, udp: true}
+  - {name: VN越南 (youtube阿伟科技), server: vn-01.legeth.tk, port: 80, type: vmess, uuid: 4462d7fc-4443-44ab-8ade-65109600b284, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vn-01.legeth.tk}, udp: true}
+  - {name: Youtube顺丰资源 US__65, server: cfspeed.areyouikun.com, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 _哥斯达黎加_38, server: 190.93.245.170, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 美国 38, server: 162.159.135.42, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: CN_youtube@资源分享师_193, server: hnm.xiaohouzi.club, port: 19352, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: HK_香港 (youtube阿伟科技), server: fbi.gov, port: 443, type: vmess, uuid: d5a38eaf-b723-45be-b7d2-3c4e45b29400, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: hk12.targoocloud.live}, udp: true}
+  - {name: US (youtube阿伟科技) 10, server: news.microsoft.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: CN_youtube@资源分享师_57, server: hnm.xiaohouzi.club, port: 17116, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技) 11, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 HK__68, server: 219.76.13.180, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: CN_youtube@资源分享师_163, server: hnm.xiaohouzi.club, port: 19358, type: trojan, password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技) 29, server: cf-dx-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: us-dp2.sharecentre.online}, udp: true}
+  - {name: US(youtube阿伟科技), server: 104.26.14.53, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 11, server: 198.41.212.123, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 _美国_124, server: 141.101.115.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 欧洲 24, server: 23.227.38.100, port: 443, type: vmess, uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /UMW36262, ws-headers: {Host: v2ray1.zhujicn2.org}, udp: true}
+  - {name: Youtube顺丰资源 US__43, server: 141.101.115.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US 美国 10, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /IYKLD53M, ws-headers: {Host: opfr1.v2rayfree1.xyz}, udp: true}
+  - {name: HK (youtube阿伟科技) 9, server: hktrojan.happa.cf, port: 443, type: trojan, password: passwd, sni: hktrojan.happa.cf, skip-cert-verify: true, udp: true}
+  - {name: US (youtube阿伟科技) 62, server: 104.20.75.49, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: US (youtube阿伟科技) 12, server: 172.67.135.57, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 _US_美国675, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 US__30, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Seattle.v2ray.online}, udp: true}
+  - {name: Youtube顺丰资源 巴西圣保罗 CloudFlare节点, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: US (youtube阿伟科技) 13, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: IN (youtube阿伟科技), server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
+  - {name: Youtube顺丰资源 US  13, server: ovh-3.555530.xyz, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: US (youtube阿伟科技) 14, server: 104.18.3.35, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -612,611 +660,648 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 _香港_121
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 HK香港 7
-      - Youtube顺丰资源 HK 香港
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源 直香港G4107
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 HK 香港 5 3
+      - HK_香港 (youtube阿伟科技)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1232,149 +1317,161 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港HKT2号-免流(三网优化)
-      - Youtube顺丰资源 FR 法国
-      - PL波兰(youtube阿伟科技)
-      - Youtube顺丰资源 US61
-      - Youtube顺丰资源 _美国_63
-      - Youtube顺丰资源 US 美国 11
-      - Youtube顺丰资源 PL波兰
-      - 荷兰|BT，PT专用，允许长期跑满带宽-0.01x速
-      - Youtube顺丰资源 _美国_50
-      - US 美国(youtube阿伟科技)
-      - HK(youtube阿伟科技)
-      - Youtube顺丰资源 美国 35 2
-      - Youtube顺丰资源 FR 法国 6
-      - Youtube顺丰资源 新加坡 2
-      - Youtube顺丰资源 PL 波兰
-      - Youtube顺丰资源 美国 CloudFlare节点 8
-      - Youtube顺丰资源 US 美国 10
-      - 日本 | JP | IPLC专线
-      - Youtube顺丰资源 美国 38
-      - uk(youtube阿伟科技)
-      - Youtube顺丰资源 _加拿大_31
-      - Youtube顺丰资源 🇺🇲 美国 31
-      - Youtube顺丰资源 直新加坡G3678
-      - Youtube顺丰资源 法国
-      - Youtube顺丰资源 🇸🇬 新加坡 2
-      - 日本 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 FR 法国 5
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 13
-      - Youtube顺丰资源 _美国_74
-      - Youtube顺丰资源 _香港_121
-      - Youtube顺丰资源 美国 6
-      - Youtube顺丰资源 SG 新加坡 5
-      - US 美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG 新加坡 5 2
-      - Youtube顺丰资源 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 3
-      - Youtube顺丰资源 🇸🇬 新加坡 4
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 US 美国 7
-      - 香港HKT-免流(三网优化)
-      - Youtube顺丰资源 美国 9
-      - Youtube顺丰资源 HK香港
-      - Youtube顺丰资源 _加拿大_40
-      - Youtube顺丰资源 _美国_106
-      - Youtube顺丰资源 美国RFEngineering20674
-      - Youtube顺丰资源 SG 新加坡 6
-      - Youtube顺丰资源 HK香港 6
-      - Youtube顺丰资源 美国 28
-      - Youtube顺丰资源 SG 新加坡 5 3
-      - CA(youtube阿伟科技)
-      - KR(youtube阿伟科技)
-      - Youtube顺丰资源 SG 新加坡 4
-      - Youtube顺丰资源 -美国-1621591287_2426486
-      - Youtube顺丰资源 SG 新加坡 10
-      - Youtube顺丰资源 🇸🇬 新加坡 5
-      - Youtube顺丰资源 _美国_73
-      - Youtube顺丰资源 俄罗斯
-      - Youtube顺丰资源 新加坡 6
-      - Youtube顺丰资源 新加坡306
-      - Youtube顺丰资源 _美国_86
-      - Youtube顺丰资源 直新加坡G2108
-      - Youtube顺丰资源 HK香港 7
-      - SG5(youtube阿伟科技)152
-      - Youtube顺丰资源 SG新加坡 5
-      - Youtube顺丰资源 SG 新加坡 9
-      - Youtube顺丰资源 美国 46
-      - Youtube顺丰资源 CA 加拿大
-      - Youtube顺丰资源 US 美国 21
-      - Youtube顺丰资源 🇸🇬 新加坡 6
-      - Youtube顺丰资源 _俄罗斯联邦_89
-      - Youtube顺丰资源 US 美国 25
-      - Youtube顺丰资源 _LU_卢森堡105
-      - Youtube顺丰资源 _美国_96
-      - Youtube顺丰资源 伯利兹-
-      - Youtube顺丰资源 日本 13
-      - Youtube顺丰资源 新加坡 4 2
-      - Youtube顺丰资源  - 美国惠普公司 23
-      - Youtube顺丰资源 SG 新加坡 8
-      - Youtube顺丰资源  - 丹麦  3
-      - Youtube顺丰资源 🇺🇲 美国 51
-      - 法国 | FR | BT、PT专用｜0.01x速
-      - Youtube顺丰资源  - 美国  15 2
-      - Youtube顺丰资源 SG 新加坡
-      - Youtube顺丰资源 _伯利兹_49
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 HK 香港
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 🇺🇲 美国 16
-      - 美国 | US-LA | 允许长期跑满带宽-0.1x速
-      - Youtube顺丰资源 _日本_183
-      - Youtube顺丰资源 SG 新加坡 3
-      - Youtube顺丰资源 德国312
-      - Youtube顺丰资源 美国 2 2
-      - Youtube顺丰资源 HK 香港 5
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 HK 香港 5 2
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 8
-      - Youtube顺丰资源 JP
-      - Youtube顺丰资源 美国 30
-      - Youtube顺丰资源 _美国_101
-      - Youtube顺丰资源 美国 9 2
-      - Youtube顺丰资源 US美国()56
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 -美国-17267200107553
-      - Youtube顺丰资源  - 美国CloudFlare节点 17
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 _伯利兹_84
-      - HK (youtube阿伟科技)
-      - Youtube顺丰资源 US 美国 19
-      - Youtube顺丰资源 JP 日本 3
-      - US 美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - Youtube顺丰资源 _哥斯达黎加_59
-      - Youtube顺丰资源 _美国_55
-      - Youtube顺丰资源 直香港G4107
+      - CN_youtube@资源分享师_7
+      - AU 澳洲 (youtube阿伟科技)
+      - US_youtube@资源分享师_72
+      - Youtube顺丰资源 DE__97
+      - LV拉脱维亚 (youtube阿伟科技)
+      - NL_youtube@资源分享师_181
+      - Youtube顺丰资源 SG  7
+      - Youtube顺丰资源 _美国_196
+      - IN印度 (youtube阿伟科技)
       - Youtube顺丰资源  - 丹麦  23
-      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
-      - Youtube顺丰资源 DE 德国
-      - Youtube顺丰资源 美国 32
-      - Youtube顺丰资源 _美国_112
-      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - SG (youtube阿伟科技) 8
+      - US_youtube@资源分享师_192
+      - UK (youtube阿伟科技)
+      - SG (youtube阿伟科技) 6
+      - 阿根廷 (youtube阿伟科技)
+      - CN_youtube@资源分享师_35
+      - Youtube顺丰资源 US  41
+      - US (youtube阿伟科技)
+      - CN_youtube@资源分享师_37
+      - Youtube顺丰资源 PL__309
+      - AU (youtube阿伟科技)
+      - Youtube顺丰资源 AU__73
       - Youtube顺丰资源 _美国_30
-      - Youtube顺丰资源 _美国_16
-      - Youtube顺丰资源 -美国-17264156232547
-      - Youtube顺丰资源 美国 14
-      - Youtube顺丰资源 美国 18
-      - Youtube顺丰资源 卢森堡
+      - JP (youtube阿伟科技) 28
+      - JP (youtube阿伟科技) 27
+      - Youtube顺丰资源 SG__175
+      - HK (youtube阿伟科技) 36
+      - 土耳其 (youtube阿伟科技)
+      - Youtube顺丰资源 US__35
+      - US (youtube阿伟科技) 2
+      - FR (youtube阿伟科技)
+      - CN_youtube@资源分享师_124
+      - CN_youtube@资源分享师_102
+      - US (youtube阿伟科技) 56
+      - Youtube顺丰资源 JP__192
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - SG (youtube阿伟科技)
+      - Youtube顺丰资源 日本东京 Oracle Cloud
+      - CR_youtube@资源分享师_79
+      - CN_youtube@资源分享师_79
+      - CN_youtube@资源分享师_99
+      - US (youtube阿伟科技) 3
+      - CN_youtube@资源分享师_71
+      - Youtube顺丰资源 🇺🇲 美国 8
+      - HK (youtube阿伟科技) 6
+      - HK (youtube阿伟科技)
+      - CN_youtube@资源分享师_94
+      - Youtube顺丰资源 JP__85
+      - CN_youtube@资源分享师_103
+      - Youtube顺丰资源 _哥斯达黎加_48
+      - JP (youtube阿伟科技) 26
+      - US_youtube@资源分享师_111
       - Youtube顺丰资源 欧洲
-      - Youtube顺丰资源 HK 香港 6
-      - Youtube顺丰资源 _美国_25
-      - Youtube顺丰资源 CA加拿大 2
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 6
-      - Youtube顺丰资源 美国 CloudFlare节点 14
+      - 爱尔兰 (youtube阿伟科技)
+      - Youtube顺丰资源 CR__71
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
+      - Youtube顺丰资源 US__80
+      - MO_youtube@资源分享师_101
+      - Youtube顺丰资源 GB__198
+      - JP (youtube阿伟科技) 23
+      - CN_youtube@资源分享师_109
+      - Youtube顺丰资源  - 澳大利亚悉尼 4
+      - US_youtube@资源分享师_58
+      - Youtube顺丰资源 CR__133
+      - US (youtube阿伟科技) 2 2
+      - 新加坡 | 三网低延迟 | IPLC专线
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - Youtube顺丰资源 _加拿大_31
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - CA_youtube@资源分享师_89
+      - SG (youtube阿伟科技) 2
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1
+      - CN_youtube@资源分享师_183
+      - Youtube顺丰资源 JP__78
+      - Youtube顺丰资源 US__117
+      - Youtube顺丰资源 🇸🇬 新加坡 16
+      - Youtube顺丰资源 伯利兹-
+      - Youtube顺丰资源 JP__293
+      - SG_youtube@资源分享师_130
+      - CN_youtube@资源分享师_65
+      - Youtube顺丰资源 GB__64
+      - HK (youtube阿伟科技) 35
+      - US (youtube阿伟科技) 4
+      - Youtube顺丰资源 FR 5
+      - Youtube顺丰资源 DE__185
+      - US_youtube@资源分享师_40
+      - US (youtube阿伟科技) 3 2
+      - Youtube顺丰资源 _美国_26
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 84🇸🇬171
+      - DE (youtube阿伟科技)
+      - Youtube顺丰资源 _哥斯达黎加_59
+      - Youtube顺丰资源 JP__77
+      - CR_youtube@资源分享师_114
+      - Youtube顺丰资源 美国 CloudFlare节点 4
+      - JP (youtube阿伟科技)
+      - SG (youtube阿伟科技) 3
+      - UK (youtube阿伟科技) 2
+      - Youtube顺丰资源 US__52
+      - Youtube顺丰资源 US__118
+      - US_youtube@资源分享师_68
+      - US (youtube阿伟科技) 5
+      - US_youtube@资源分享师_74
+      - Youtube顺丰资源 JP__167
+      - Youtube顺丰资源 PH__106
       - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - Youtube顺丰资源 US 美国 4
-      - Youtube顺丰资源 _英国_148
-      - Youtube顺丰资源 SCPHK-CF-Gcore238
-      - Youtube顺丰资源 法国 2
-      - Youtube顺丰资源  - 丹麦  14
-      - Youtube顺丰资源 HK 香港 5 3
+      - Youtube顺丰资源 HK__29
+      - JP (youtube阿伟科技) 3
+      - US (youtube阿伟科技) 6
+      - Youtube顺丰资源 SG__22
+      - US (youtube阿伟科技) 7
+      - FR (youtube阿伟科技) 2
+      - US (youtube阿伟科技) 8
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 _哥斯达黎加_88
+      - CN_youtube@资源分享师_187
+      - US (youtube阿伟科技) 9
+      - US_youtube@资源分享师_10
+      - JP (youtube阿伟科技) 11
+      - Youtube顺丰资源 🇺🇲 美国 18
+      - Youtube顺丰资源  - 澳大利亚悉尼 4 2
+      - Youtube顺丰资源 US__100
+      - Youtube顺丰资源 MO__193
+      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
+      - US (youtube阿伟科技) 60
+      - Youtube顺丰资源 PL波兰
+      - SG (youtube阿伟科技) 4
+      - VN越南 (youtube阿伟科技)
+      - Youtube顺丰资源 US__65
+      - Youtube顺丰资源 _哥斯达黎加_38
+      - Youtube顺丰资源 美国 38
+      - CN_youtube@资源分享师_193
+      - HK_香港 (youtube阿伟科技)
+      - US (youtube阿伟科技) 10
+      - CN_youtube@资源分享师_57
+      - US (youtube阿伟科技) 11
+      - Youtube顺丰资源 HK__68
+      - CN_youtube@资源分享师_163
+      - US (youtube阿伟科技) 29
+      - US(youtube阿伟科技)
+      - Youtube顺丰资源 美国 CloudFlare节点 11
+      - Youtube顺丰资源 _美国_124
+      - Youtube顺丰资源 欧洲 24
+      - Youtube顺丰资源 US__43
+      - Youtube顺丰资源 US 美国 10
+      - HK (youtube阿伟科技) 9
+      - US (youtube阿伟科技) 62
+      - US (youtube阿伟科技) 12
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US__30
+      - Youtube顺丰资源 巴西圣保罗 CloudFlare节点
+      - US (youtube阿伟科技) 13
+      - IN (youtube阿伟科技)
+      - Youtube顺丰资源 US  13
+      - US (youtube阿伟科技) 14
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
