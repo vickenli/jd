@@ -5,599 +5,911 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK香港(youtube阿伟科技), server: iepl-relay.opg951cy.bkcloud.ml, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: c3821bc1-7bda-3839-93a4-007fe4da8ed3, udp: true}
-  - {name: HK香港(youtube阿伟科技) 2, server: iepl-relay.opg951cy.bkcloud.ml, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: c3821bc1-7bda-3839-93a4-007fe4da8ed3, udp: true}
-  - {name: HK香港(youtube阿伟科技) 3, server: iepl-relay.opg951cy.bkcloud.ml, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: c3821bc1-7bda-3839-93a4-007fe4da8ed3, udp: true}
-  - {name: HK香港(youtube阿伟科技) 4, server: gdcm.r1u.cn, port: 47113, type: trojan, password: a4955acf-b475-47b5-8c63-8574fee2a2e3, sni: gdcm.r1u.cn, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 HK, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(youtube阿伟科技), server: gdcm.r1u.cn, port: 30427, type: trojan, password: a4955acf-b475-47b5-8c63-8574fee2a2e3, sni: gdcm.r1u.cn, skip-cert-verify: true, udp: true}
-  - {name: HK香港(youtube阿伟科技) 5, server: gdcm.r1u.cn, port: 32441, type: trojan, password: a4955acf-b475-47b5-8c63-8574fee2a2e3, sni: gdcm.r1u.cn, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 HK 4, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技), server: buyvm.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 HK 4 2, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU澳大利亚(youtube阿伟科技), server: au-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: au-ls03.nb1.fr}, udp: true}
-  - {name: KR韩国(youtube阿伟科技), server: cn2.ybnode.xyz, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: e651e0d9-9e83-4ae2-9817-853ec84567c1, udp: true}
-  - {name: US美国(youtube阿伟科技) 2, server: lg1.trump2023.us, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: DE德国(youtube阿伟科技), server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 HK 2, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 3, server: Tokyo.v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Tokyo.v2ray.online}, udp: true}
-  - {name: Youtube顺丰资源 AU__192, server: au-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: au-ls03.nb1.fr}, udp: true}
-  - {name: Youtube顺丰资源 DE德国, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-1.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 UK英国, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__41, server: de-1.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-1.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 _9, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速, server: 162.159.133.98, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjc.buzz}, udp: true}
-  - {name: DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技, server: de-2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-2.sharecentre.online}, udp: true}
-  - {name: TW台湾(youtube阿伟科技), server: gdcm.r1u.cn, port: 32961, type: trojan, password: a4955acf-b475-47b5-8c63-8574fee2a2e3, sni: gdcm.r1u.cn, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 FR 7, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 DE__117, server: de-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: de-ls03.nb1.fr}, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: 1a89b7f5-207b-d0ee-d79b-33a3353bd315.interface.buzz, port: 48152, type: ss, cipher: aes-256-gcm, password: 3b6a26f4-f999-4b35-92c0-990a91994cc7, udp: true}
-  - {name: US美国(youtube阿伟科技) 4, server: uk-1.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-1.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 5, server: lg1.trump2023.us, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 HK 4 3, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 GB__129, server: gb-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: gb-ls03.nb1.fr}, udp: true}
-  - {name: US美国(youtube阿伟科技) 6, server: 158.101.7.73, port: 11176, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 158.101.7.73}, udp: true}
-  - {name: Youtube顺丰资源 US__56, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 _158, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 UK, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-2.sharecentre.online}, udp: true}
-  - {name: DE德国(youtube阿伟科技) 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-1.sharecentre.online}, udp: true}
-  - {name: 新加坡 | 三网低延迟 | IPLC专线, server: 162.159.128.72, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/sg1?ed=2048", ws-headers: {Host: sg1.pqjc.buzz}, udp: true}
-  - {name: Youtube顺丰资源 US__46, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-1.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 CA__156, server: ca-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: ca-ls03.nb1.fr}, udp: true}
-  - {name: FR法国(youtube阿伟科技), server: 172.67.199.200, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 7, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-1.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 美国46, server: 103.21.244.187, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /8cda48b3, ws-headers: {Host: IN-92-99.shoptunnel.live}, udp: true}
-  - {name: US美国(youtube阿伟科技) 8, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-1.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__27, server: uk-2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 UK  2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-1.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 9, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: UK英国(youtube阿伟科技), server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-1.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 10, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 保加利亚, server: www.rinyin.top, port: 443, type: vmess, uuid: 10706e0a-8251-4cfc-b211-b908b99dfd5f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/7a17336201?ed=2048", ws-headers: {Host: www.rinyin.top}, udp: true}
-  - {name: US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技, server: 158.101.7.73, port: 11176, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: YTB-awkj}, udp: true}
-  - {name: US美国(youtube阿伟科技) 11, server: new6.hucloud-dns.xyz, port: 443, type: vmess, uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new6.hucloud-dns.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 12, server: tghi.ddns.net, port: 443, type: vmess, uuid: 0b0b7a6d-fb2a-44fb-a847-fe49bcad1ebc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hp.setam.fun}, udp: true}
-  - {name: Youtube顺丰资源 US 29, server: news.microsoft.com, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US美国(youtube阿伟科技) 13, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: b4066c72-3e5b-41d0-90da-41ba2e6d7457, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 3464a64e.adorc.ml}, udp: true}
-  - {name: US美国(youtube阿伟科技) 14, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 US 15, server: yjz.hk, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: KR韩国(youtube阿伟科技) 2, server: 140.238.1.117, port: 80, type: vmess, uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4gmp, ws-headers: {Host: 140.238.1.117}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 6, server: iepl-relay.opg951cy.bkcloud.ml, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: c3821bc1-7bda-3839-93a4-007fe4da8ed3, udp: true}
-  - {name: JP日本(youtube阿伟科技) 2, server: 152.69.206.73, port: 12794, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 152.69.206.73}, udp: true}
-  - {name: Youtube顺丰资源 法国 2, server: news.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: US美国(youtube阿伟科技) 15, server: 158.101.7.73, port: 11176, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 158.101.7.73}, udp: true}
-  - {name: Youtube顺丰资源 SA__304, server: 158.101.229.162, port: 15227, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: 158.101.229.162}, udp: true}
-  - {name: US美国(youtube阿伟科技) 16, server: xn--5buw85e.xn--ghqw6jkw0a.live, port: 443, type: vmess, uuid: 9ca4e1fc-d564-413c-fa15-f1821099970b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: xn--5buw85e.xn--ghqw6jkw0a.live}, udp: true}
-  - {name: FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技, server: lg10.cfcdn1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: KR韩国(youtube阿伟科技) 3, server: 140.238.1.117, port: 80, type: vmess, uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4gmp, ws-headers: {Host: 140.238.1.117}, udp: true}
-  - {name: KH柬埔(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 HK 3, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__36, server: 103.21.244.195, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 7, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: f2038e2a-a842-4ac5-b399-91f34c115e26, udp: true}
-  - {name: FR法国(youtube阿伟科技) 2, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源 GB__179, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vuk2.0bad.com}, udp: true}
-  - {name: 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/us1?ed=2048", ws-headers: {Host: us1.pqjc.buzz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 17, server: hk-2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 美国 20, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源+JP__152, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 FR 11, server: 162.159.135.42, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 18, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}, udp: true}
-  - {name: US美国(youtube阿伟科技) 19, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__236, server: 103.21.244.156, port: 2082, type: vmess, uuid: 082122a2-8479-4089-82f0-f32ba5fc5426, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: hao.huaqian.icu}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 SG 5, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK香港(youtube阿伟科技) 8, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 16103, type: ss, cipher: chacha20-ietf-poly1305, password: f2038e2a-a842-4ac5-b399-91f34c115e26, udp: true}
-  - {name: Youtube顺丰资源 US__200, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-1.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US  51, server: oplg1.zhujicn2.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 20, server: 172.67.200.160, port: 80, type: vmess, uuid: 3c17193a-b5a8-4e0b-8a6a-14d7a4bfda5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ray12345, ws-headers: {Host: 10.123417.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US-X-X-BB, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus2.0bad.com}, udp: true}
-  - {name: Youtube顺丰资源 SG 3, server: 103.45.78.207, port: 3250, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: UK英国(youtube阿伟科技) 2, server: uk-2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-2.sharecentre.online}, udp: true}
-  - {name: FR法国(youtube阿伟科技) 3, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源  - 丹麦  8, server: 185.162.228.230, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 CR__108, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 KR__198, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}, udp: true}
-  - {name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 HK 6, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 _99, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 保加利亚(youtube阿伟科技), server: www.rinyin.top, port: 443, type: vmess, uuid: 10706e0a-8251-4cfc-b211-b908b99dfd5f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/7a17336201?ed=2048", ws-headers: {Host: www.rinyin.top}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚悉尼 4, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: FR法国(youtube阿伟科技) 4, server: news.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 _加拿大_40, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: US美国(youtube阿伟科技) 21, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: de-2.sharecentre.online}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 9, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 16105, type: ss, cipher: chacha20-ietf-poly1305, password: f2038e2a-a842-4ac5-b399-91f34c115e26, udp: true}
-  - {name: Youtube顺丰资源 US__48, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US  32, server: 162.159.128.7, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 22, server: 162.159.137.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 10, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 16102, type: ss, cipher: chacha20-ietf-poly1305, password: f2038e2a-a842-4ac5-b399-91f34c115e26, udp: true}
-  - {name: Youtube顺丰资源 美国 11, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 JP__204, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp2.0bad.com}, udp: true}
-  - {name: 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技, server: 129.152.13.117, port: 11691, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws-path, ws-headers: {Host: YTB-awkj}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 11, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 16104, type: ss, cipher: chacha20-ietf-poly1305, password: f2038e2a-a842-4ac5-b399-91f34c115e26, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 2, server: hnm.xiaohouzi.club, port: 18831, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__213, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
-  - {name: Youtube顺丰资源 LU卢森堡, server: 172.67.199.34, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
-  - {name: FR法国(youtube阿伟科技) 5, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源 伯利兹-, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: KR韩国(youtube阿伟科技) 4, server: shouer.123417.xyz, port: 443, type: vmess, uuid: 4f3735a9-a264-47b4-eb0d-b5c4d9e9768d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ray123, ws-headers: {Host: shouer.123417.xyz}, udp: true}
-  - {name: US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技, server: tg4312315.xhtk.cc, port: 443, type: vmess, uuid: de068d6a-c350-5534-250b-7f372a1c7a22, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wrbyvws, ws-headers: {Host: tg4312315.xhtk.cc}, udp: true}
-  - {name: Youtube顺丰资源 US 48, server: 185.162.228.229, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US美国()60, server: 172.67.199.34, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 US__85, server: clash6.ssr-free.xyz, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US 13, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 23, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 12, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 24, server: gb.woiden.yuji2022.gq, port: 80, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Eynyyo4kJfl2fkJfl2f, ws-headers: {Host: gb.woiden.yuji2022.gq}, udp: true}
-  - {name: US (youtube阿伟科技), server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US 12, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US__124, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus3.0bad.com}, udp: true}
-  - {name: Youtube顺丰资源 CN__89, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 25, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__279, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 VN 越南 4, server: 172.67.199.34, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 CN__72, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__217, server: gb.free.yuji2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hL4SnGmR6jDw2R8zjSmeT, ws-headers: {Host: gb.free.yuji2022.gq}, udp: true}
-  - {name: Youtube顺丰资源 US__55, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus5.0bad.com}, udp: true}
-  - {name: Youtube顺丰资源 US__13, server: 172.67.127.250, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源 DE 2, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 3, server: 172.105.127.106, port: 27679, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 8202939566, udp: true}
-  - {name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 HK 3 2, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 FR 8, server: eu-3.youngns.ml, port: 443, type: vmess, uuid: df69bf7b-7ad5-44d3-a4f0-203f347ed9d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: eu-3.youngns.ml}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 13, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US, server: 172.67.135.57, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: Youtube顺丰资源 JP__162, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
+  - {name: _CN_中国, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 2, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 3, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 162.159.58.88, port: 80, type: vmess, uuid: a406b612-26f7-4bf0-8652-816970a1c122, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 162.159.58.88}, udp: true}
+  - {name: _CN_中国 4, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _CN_中国 5, server: hn.xiaohouzi.club, port: 18735, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _CN_中国 6, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 7, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 8, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 9, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: cf-yd-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-yd-dns.sharecentre.online}, udp: true}
+  - {name: _CN_中国 10, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 11, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 12, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: lg1.trump2023.us, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: _US_美国 6, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf.bakapie.cf}, udp: true}
+  - {name: _US_美国 7, server: 103.21.244.70, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.70}, udp: true}
+  - {name: _US_美国 8, server: fr1.trump2023.org, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: _US_美国 9, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _CN_中国 13, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf.bakapie.cf}, udp: true}
+  - {name: _CN_中国 14, server: 1a89b7f5-207b-d0ee-d79b-33a3353bd315.interface.buzz, port: 48152, type: ss, cipher: aes-256-gcm, password: 3b6a26f4-f999-4b35-92c0-990a91994cc7, udp: true}
+  - {name: _US_美国 11, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.59.168}, udp: true}
+  - {name: _US_美国 12, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _CN_中国 15, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 13, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bb.isi.lol}, udp: true}
+  - {name: _US_美国 14, server: 103.21.244.161, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.161}, udp: true}
+  - {name: _JP_日本, server: 152.69.197.74, port: 12345, type: vmess, uuid: b8a6bf58-485a-4046-b386-b3661bf65eff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.197.74}, udp: true}
+  - {name: _CN_中国 16, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国, server: 173.245.49.5, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.5}, udp: true}
+  - {name: _CN_中国 17, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 15, server: 172.67.203.162, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.203.162}, udp: true}
+  - {name: _US_美国 16, server: 172.67.27.213, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.27.213}, udp: true}
+  - {name: _US_美国 17, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.199.34}, udp: true}
+  - {name: _US_美国 18, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: dd83e305-d487-4242-87be-67e3f52116fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: project.mytargoocloud.live}, udp: true}
+  - {name: _CN_中国 18, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国 2, server: 173.245.49.55, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.55}, udp: true}
+  - {name: _FR_法国 3, server: 173.245.49.57, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.57}, udp: true}
+  - {name: _US_美国 19, server: 103.21.244.230, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.230}, udp: true}
+  - {name: _CN_中国 19, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 20, server: 162.159.128.72, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 162.159.128.72}, udp: true}
+  - {name: _CN_中国 20, server: 103.45.78.207, port: 3250, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 21, server: 172.67.217.89, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.217.89}, udp: true}
+  - {name: _US_美国 22, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _US_美国 23, server: 103.21.244.107, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.107}, udp: true}
+  - {name: _CN_中国 21, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 24, server: hk-2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
+  - {name: _CN_中国 22, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 25, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.199.31}, udp: true}
+  - {name: _CN_中国 23, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _BZ_伯利兹, server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.189.191}, udp: true}
+  - {name: _US_美国 26, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bb.isi.lol}, udp: true}
+  - {name: _CN_中国 24, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 25, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 27, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bb.isi.lol}, udp: true}
+  - {name: _CA_加拿大, server: 168.138.68.36, port: 14252, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 168.138.68.36}, udp: true}
+  - {name: _CN_中国 26, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 28, server: yjz.hk, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yjz.hk}, udp: true}
+  - {name: _JP_日本 2, server: 152.69.206.73, port: 12794, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.206.73}, udp: true}
+  - {name: _US_美国 29, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: b4066c72-3e5b-41d0-90da-41ba2e6d7457, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf.bakapie.cf}, udp: true}
+  - {name: _CN_中国 27, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 30, server: ovh-3.555530.xyz, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ovh-3.555530.xyz}, udp: true}
+  - {name: _US_美国 31, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn.xia.me}, udp: true}
+  - {name: _US_美国 32, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: main.millionaireaisle.com}, udp: true}
+  - {name: _US_美国 33, server: 162.159.133.98, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 162.159.133.98}, udp: true}
+  - {name: _US_美国 34, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
+  - {name: _US_美国 35, server: sg-gcore.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
+  - {name: _BZ_伯利兹 2, server: 203.30.191.9, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.191.9}, udp: true}
+  - {name: _IT_意大利, server: 129.152.13.117, port: 11691, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.152.13.117}, udp: true}
+  - {name: _CN_中国 28, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 36, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _US_美国 37, server: new6.hucloud-dns.xyz, port: 443, type: vmess, uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new6.hucloud-dns.xyz}, udp: true}
+  - {name: _AM_亚美尼亚, server: 185.162.228.229, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 185.162.228.229}, udp: true}
+  - {name: _SA_沙特阿拉伯, server: 158.101.229.162, port: 15227, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 158.101.229.162}, udp: true}
+  - {name: _CN_中国 29, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 30, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 38, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _US_美国 39, server: news.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: news.microsoft.com}, udp: true}
+  - {name: _US_美国 40, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: b4066c72-3e5b-41d0-90da-41ba2e6d7457, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf.bakapie.cf}, udp: true}
+  - {name: _US_美国 41, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _US_美国 42, server: yjz.hk, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yjz.hk}, udp: true}
+  - {name: _IN_印度, server: 152.67.161.155, port: 17355, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.67.161.155}, udp: true}
+  - {name: _US_美国 43, server: buyvm.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
+  - {name: _US_美国 44, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 66.235.200.22}, udp: true}
+  - {name: _US_美国 45, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: main.millionaireaisle.com}, udp: true}
+  - {name: _US_美国 46, server: investors.spotify.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: investors.spotify.com}, udp: true}
+  - {name: _US_美国 47, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 141.193.213.20}, udp: true}
+  - {name: _BZ_伯利兹 3, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.188.121}, udp: true}
+  - {name: _FR_法国 4, server: 173.245.49.238, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.238}, udp: true}
+  - {name: _CN_中国 31, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 32, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 48, server: 162.159.135.42, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 162.159.135.42}, udp: true}
+  - {name: _US_美国 49, server: eu-3.youngns.ml, port: 443, type: vmess, uuid: df69bf7b-7ad5-44d3-a4f0-203f347ed9d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: eu-3.youngns.ml}, udp: true}
+  - {name: _US_美国 50, server: hax-us4.sudoxin.tk, port: 443, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hax-us4.sudoxin.tk}, udp: true}
+  - {name: _CN_中国 33, server: cs.guanguan.club, port: 17127, type: vmess, uuid: 6cde68e5-59bf-4ed8-b110-b9464dfa3826, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cs.guanguan.club}, udp: true}
+  - {name: _CN_中国 34, server: cs1.bbcloud.life, port: 17127, type: vmess, uuid: b25693cd-1173-42f3-e609-51062d1c65c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cs1.bbcloud.life}, udp: true}
+  - {name: _US_美国 51, server: 172.67.254.145, port: 443, type: vmess, uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.254.145}, udp: true}
+  - {name: _CN_中国 35, server: hn.xiaohouzi.club, port: 18581, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 52, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ming2.kiwireich.com}, udp: true}
+  - {name: _CN_中国 36, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 37, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 38, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 53, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hohm.microsoft.com}, udp: true}
+  - {name: _CN_中国 39, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 54, server: lg10.cfcdn1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
+  - {name: _CN_中国 40, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 55, server: 129.146.113.254, port: 43121, type: vmess, uuid: d53b39e2-925e-45b6-9389-46b9fa95878b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.146.113.254}, udp: true}
+  - {name: _BZ_伯利兹 4, server: 203.30.191.193, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.191.193}, udp: true}
+  - {name: _US_美国 56, server: hax-us3.sudoxin.tk, port: 443, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hax-us3.sudoxin.tk}, udp: true}
+  - {name: _US_美国 57, server: b.gguu.pp.ua, port: 443, type: vmess, uuid: e959bcfa-500d-419a-b71d-e7fa2bf63969, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: b.gguu.pp.ua}, udp: true}
+  - {name: _FR_法国 5, server: 173.245.49.10, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.10}, udp: true}
+  - {name: _US_美国 58, server: 103.21.244.169, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.169}, udp: true}
+  - {name: _US_美国 59, server: 103.21.244.82, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.82}, udp: true}
+  - {name: _FR_法国 6, server: 173.245.49.141, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.141}, udp: true}
+  - {name: _US_美国 60, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _CN_中国 41, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 61, server: news.microsoft.com, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: news.microsoft.com}, udp: true}
+  - {name: _US_美国 62, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: d8eb886b-05be-4628-f2a2-a7e5b305e35a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new3.hucloud-dns.xyz}, udp: true}
+  - {name: _CA_加拿大 2, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.227.38.40}, udp: true}
+  - {name: _BZ_伯利兹 5, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.188.188}, udp: true}
+  - {name: _IN_印度 2, server: 152.67.161.155, port: 17355, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.67.161.155}, udp: true}
+  - {name: _US_美国 63, server: 158.101.7.73, port: 11176, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 158.101.7.73}, udp: true}
+  - {name: _IT_意大利 2, server: 129.152.13.117, port: 11691, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.152.13.117}, udp: true}
+  - {name: _CN_中国 42, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 43, server: cs1.bbcloud.life, port: 35459, type: vmess, uuid: 026056ab-a315-4eb9-babf-f95d473e621c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cs1.bbcloud.life}, udp: true}
+  - {name: _CN_中国 44, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 64, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: els200.jslist.tk}, udp: true}
+  - {name: _US_美国 65, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hohm.microsoft.com}, udp: true}
+  - {name: _CN_中国 45, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 46, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 47, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 66, server: xn--5buw85e.xn--ghqw6jkw0a.live, port: 443, type: vmess, uuid: 9ca4e1fc-d564-413c-fa15-f1821099970b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: xn--5buw85e.xn--ghqw6jkw0a.live}, udp: true}
+  - {name: _BZ_伯利兹 6, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.190.192}, udp: true}
+  - {name: _US_美国 67, server: foxpol2.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
+  - {name: _US_美国 68, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.132.15}, udp: true}
+  - {name: _BZ_伯利兹 7, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.188.190}, udp: true}
+  - {name: _ZA_南非, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.151.164.152}, udp: true}
+  - {name: _BZ_伯利兹 8, server: 203.30.191.10, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.191.10}, udp: true}
+  - {name: _US_美国 69, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _CN_中国 48, server: 1a89b7f5-207b-d0ee-d79b-33a3353bd315.interface.buzz, port: 48152, type: ss, cipher: aes-256-gcm, password: ce46b7be-c170-461d-a1a3-9f02c2c905fd, udp: true}
+  - {name: _CN_中国 49, server: cs.guanguan.club, port: 12829, type: vmess, uuid: 6cde68e5-59bf-4ed8-b110-b9464dfa3826, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cs.guanguan.club}, udp: true}
+  - {name: _US_美国 70, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _CN_中国 50, server: 42.225.20.18, port: 10005, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 51, server: hnm.xiaohouzi.club, port: 18634, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 71, server: cf-yd-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-yd-dns.sharecentre.online}, udp: true}
+  - {name: _US_美国 72, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _JP_日本 3, server: 152.69.206.73, port: 12794, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.206.73}, udp: true}
+  - {name: ️‍🌈_UN_未知, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf.fovi.tk}, udp: true}
+  - {name: _US_美国 73, server: hk-gcore.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
+  - {name: _US_美国 74, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _CN_中国 52, server: hnm.xiaohouzi.club, port: 18831, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 75, server: 141.101.114.32, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 141.101.114.32}, udp: true}
+  - {name: _US_美国 76, server: 172.67.205.70, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.205.70}, udp: true}
+  - {name: _CY_塞浦路斯, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.24.108.8}, udp: true}
+  - {name: _US_美国 77, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt-dns.sharecentre.online}, udp: true}
+  - {name: _FR_法国 7, server: 51.91.248.209, port: 10000, type: vmess, uuid: ff7c5648-b275-11ed-8842-2f75954514f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 51.91.248.209}, udp: true}
+  - {name: _US_美国 78, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 141.101.115.30}, udp: true}
+  - {name: _US_美国 79, server: cdn.chigua.tk, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn.chigua.tk}, udp: true}
+  - {name: _US_美国 80, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _US_美国 81, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 198.41.203.6}, udp: true}
+  - {name: _US_美国 82, server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 141.193.213.21}, udp: true}
+  - {name: _US_美国 83, server: cf.515188.xyz, port: 80, type: vmess, uuid: 05ab5fed-281d-4882-c29c-3c6dc8434fb0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf.515188.xyz}, udp: true}
+  - {name: _US_美国 84, server: lg1.trump2023.us, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: _CN_中国 53, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 85, server: xn--5buw85e.xn--ghqw6jkw0a.live, port: 443, type: vmess, uuid: 9ca4e1fc-d564-413c-fa15-f1821099970b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: xn--5buw85e.xn--ghqw6jkw0a.live}, udp: true}
+  - {name: _US_美国 86, server: 162.159.142.203, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 162.159.142.203}, udp: true}
+  - {name: _CN_中国 54, server: hn.xiaohouzi.club, port: 18463, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 87, server: get.tech, port: 80, type: vmess, uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: get.tech}, udp: true}
+  - {name: _US_美国 88, server: bb.isi.lol, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bb.isi.lol}, udp: true}
+  - {name: _US_美国 89, server: 172.67.148.203, port: 443, type: vmess, uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.148.203}, udp: true}
+  - {name: _US_美国 90, server: 172.67.1.182, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.1.182}, udp: true}
+  - {name: _US_美国 91, server: 172.64.156.232, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.64.156.232}, udp: true}
+  - {name: _CA_加拿大 3, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.227.38.25}, udp: true}
+  - {name: _CA_加拿大 4, server: 23.227.38.38, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.227.38.38}, udp: true}
+  - {name: _CN_中国 55, server: hnm.xiaohouzi.club, port: 17106, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 92, server: 103.21.244.180, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.180}, udp: true}
+  - {name: _BZ_伯利兹 9, server: 203.30.191.6, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.191.6}, udp: true}
+  - {name: _CN_中国 56, server: hn.xiaohouzi.club, port: 48464, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 57, server: hnm.xiaohouzi.club, port: 17105, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 93, server: 172.67.207.209, port: 2082, type: vmess, uuid: 082122a2-8479-4089-82f0-f32ba5fc5426, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.207.209}, udp: true}
+  - {name: _US_美国 94, server: 103.21.244.249, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.249}, udp: true}
+  - {name: _CN_中国 58, server: hn.xiaohouzi.club, port: 18835, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 4, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 93d94f53-e7d1-41f5-bd65-b2fcd99928e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 59, server: hnm.xiaohouzi.club, port: 49361, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 95, server: kh.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kh.sharecentre.online}, udp: true}
+  - {name: _CN_中国 60, server: hnm.xiaohouzi.club, port: 36305, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 96, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zfc.windowsupdate1.com}, udp: true}
+  - {name: _CR_哥斯达黎加, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 190.93.245.4}, udp: true}
+  - {name: _CN_中国 61, server: hn.xiaohouzi.club, port: 48434, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 62, server: iplc.xiaohouzi.club, port: 20015, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 97, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.164.123}, udp: true}
+  - {name: _US_美国 98, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
+  - {name: _CN_中国 63, server: hn.xiaohouzi.club, port: 18435, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 99, server: 172.67.169.131, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.169.131}, udp: true}
+  - {name: _US_美国 100, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _CN_中国 64, server: hnm.xiaohouzi.club, port: 51052, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 101, server: 103.21.244.219, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.219}, udp: true}
+  - {name: _US_美国 102, server: 172.67.127.250, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.127.250}, udp: true}
+  - {name: _US_美国 103, server: khvwycch.cymlr.xyz, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: khvwycch.cymlr.xyz}, udp: true}
+  - {name: _CA_加拿大 5, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.227.38.21}, udp: true}
+  - {name: _US_美国 104, server: 172.67.199.34, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.199.34}, udp: true}
+  - {name: _FR_法国 8, server: 173.245.49.23, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.23}, udp: true}
+  - {name: _US_美国 105, server: phxv001.jd0001.top, port: 4431, type: vmess, uuid: 6abfad5a-24be-3657-85da-ceac782b7e19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: phxv001.jd0001.top}, udp: true}
+  - {name: _CN_中国 65, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 6, server: 132.145.99.228, port: 13724, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 132.145.99.228}, udp: true}
+  - {name: _CN_中国 66, server: 25.v2-ray.cyou, port: 23625, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 25.v2-ray.cyou}, udp: true}
+  - {name: _CA_加拿大 7, server: 51.161.118.38, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _US_美国 106, server: 103.21.244.195, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.21.244.195}, udp: true}
+  - {name: _US_美国 107, server: 172.67.199.101, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.67.199.101}, udp: true}
+  - {name: _CA_加拿大 8, server: 51.161.118.38, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _BZ_伯利兹 10, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 203.30.191.191}, udp: true}
+  - {name: _US_美国 108, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hohm.microsoft.com}, udp: true}
+  - {name: _FR_法国 9, server: 173.245.49.156, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.156}, udp: true}
+  - {name: _FR_法国 10, server: 173.245.49.113, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.245.49.113}, udp: true}
+  - {name: _CA_加拿大 9, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _CN_中国 67, server: shnnb37f1.xz56bm2v8.lzmg3khpq.soabgo.com, port: 45000, type: vmess, uuid: FF5D3BF5-1296-FB0A-4596-B3CD0C884200, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 109, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
+  - {name: _TW_台湾, server: 104.29.64.5, port: 443, type: vmess, uuid: b022082a-ab8b-4688-9703-193df924dace, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.29.64.5}, udp: true}
+  - {name: _US_美国 110, server: 158.101.7.73, port: 11176, type: vmess, uuid: 52768552-c2b2-4460-89f1-e740cc145b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 158.101.7.73}, udp: true}
+  - {name: _US_美国 111, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 6c46e17d-4f90-4fda-8484-98f192524bc7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cf-lt.sharecentre.online}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -616,617 +928,916 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - HK香港(youtube阿伟科技) 5
-      - TW台湾(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 6
-      - HK香港(youtube阿伟科技) 7
-      - HK香港(youtube阿伟科技) 8
-      - HK香港(youtube阿伟科技) 9
-      - HK香港(youtube阿伟科技) 10
-      - HK香港(youtube阿伟科技) 11
-      - HK香港(youtube阿伟科技) 12
-      - HK香港(youtube阿伟科技) 13
+      - _TW_台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1242,150 +1853,228 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - HK香港(youtube阿伟科技) 4
-      - Youtube顺丰资源 HK
-      - SG新加坡(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 4 2
-      - AU澳大利亚(youtube阿伟科技)
-      - KR韩国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 2
-      - DE德国(youtube阿伟科技)
-      - Youtube顺丰资源 HK 2
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 AU__192
-      - Youtube顺丰资源 DE德国
-      - Youtube顺丰资源 UK英国
-      - Youtube顺丰资源 US__41
-      - Youtube顺丰资源 _9
-      - 荷兰|BT，PT专用，允许长期跑满带宽-2号节点-0.01x速
-      - DE(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - TW台湾(youtube阿伟科技)
-      - Youtube顺丰资源 FR 7
-      - Youtube顺丰资源 DE__117
-      - JP日本(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 4
-      - US美国(youtube阿伟科技) 5
-      - Youtube顺丰资源 HK 4 3
-      - Youtube顺丰资源 GB__129
-      - US美国(youtube阿伟科技) 6
-      - Youtube顺丰资源 US__56
-      - Youtube顺丰资源 _158
-      - Youtube顺丰资源 UK
-      - DE德国(youtube阿伟科技) 2
-      - 新加坡 | 三网低延迟 | IPLC专线
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 CA__156
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 美国46
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__27
-      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
-      - Youtube顺丰资源 UK  2
-      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 22
-      - US美国(youtube阿伟科技) 9
-      - UK英国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - Youtube顺丰资源 保加利亚
-      - US(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - US美国(youtube阿伟科技) 11
-      - US美国(youtube阿伟科技) 12
-      - Youtube顺丰资源 US 29
-      - US美国(youtube阿伟科技) 13
-      - US美国(youtube阿伟科技) 14
-      - Youtube顺丰资源 US 15
-      - KR韩国(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 6
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 法国 2
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 SA__304
-      - US美国(youtube阿伟科技) 16
-      - FR(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - KR韩国(youtube阿伟科技) 3
-      - KH柬埔(youtube阿伟科技)
-      - Youtube顺丰资源 HK 3
-      - Youtube顺丰资源 US__36
-      - HK香港(youtube阿伟科技) 7
-      - FR法国(youtube阿伟科技) 2
-      - Youtube顺丰资源 GB__179
-      - 美国 | 中国移动网优化 | 允许长期跑满带宽-0.1x速
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 美国 20
-      - Youtube顺丰资源+JP__152
-      - Youtube顺丰资源 FR 11
-      - US美国(youtube阿伟科技) 18
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 US__236
-      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
-      - Youtube顺丰资源 SG 5
-      - HK香港(youtube阿伟科技) 8
-      - Youtube顺丰资源 US__200
-      - Youtube顺丰资源 US  51
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US-X-X-BB
-      - Youtube顺丰资源 SG 3
-      - UK英国(youtube阿伟科技) 2
-      - FR法国(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 丹麦  8
-      - Youtube顺丰资源 CR__108
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(iPower) 2
-      - Youtube顺丰资源 HK 6
-      - Youtube顺丰资源 _99
-      - 保加利亚(youtube阿伟科技)
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - FR法国(youtube阿伟科技) 4
-      - Youtube顺丰资源 _加拿大_40
-      - US美国(youtube阿伟科技) 21
-      - HK香港(youtube阿伟科技) 9
-      - Youtube顺丰资源 US__48
-      - Youtube顺丰资源 US  32
-      - US美国(youtube阿伟科技) 22
-      - HK香港(youtube阿伟科技) 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 JP__204
-      - 意大利(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - HK香港(youtube阿伟科技) 11
-      - SG新加坡(youtube阿伟科技) 2
-      - Youtube顺丰资源 US__213
-      - Youtube顺丰资源 LU卢森堡
-      - FR法国(youtube阿伟科技) 5
-      - Youtube顺丰资源 伯利兹-
-      - KR韩国(youtube阿伟科技) 4
-      - US美国(https://awkj.cf/ky 注册体验流媒体机场)youtube阿伟科技
-      - Youtube顺丰资源 US 48
-      - Youtube顺丰资源 US美国()60
-      - Youtube顺丰资源 US__85
-      - Youtube顺丰资源 US 13
-      - US美国(youtube阿伟科技) 23
-      - HK香港(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 24
-      - US (youtube阿伟科技)
-      - Youtube顺丰资源 US 12
-      - Youtube顺丰资源 US__124
-      - Youtube顺丰资源 CN__89
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__279
-      - Youtube顺丰资源 VN 越南 4
-      - Youtube顺丰资源 CN__72
-      - Youtube顺丰资源 US__217
-      - Youtube顺丰资源 US__55
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 DE 2
-      - SG新加坡(youtube阿伟科技) 3
-      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
-      - Youtube顺丰资源 HK 3 2
-      - Youtube顺丰资源 FR 8
-      - HK香港(youtube阿伟科技) 13
-      - Youtube顺丰资源 US
-      - Youtube顺丰资源 JP__162
+      - _CN_中国
+      - _CN_中国 2
+      - _CN_中国 3
+      - _US_美国
+      - _CN_中国 4
+      - _US_美国 2
+      - _CN_中国 5
+      - _US_美国 3
+      - _CN_中国 6
+      - _CN_中国 7
+      - _CN_中国 8
+      - _CN_中国 9
+      - _US_美国 4
+      - _CN_中国 10
+      - _CN_中国 11
+      - _CN_中国 12
+      - _US_美国 5
+      - _US_美国 6
+      - _US_美国 7
+      - _US_美国 8
+      - _US_美国 9
+      - _CN_中国 13
+      - _US_美国 10
+      - _CN_中国 14
+      - _US_美国 11
+      - _US_美国 12
+      - _CN_中国 15
+      - _US_美国 13
+      - _US_美国 14
+      - _JP_日本
+      - _CN_中国 16
+      - _FR_法国
+      - _CN_中国 17
+      - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _CN_中国 18
+      - _FR_法国 2
+      - _FR_法国 3
+      - _US_美国 19
+      - _CN_中国 19
+      - _US_美国 20
+      - _CN_中国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _US_美国 23
+      - _CN_中国 21
+      - _US_美国 24
+      - _CN_中国 22
+      - _US_美国 25
+      - _CN_中国 23
+      - _BZ_伯利兹
+      - _US_美国 26
+      - _CN_中国 24
+      - _CN_中国 25
+      - _US_美国 27
+      - _CA_加拿大
+      - _CN_中国 26
+      - _US_美国 28
+      - _JP_日本 2
+      - _US_美国 29
+      - _CN_中国 27
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _BZ_伯利兹 2
+      - _IT_意大利
+      - _CN_中国 28
+      - _US_美国 36
+      - _US_美国 37
+      - _AM_亚美尼亚
+      - _SA_沙特阿拉伯
+      - _CN_中国 29
+      - _CN_中国 30
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _IN_印度
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _BZ_伯利兹 3
+      - _FR_法国 4
+      - _CN_中国 31
+      - _CN_中国 32
+      - _US_美国 48
+      - _US_美国 49
+      - _US_美国 50
+      - _CN_中国 33
+      - _CN_中国 34
+      - _US_美国 51
+      - _CN_中国 35
+      - _US_美国 52
+      - _CN_中国 36
+      - _CN_中国 37
+      - _CN_中国 38
+      - _US_美国 53
+      - _CN_中国 39
+      - _US_美国 54
+      - _CN_中国 40
+      - _US_美国 55
+      - _BZ_伯利兹 4
+      - _US_美国 56
+      - _US_美国 57
+      - _FR_法国 5
+      - _US_美国 58
+      - _US_美国 59
+      - _FR_法国 6
+      - _US_美国 60
+      - _CN_中国 41
+      - _US_美国 61
+      - _US_美国 62
+      - _CA_加拿大 2
+      - _BZ_伯利兹 5
+      - _IN_印度 2
+      - _US_美国 63
+      - _IT_意大利 2
+      - _CN_中国 42
+      - _CN_中国 43
+      - _CN_中国 44
+      - _US_美国 64
+      - _US_美国 65
+      - _CN_中国 45
+      - _CN_中国 46
+      - _CN_中国 47
+      - _US_美国 66
+      - _BZ_伯利兹 6
+      - _US_美国 67
+      - _US_美国 68
+      - _BZ_伯利兹 7
+      - _ZA_南非
+      - _BZ_伯利兹 8
+      - _US_美国 69
+      - _CN_中国 48
+      - _CN_中国 49
+      - _US_美国 70
+      - _CN_中国 50
+      - _CN_中国 51
+      - _US_美国 71
+      - _US_美国 72
+      - _JP_日本 3
+      - ️‍🌈_UN_未知
+      - _US_美国 73
+      - _US_美国 74
+      - _CN_中国 52
+      - _US_美国 75
+      - _US_美国 76
+      - _CY_塞浦路斯
+      - _US_美国 77
+      - _FR_法国 7
+      - _US_美国 78
+      - _US_美国 79
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - _US_美国 84
+      - _CN_中国 53
+      - _US_美国 85
+      - _US_美国 86
+      - _CN_中国 54
+      - _US_美国 87
+      - _US_美国 88
+      - _US_美国 89
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 3
+      - _CA_加拿大 4
+      - _CN_中国 55
+      - _US_美国 92
+      - _BZ_伯利兹 9
+      - _CN_中国 56
+      - _CN_中国 57
+      - _US_美国 93
+      - _US_美国 94
+      - _CN_中国 58
+      - _JP_日本 4
+      - _CN_中国 59
+      - _US_美国 95
+      - _CN_中国 60
+      - _US_美国 96
+      - _CR_哥斯达黎加
+      - _CN_中国 61
+      - _CN_中国 62
+      - _US_美国 97
+      - _US_美国 98
+      - _CN_中国 63
+      - _US_美国 99
+      - _US_美国 100
+      - _CN_中国 64
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _CA_加拿大 5
+      - _US_美国 104
+      - _FR_法国 8
+      - _US_美国 105
+      - _CN_中国 65
+      - _CA_加拿大 6
+      - _CN_中国 66
+      - _CA_加拿大 7
+      - _US_美国 106
+      - _US_美国 107
+      - _CA_加拿大 8
+      - _BZ_伯利兹 10
+      - _US_美国 108
+      - _FR_法国 9
+      - _FR_法国 10
+      - _CA_加拿大 9
+      - _CN_中国 67
+      - _US_美国 109
+      - _TW_台湾
+      - _US_美国 110
+      - _US_美国 111
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
