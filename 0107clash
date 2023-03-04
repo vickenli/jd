@@ -5,963 +5,619 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SG新加坡(youtube阿伟科技), server: sc.svip8.cn, port: 10000, type: vmess, uuid: 18cd2ad7-02b0-4959-9ccd-eb02c1155c69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 江西省南昌市 电信, server: 106.225.132.4, port: 19221, type: trojan, password: 0b86d368-f585-3c89-b8b5-30630f54cf15, skip-cert-verify: true, udp: true}
+  - {name: CN_youtube@资源分享师_108, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YTB-awkj}, udp: true}
   - {name: 中国-欢迎订阅【YouTube-由零開始】, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 2, server: sc.svip8.cn, port: 10000, type: vmess, uuid: dab765bb-0d68-40f2-a27a-ba78551844cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 HK 2, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国-欢迎订阅【YouTube-由零開始】, server: 108.162.195.199, port: 2082, type: vmess, uuid: 082122a2-8479-4089-82f0-f32ba5fc5426, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bb, ws-headers: {Host: hao.huaqian.icu}, udp: true}
-  - {name: Youtube顺丰资源 TW台湾, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技), server: new6.hucloud-dns.xyz, port: 443, type: vmess, uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new6.hucloud-dns.xyz}, udp: true}
-  - {name: US美国(YouTube阿伟科技) 4, server: mjj3011.hjdn.tk, port: 443, type: vmess, uuid: 06371d67-d976-4c84-ecdf-d7c989e80155, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54321, ws-headers: {Host: mjj3011.hjdn.tk}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 3, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: sg1.oraclec.pp.ua}, udp: true}
-  - {name: US美国(youtube阿伟科技) 2, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Seattle.v2ray.online}, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 3, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /KTR, ws-headers: {Host: 4.arvanktbr.store}, udp: true}
-  - {name: Youtube顺丰资源 US__38, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: uk.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 美国 58, server: v2ray.online, port: 443, type: vmess, uuid: 5D210DF7-A8BD-4E92-863D-55DC936F361A, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Seattle.v2ray.online}, udp: true}
-  - {name: Youtube顺丰资源 US__46, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: netherlands.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 US__112, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: fr.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 SG新加坡_9, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: hy.guanguan.club}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca1.sharecentre.online}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 4, server: sc.svip8.cn, port: 10000, type: vmess, uuid: dab765bb-0d68-40f2-a27a-ba78551844cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__71, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__28, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 5, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
-  - {name: Youtube顺丰资源 US__40, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: scw.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 US__54, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.cloudflare.quest}, udp: true}
-  - {name: US美国(youtube阿伟科技) 3, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 84a514ba.8200860.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US__55, server: buyvm-ny.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm-ny.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 4, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl2?ed=2048", ws-headers: {Host: nl2.yfjc.sbs}, udp: true}
-  - {name: YouTube梦歌|低速节点_60, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4e7cc378.8200860.xyz}, udp: true}
-  - {name: US_youtube@资源分享师_211, server: buyvm.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源  4, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 5, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us1?ed=2048", ws-headers: {Host: us1.yfjc.sbs}, udp: true}
-  - {name: US美国(youtube阿伟科技) 6, server: hk-2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
-  - {name: "|17.16Mb", server: 107.167.31.194, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.66728533.xyz}, udp: true}
-  - {name: YouTube梦歌|低速节点_11, server: ca1.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca1.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 7, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm-ny.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 TW台湾 2, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 8, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca1.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 9, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 10, server: ca1.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca1.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 11, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl?ed=2048", ws-headers: {Host: nl.yfjc.sbs}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm-ny.sharecentre.online}, udp: true}
-  - {name: US_youtube@资源分享师_36, server: v47a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-2023unlimitndxd, ws-headers: {Host: v47a.toddns.tk}, udp: true}
-  - {name: Youtube顺丰资源 CN__129, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: fr1.trump2023.org, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: YouTube梦歌|低速节点_3, server: icook.hk, port: 80, type: vmess, uuid: 3eb05cb6-d2e1-4a31-9f82-514cfa98fe15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/ray?ed=2048", ws-headers: {Host: 2woid.weigogogo.cf}, udp: true}
-  - {name: US美国(youtube阿伟科技) 12, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjc.buzz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 13, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: Youtube顺丰资源 JP 6, server: www.wyca.ga, port: 443, type: vmess, uuid: d394b3e5-abc2-444f-8f2c-74eb8e4dc6ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /giuivws, ws-headers: {Host: www.wyca.ga}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 4, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: us-dp.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__115, server: 198.148.116.134, port: 52015, type: vmess, uuid: 086e9fd4-1d86-49f0-fdab-a58822a36b29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 14, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
-  - {name: "| 5.02Mb", server: 138.2.42.241, port: 80, type: vmess, uuid: 53c7cb63-bc39-460b-e41b-ca65363e3e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.2.42.241}, udp: true}
-  - {name: 加拿大-欢迎订阅【YouTube-由零開始】, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: US_youtube@资源分享师_64, server: 144.34.175.46, port: 80, type: vmess, uuid: 751192f4-437e-4ea9-f34f-4f0252509267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 144.34.175.46}, udp: true}
-  - {name: US美国(youtube阿伟科技) 15, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-2.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 CN__85, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 5, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 16, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: d8eb886b-05be-4628-f2a2-a7e5b305e35a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new3.hucloud-dns.xyz}, udp: true}
-  - {name: 梦歌|广港BGP_45, server: hkjs.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: hkjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: BZ_youtube@资源分享师_27, server: 203.30.189.189, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 US 18, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: 法国(yudou66.com 玉豆免费节点), server: 203.30.189.191, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: HK香港(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 欧洲 14, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: KH柬埔寨(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__13, server: 172.67.127.250, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源 法国 2, server: news.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: "|373.76Mb", server: 143.198.219.182, port: 80, type: vmess, uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 143.198.219.182}, udp: true}
-  - {name: 未知-欢迎订阅【YouTube-由零開始】, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol3.fovi.tk}, udp: true}
-  - {name: Youtube顺丰资源 KR__198, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}, udp: true}
-  - {name: US美国(youtube阿伟科技) 15 2, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 TW2, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__139, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__297, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 美国 25, server: yjz.hk, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 5, server: sc.svip8.cn, port: 10000, type: vmess, uuid: d89ccf42-e9e9-4a0d-8230-8bee621f970e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国-欢迎订阅【YouTube-由零開始】 2, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 17, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/fr1?ed=2048", ws-headers: {Host: fr1.pqjc.buzz}, udp: true}
-  - {name: Youtube顺丰资源 US__36, server: 103.21.244.195, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: Youtube顺丰资源 HK 7, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 SG 2, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US美国(YouTube阿伟科技), server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
-  - {name: 亚美尼亚-欢迎订阅【YouTube-由零開始】, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 TW台湾 3, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US 36, server: 203.30.191.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 18, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
-  - {name: 伯利兹-欢迎订阅【YouTube-由零開始】, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Youtube顺丰资源 CN__139 2, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点, server: 172.66.41.99, port: 443, type: vmess, uuid: 80e6f8a9-6620-4b63-a254-994381d99ca3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmessws, ws-headers: {Host: 1.239000.xyz}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 6, server: lg10.cfcdn1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 TW台湾 4, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: LU卢森堡(youtube阿伟科技), server: ru.wyhkaa0.ga, port: 80, type: vmess, uuid: d194f947-2c28-49b1-b3ec-1255c164ecc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: ru.wyhkaa0.ga}, udp: true}
-  - {name: DE(youtube阿伟科技), server: cs1.bbcloud.life, port: 41406, type: vmess, uuid: d0731cf1-db62-478d-aa20-3b73b98a9c6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cs1.bbcloud.life}, udp: true}
-  - {name: Youtube顺丰资源 US__89, server: 141.101.115.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Youtube顺丰资源 TW 4, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度-欢迎订阅【YouTube-由零開始】, server: cs1.bbcloud.life, port: 17127, type: vmess, uuid: b25693cd-1173-42f3-e609-51062d1c65c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@abcdefghijk147, ws-headers: {Host: cs1.bbcloud.life}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11, server: 203.30.188.188, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 US__29, server: 172.67.199.34, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 SG 5, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 UK  3, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vuk1.0bad.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 18 2, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 CN__24, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 19, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 TW, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 TW 3, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港BGP_22, server: ukjs.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: ukjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 undefined__187, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxfra.fovi.tk}, udp: true}
-  - {name: Youtube顺丰资源 US__70, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ru.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 CN__2, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 20, server: foxpol2.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
-  - {name: Youtube顺丰资源 US 28, server: 172.67.137.72, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /videnset, ws-headers: {Host: khvwycch.cymlr.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 21, server: foxpol2.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
-  - {name: US美国(youtube阿伟科技) 22, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 MU__103, server: www.furbbs.top, port: 443, type: trojan, password: ef18607c, sni: www.furbbs.top, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 SG 4, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 CN__72, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_youtube@资源分享师_132, server: 167.88.61.213, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 台湾1, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 CN__5, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US__92, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: Youtube顺丰资源 欧洲 14, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: 中国-欢迎订阅【YouTube-由零開始】 2, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 MU__103, server: www.furbbs.top, port: 443, type: trojan, password: ef18607c, sni: www.furbbs.top, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_64, server: 144.34.175.46, port: 80, type: vmess, uuid: 751192f4-437e-4ea9-f34f-4f0252509267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 144.34.175.46}, udp: true}
+  - {name: Youtube顺丰资源 US__23, server: oplg1.cfcdn2.xyz, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
   - {name: AM亚美尼亚(youtube阿伟科技), server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 CN__276, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
-  - {name: Youtube顺丰资源 US 22, server: 162.159.137.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 23, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US__26, server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 7, server: khvwycch.cymlr.xyz, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /videnset, ws-headers: {Host: khvwycch.cymlr.xyz}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 8, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: ming2.kiwireich.com}, udp: true}
-  - {name: Youtube顺丰资源 TW 2, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__27, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: US美国(youtube阿伟科技) 24, server: cs1.bbcloud.life, port: 35459, type: vmess, uuid: 026056ab-a315-4eb9-babf-f95d473e621c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cs1.bbcloud.life}, udp: true}
-  - {name: Youtube顺丰资源 美国 12, server: 141.101.114.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 9, server: cf-yd-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
-  - {name: "| 8.85Mb", server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 161.129.34.102}, udp: true}
-  - {name: US美国(youtube阿伟科技) 25, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源 US__203, server: 141.101.115.30, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 US__86, server: hk-gcore.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 26, server: 172.67.135.55, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 27, server: 162.159.135.42, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 KR 6, server: 138.2.62.255, port: 443, type: vmess, uuid: d394b3e5-abc2-444f-8f2c-74eb8e4dc6ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /giuivws, ws-headers: {Host: www.wyca.ga}, udp: true}
-  - {name: US美国(youtube阿伟科技) 28, server: 172.67.199.200, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 欧洲 22, server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: FR法国YouTube阿伟科技), server: t3.teslacdn2.live, port: 443, type: trojan, password: e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, sni: t3.teslacdn2.live, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 _83, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 10, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 美国 11, server: no.aries.ovh, port: 8880, type: vmess, uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v10.asuka.buzz}, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 10, server: ttk.fqvps.casa, port: 443, type: vmess, uuid: ecc68b2a-4b90-42cc-8755-03802f797e22, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ttk.fqvps.casa}, udp: true}
-  - {name: Youtube顺丰资源 TW台湾2, server: 103.45.78.251, port: 10004, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 29, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: 71cd0fe5-6f4f-4ce1-941c-d56c3bb090a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5rtP40gj/, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
-  - {name: US_youtube@资源分享师_112, server: 103.21.244.173, port: 80, type: vmess, uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zzsg.nmsl.pics}, udp: true}
-  - {name: Youtube顺丰资源 US__11, server: 172.64.152.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: 中国-欢迎订阅【YouTube-由零開始】 3, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__72, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
-  - {name: BZ_youtube@资源分享师_37, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: 梦歌|广港BGP_52, server: itjs.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: itjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 _51, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 KR__10, server: a3.wzr905.ml, port: 80, type: vmess, uuid: f63dff77-c865-4f4d-bfa0-bef0597f6da4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: 7932, ws-headers: {Host: a3.wzr905.ml}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚悉尼 4, server: 203.24.108.10, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: 梦歌|广港BGP_10, server: jp.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: jp.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 _142, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
-  - {name: _US_美国, server: lu.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__41, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: france.cloudflare.quest}, udp: true}
-  - {name: 梦歌|广港BGP_3, server: kr.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: kr.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: "|25.33Mb", server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国(youtube阿伟科技) 30, server: kh.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 _加拿大_31, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
   - {name: Youtube顺丰资源 UA, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: a5740cfd-f2b3-478a-9b1f-b34bdb1a493b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5rtP40gj/, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 11, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 _伯利兹_84, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: YouTube梦歌|低速节点_16, server: buyvm-ny.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm-ny.sharecentre.online}, udp: true}
-  - {name: 梦歌|广港BGP_34, server: chjs.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: chjs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: lg1.trump2023.us, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: 中国-欢迎订阅【YouTube-由零開始】 4, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 12, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: us-dp.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 CN__174, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: LU卢森堡(youtube阿伟科技) 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 SG新加坡_1, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港BGP_19, server: uaejs.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: uaejs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 31, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us2?ed=2048", ws-headers: {Host: us2.yfjc.sbs}, udp: true}
-  - {name: Youtube顺丰资源 US__145, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: vn.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 HK香港5, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技), server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: c28ba523-64d3-4059-a9b7-a5f0f74527f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5rtP40gj/, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
+  - {name: "|17.16Mb", server: 107.167.31.194, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.66728533.xyz}, udp: true}
   - {name: Youtube顺丰资源 US__147, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: f23b7338-84f7-476c-8c24-d116f181ab85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5rtP40gj/, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
+  - {name: "|25.33Mb", server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 CA__37, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: 中国-欢迎订阅【YouTube-由零開始】 3, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.iivvppnn.info}, udp: true}
+  - {name: FR法国YouTube阿伟科技), server: t3.teslacdn2.live, port: 443, type: trojan, password: e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, sni: t3.teslacdn2.live, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US 15, server: yjz.hk, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: "|373.76Mb", server: 143.198.219.182, port: 80, type: vmess, uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 143.198.219.182}, udp: true}
+  - {name: Youtube顺丰资源 HK, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US30, server: usdo.tzccifq.ga, port: 443, type: vmess, uuid: 58eb724d-5a95-4b9c-851e-2cb3b408e85f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usdo.tzccifq.ga}, udp: true}
+  - {name: US美国(youtube阿伟科技) 2, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
   - {name: JP日本(youtube阿伟科技), server: dj.svip8.cn, port: 10000, type: vmess, uuid: 18cd2ad7-02b0-4959-9ccd-eb02c1155c69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|低速节点_35, server: kh.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh.sharecentre.online}, udp: true}
-  - {name: JP日本(youtube阿伟科技) 2, server: dj.svip8.cn, port: 10000, type: vmess, uuid: d89ccf42-e9e9-4a0d-8230-8bee621f970e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 32, server: buyvm.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 US__98, server: us-dp2.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: us-dp2.sharecentre.online}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 6, server: hnm.xiaohouzi.club, port: 18634, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|低速节点_59, server: buyvm.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
-  - {name: 梦歌|广港BGP_12, server: ca.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: ca.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: AU（YouTube-aweikeji）, server: hnm.xiaohouzi.club, port: 47555, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__126, server: hn.xiaohouzi.club, port: 48462, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__237, server: gz01.xiaohouzi.club, port: 51058, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: gz01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港BGP_24, server: usa.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: usa.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技) 33, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 6, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /huhu, ws-headers: {Host: hucloud.tk}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 13, server: 172.67.199.34, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: US美国(youtube阿伟科技) 34, server: iplc.xiaohouzi.club, port: 20039, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: iplc.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港BGP_43, server: iljs.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: iljs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: HK香港(youtube阿伟科技) 2, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: data-hk-v2.shwjfkw.cn}, udp: true}
-  - {name: Youtube顺丰资源 CN__192, server: hn.xiaohouzi.club, port: 18435, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__227, server: hnm.xiaohouzi.club, port: 17106, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 14, server: cf-yd-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技) 7, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__199, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港BGP_37, server: cajs.stablize.top, port: 443, type: trojan, password: 3993dc85-ac62-4afb-b0f0-c941d62a1cbf, sni: cajs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_64 2, server: cf-lt.sharecentre.online, port: 8880, type: vmess, uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v10.asuka.buzz}, udp: true}
-  - {name: Youtube顺丰资源 CN__266, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "| 5.02Mb", server: 138.2.42.241, port: 80, type: vmess, uuid: 53c7cb63-bc39-460b-e41b-ca65363e3e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.2.42.241}, udp: true}
+  - {name: Youtube顺丰资源 HK 3, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 江苏省南京市 小鸟云联通 2, server: 103.45.78.209, port: 3240, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 SG 5, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 KR__198, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}, udp: true}
+  - {name: 塞浦路斯-欢迎订阅【YouTube-由零開始】, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__26, server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: Youtube顺丰资源 GB__179, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vuk2.0bad.com}, udp: true}
+  - {name: Youtube顺丰资源 US 36, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5rtP40gj/, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
+  - {name: Youtube顺丰资源 US__11, server: 172.64.152.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: Youtube顺丰资源 DE 2, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源 中国12, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 🇺🇲 美国 29, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: YouTube梦歌|低速节点_24, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: US_youtube@资源分享师_38, server: lg1.trump2023.us, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: GB_youtube@资源分享师_118, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: Youtube顺丰资源 CN__42, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__269, server: hn.xiaohouzi.club, port: 28456, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 15, server: sg-gcore.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 _36, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_109, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YTB-AWKJ}, udp: true}
-  - {name: US美国(youtube阿伟科技) 35, server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: GB_youtube@资源分享师_121, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 伯利兹-欢迎订阅【YouTube-由零開始】, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: Youtube顺丰资源 CN__129, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_195, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
+  - {name: US美国(youtube阿伟科技) 18, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 SG 4, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-欢迎订阅【YouTube-由零開始】 2, server: 143.42.21.187, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
+  - {name: Youtube顺丰资源 HK 3 2, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL_youtube@资源分享师_87, server: 172.99.188.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US美国(youtube阿伟科技) 15, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 US__213, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
+  - {name: US美国(youtube阿伟科技) 3, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
+  - {name: US美国(youtube阿伟科技) 4, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 84a514ba.8200860.xyz}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 7, server: 172.67.164.125, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 HK 3 3, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 5, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
+  - {name: 加拿大-欢迎订阅【YouTube-由零開始】, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 CN__6, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰-欢迎订阅【YouTube-由零開始】, server: 172.99.188.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源 欧洲 16, server: 103.45.78.187, port: 3230, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 CN__174, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 JP日本3, server: 103.45.78.209, port: 3240, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_154, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vuk1.0bad.com}, udp: true}
+  - {name: JP日本(youtube阿伟科技) 2, server: dj.svip8.cn, port: 10000, type: vmess, uuid: d89ccf42-e9e9-4a0d-8230-8bee621f970e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 6, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US 22, server: 162.159.137.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: 荷兰-欢迎订阅【YouTube-由零開始】 2, server: 172.99.188.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|15.80Mb", server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /opt/video/images, ws-headers: {Host: 182.16.1.194}, udp: true}
+  - {name: US美国(youtube阿伟科技) 7, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__11 2, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US 15 2, server: 203.30.191.10, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: US美国(youtube阿伟科技) 8, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: d8eb886b-05be-4628-f2a2-a7e5b305e35a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new3.hucloud-dns.xyz}, udp: true}
   - {name: Youtube顺丰资源 US 3, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: 未知-欢迎订阅【YouTube-由零開始】 2, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol.fovi.tk}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 16, server: cf-lt-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 6, server: hucloud.tk, port: 443, type: vmess, uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /huhu, ws-headers: {Host: hucloud.tk}, udp: true}
+  - {name: Youtube顺丰资源 CN__42, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|低速节点_60, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4e7cc378.8200860.xyz}, udp: true}
+  - {name: Youtube顺丰资源 HK 5, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|108.40Mb", server: 23.224.191.6, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 23.224.191.6}, udp: true}
+  - {name: Youtube顺丰资源 SG新加坡7, server: sc.svip8.cn, port: 10000, type: vmess, uuid: d89ccf42-e9e9-4a0d-8230-8bee621f970e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 DE 3, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US__98, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
+  - {name: LU卢森堡(youtube阿伟科技), server: ru.wyhkaa0.ga, port: 80, type: vmess, uuid: d194f947-2c28-49b1-b3ec-1255c164ecc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: ru.wyhkaa0.ga}, udp: true}
+  - {name: Youtube顺丰资源 FR, server: 172.67.199.31, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: Youtube顺丰资源 TW2, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 未知-欢迎订阅【YouTube-由零開始】, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol.fovi.tk}, udp: true}
+  - {name: Youtube顺丰资源 BZ__66, server: 203.30.191.3, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: NL_youtube@资源分享师_90, server: 172.99.188.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Youtube顺丰资源 US 24, server: 203.30.191.9, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 CN__14, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 美国 48, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__55, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus5.0bad.com}, udp: true}
+  - {name: Youtube顺丰资源 US60, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /graphql, ws-headers: {Host: s245.rpscloud3.cloud}, udp: true}
+  - {name: Youtube顺丰资源 US__293, server: init.blog, port: 443, type: vmess, uuid: 20f14598-35f4-41b6-b540-4a1ed7560c0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: best.janechiu.tk}, udp: true}
+  - {name: Youtube顺丰资源 US 34, server: 203.30.191.5, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US 36 2, server: 203.30.191.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: "| 8.85Mb", server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 161.129.34.102}, udp: true}
+  - {name: Youtube顺丰资源 SG新加坡_1, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源  4, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: Youtube顺丰资源 SG新加坡_9, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: hy.guanguan.club}, udp: true}
+  - {name: Youtube顺丰资源 印度 2, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
+  - {name: Youtube顺丰资源 TW 3, server: 36.156.102.164, port: 10003, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰-欢迎订阅【YouTube-由零開始】 3, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源 US__27, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: Youtube顺丰资源 HK 21, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-欢迎订阅【YouTube-由零開始】141, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US 28, server: 172.67.137.72, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /videnset, ws-headers: {Host: khvwycch.cymlr.xyz}, udp: true}
+  - {name: Youtube顺丰资源 undefined__187, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxfra.fovi.tk}, udp: true}
+  - {name: Youtube顺丰资源 CN__81, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_36, server: v47a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-2023unlimitndxd, ws-headers: {Host: v47a.toddns.tk}, udp: true}
+  - {name: US美国(youtube阿伟科技) 9, server: foxpol2.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技), server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: sg1.oraclec.pp.ua}, udp: true}
+  - {name: Youtube顺丰资源 SG 12, server: hn.xiaohouzi.club, port: 19023, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 未知-欢迎订阅【YouTube-由零開始】 2, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol3.fovi.tk}, udp: true}
+  - {name: US美国(youtube阿伟科技) 10, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: 71cd0fe5-6f4f-4ce1-941c-d56c3bb090a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5rtP40gj/, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
+  - {name: Youtube顺丰资源 CN__199, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB_youtube@资源分享师_118, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: MO_youtube@资源分享师_267, server: 45.64.22.56, port: 443, type: trojan, password: !<str> 123456, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 _41, server: 124.222.189.225, port: 80, type: vmess, uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.222.189.225}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
+  - {name: Youtube顺丰资源 JP日本2, server: dj.svip8.cn, port: 10000, type: vmess, uuid: 18cd2ad7-02b0-4959-9ccd-eb02c1155c69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 _51, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 11, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.8200860.xyz}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 5, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
+  - {name: GB_youtube@资源分享师_121, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Youtube顺丰资源 德国, server: 89.163.213.20, port: 80, type: vmess, uuid: 5668ff97-631f-4602-a13f-b56552c67abe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 89.163.213.20}, udp: true}
+  - {name: Youtube顺丰资源 TW台湾2, server: 103.45.78.251, port: 10004, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技) 2, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源 TUR土耳其, server: hnm.xiaohouzi.club, port: 17105, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US2, server: hnm.xiaohouzi.club, port: 36872, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国 2, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 SG新加坡7 2, server: sc.svip8.cn, port: 10000, type: vmess, uuid: 18cd2ad7-02b0-4959-9ccd-eb02c1155c69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰-欢迎订阅【YouTube-由零開始】 4, server: 172.99.188.99, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Youtube顺丰资源 US-ZFV, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: ming2.kiwireich.com}, udp: true}
+  - {name: Youtube顺丰资源 _36, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 CN__197, server: hnm.xiaohouzi.club, port: 36305, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 CN__266, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 SG新加坡8, server: sc.svip8.cn, port: 10000, type: vmess, uuid: dab765bb-0d68-40f2-a27a-ba78551844cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-欢迎订阅【YouTube-由零開始】 4, server: hn.xiaohouzi.club, port: 18456, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 CN__174 2, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 HK 3 4, server: 36.156.102.166, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 CN__228, server: hn.xiaohouzi.club, port: 18459, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 中国-欢迎订阅【YouTube-由零開始】 5, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Youtube顺丰资源 CN__161, server: gz01.xiaohouzi.club, port: 20091, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: gz01.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 SG 7, server: investors.spotify.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 越南, server: news.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: lg10.cfcdn1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 CN__149, server: uns.xiaohouzi.club, port: 13328, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: uns.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 17, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: US_youtube@资源分享师_46, server: 172.67.199.115, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: Youtube顺丰资源 DE, server: b.gguu.pp.ua, port: 443, type: vmess, uuid: e959bcfa-500d-419a-b71d-e7fa2bf63969, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /123, ws-headers: {Host: b.gguu.pp.ua}, udp: true}
-  - {name: Youtube顺丰资源 SG  8, server: 172.67.205.70, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: sg-gcore.sharecentre.online}, udp: true}
-  - {name: US_youtube@资源分享师_223, server: us-dp.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: us-dp.sharecentre.online}, udp: true}
-  - {name: DE_youtube@资源分享师_191, server: de-v.sshmax.xyz, port: 80, type: vmess, uuid: 5668ff97-631f-4602-a13f-b56552c67abe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: de-v.sshmax.xyz}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】 18, server: v125.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /usv125N93nz, ws-headers: {Host: v125.toddns.tk}, udp: true}
-  - {name: Youtube顺丰资源  - 澳大利亚悉尼 2, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 CN__241, server: hn.xiaohouzi.club, port: 18433, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: 伯利兹-欢迎订阅【YouTube-由零開始】 2, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 US 36 2, server: v2ray.ibgfw.top, port: 2083, type: vmess, uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5rtP40gj/, ws-headers: {Host: v2ray.ibgfw.top}, udp: true}
+  - {name: US美国(youtube阿伟科技) 12, server: foxpol2.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
+  - {name: CN_youtube@资源分享师_142, server: hnm.xiaohouzi.club, port: 49361, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技) 3, server: sc.svip8.cn, port: 10000, type: vmess, uuid: d89ccf42-e9e9-4a0d-8230-8bee621f970e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -980,987 +636,624 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Youtube顺丰资源 TW台湾
-      - Youtube顺丰资源 TW台湾 2
-      - 梦歌|广港BGP_45
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 TW台湾 4
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 台湾1
       - Youtube顺丰资源 TW台湾2
-      - 梦歌|广港BGP_52
-      - 梦歌|广港BGP_10
-      - 梦歌|广港BGP_3
-      - 梦歌|广港BGP_34
-      - 梦歌|广港BGP_19
-      - Youtube顺丰资源 HK香港5
-      - 梦歌|广港BGP_12
-      - 梦歌|广港BGP_24
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - 梦歌|广港BGP_37
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1976,241 +1269,155 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 江西省南昌市 电信
+      - CN_youtube@资源分享师_108
       - 中国-欢迎订阅【YouTube-由零開始】
-      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 HK 2
       - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾
-      - US美国(youtube阿伟科技)
-      - US美国(YouTube阿伟科技) 4
-      - SG新加坡(youtube阿伟科技) 3
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - Youtube顺丰资源 US__38
-      - Youtube顺丰资源 美国 58
-      - Youtube顺丰资源 US__46
-      - Youtube顺丰资源 US__112
-      - Youtube顺丰资源 SG新加坡_9
-      - 美国-欢迎订阅【YouTube-由零開始】 2
-      - SG新加坡(youtube阿伟科技) 4
-      - Youtube顺丰资源 US__71
-      - Youtube顺丰资源 US__28
-      - Youtube顺丰资源 美国 CloudFlare节点 5
-      - Youtube顺丰资源 US__40
-      - Youtube顺丰资源 US__54
-      - US美国(youtube阿伟科技) 3
-      - Youtube顺丰资源 US__55
-      - US美国(youtube阿伟科技) 4
-      - YouTube梦歌|低速节点_60
-      - US_youtube@资源分享师_211
-      - Youtube顺丰资源  4
-      - US美国(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 6
-      - "|17.16Mb"
-      - YouTube梦歌|低速节点_11
-      - US美国(youtube阿伟科技) 7
-      - Youtube顺丰资源 TW台湾 2
-      - US美国(youtube阿伟科技) 8
-      - US美国(youtube阿伟科技) 9
-      - US美国(youtube阿伟科技) 10
-      - US美国(youtube阿伟科技) 11
-      - 美国-欢迎订阅【YouTube-由零開始】 3
-      - US_youtube@资源分享师_36
-      - Youtube顺丰资源 CN__129
-      - 美国(yudou66.com 玉豆免费节点)
-      - YouTube梦歌|低速节点_3
-      - US美国(youtube阿伟科技) 12
-      - US美国(youtube阿伟科技) 13
-      - Youtube顺丰资源 JP 6
-      - 美国-欢迎订阅【YouTube-由零開始】 4
-      - Youtube顺丰资源 US__115
-      - US美国(youtube阿伟科技) 14
-      - "| 5.02Mb"
-      - 加拿大-欢迎订阅【YouTube-由零開始】
-      - US_youtube@资源分享师_64
-      - US美国(youtube阿伟科技) 15
-      - Youtube顺丰资源 CN__85
-      - 美国-欢迎订阅【YouTube-由零開始】 5
-      - US美国(youtube阿伟科技) 16
-      - 梦歌|广港BGP_45
-      - BZ_youtube@资源分享师_27
-      - Youtube顺丰资源 US 18
-      - 法国(yudou66.com 玉豆免费节点)
-      - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 欧洲 14
-      - KH柬埔寨(youtube阿伟科技)
-      - Youtube顺丰资源 US__13
-      - Youtube顺丰资源 法国 2
-      - "|373.76Mb"
-      - 未知-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 KR__198
-      - US美国(youtube阿伟科技) 15 2
-      - Youtube顺丰资源 TW2
-      - Youtube顺丰资源 CN__139
-      - Youtube顺丰资源 CN__297
-      - Youtube顺丰资源 美国 25
-      - SG新加坡(youtube阿伟科技) 5
-      - 中国-欢迎订阅【YouTube-由零開始】 2
-      - US美国(youtube阿伟科技) 17
-      - Youtube顺丰资源 US__36
+      - Youtube顺丰资源 HK 7
+      - Youtube顺丰资源 SG 2
       - US美国(YouTube阿伟科技)
-      - 亚美尼亚-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 TW台湾 3
-      - Youtube顺丰资源 US 36
-      - US美国(youtube阿伟科技) 18
-      - 伯利兹-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 CN__139 2
-      - Youtube顺丰资源 美国 CloudFlare节点
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 美国-欢迎订阅【YouTube-由零開始】 6
-      - Youtube顺丰资源 TW台湾 4
-      - LU卢森堡(youtube阿伟科技)
-      - DE(youtube阿伟科技)
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 TW 4
-      - 印度-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 SG 5
-      - Youtube顺丰资源 UK  3
-      - US美国(youtube阿伟科技) 18 2
-      - Youtube顺丰资源 CN__24
-      - US美国(youtube阿伟科技) 19
-      - Youtube顺丰资源 TW
-      - Youtube顺丰资源 TW 3
-      - 梦歌|广港BGP_22
-      - Youtube顺丰资源 undefined__187
-      - Youtube顺丰资源 US__70
-      - Youtube顺丰资源 CN__2
-      - US美国(youtube阿伟科技) 20
-      - Youtube顺丰资源 US 28
-      - US美国(youtube阿伟科技) 21
-      - US美国(youtube阿伟科技) 22
-      - Youtube顺丰资源 MU__103
-      - Youtube顺丰资源 SG 4
+      - Youtube顺丰资源 CN__72
       - US_youtube@资源分享师_132
-      - Youtube顺丰资源 台湾1
+      - Youtube顺丰资源 CN__5
+      - Youtube顺丰资源 US__92
+      - Youtube顺丰资源 欧洲 14
+      - 中国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 MU__103
+      - US_youtube@资源分享师_64
+      - Youtube顺丰资源 US__23
       - AM亚美尼亚(youtube阿伟科技)
-      - Youtube顺丰资源 CN__276
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源 US 22
-      - US美国(youtube阿伟科技) 23
-      - Youtube顺丰资源 US__26
-      - 美国-欢迎订阅【YouTube-由零開始】 7
-      - 美国-欢迎订阅【YouTube-由零開始】 8
-      - Youtube顺丰资源 TW 2
-      - Youtube顺丰资源 US__27
-      - US美国(youtube阿伟科技) 24
-      - Youtube顺丰资源 美国 12
-      - 美国-欢迎订阅【YouTube-由零開始】 9
-      - "| 8.85Mb"
-      - US美国(youtube阿伟科技) 25
-      - Youtube顺丰资源 US__203
-      - Youtube顺丰资源 US__86
-      - US美国(youtube阿伟科技) 26
-      - US美国(youtube阿伟科技) 27
-      - Youtube顺丰资源 KR 6
-      - US美国(youtube阿伟科技) 28
-      - Youtube顺丰资源 欧洲 22
-      - FR法国YouTube阿伟科技)
-      - Youtube顺丰资源 _83
-      - 美国-欢迎订阅【YouTube-由零開始】 10
-      - Youtube顺丰资源 美国 11
-      - Youtube顺丰资源 美国 CloudFlare节点 10
-      - Youtube顺丰资源 TW台湾2
-      - US美国(youtube阿伟科技) 29
-      - US_youtube@资源分享师_112
-      - Youtube顺丰资源 US__11
-      - 中国-欢迎订阅【YouTube-由零開始】 3
-      - Youtube顺丰资源 US__72
-      - BZ_youtube@资源分享师_37
-      - 梦歌|广港BGP_52
-      - Youtube顺丰资源 _51
-      - Youtube顺丰资源 KR__10
-      - Youtube顺丰资源  - 澳大利亚悉尼 4
-      - 梦歌|广港BGP_10
-      - Youtube顺丰资源 _142
-      - _US_美国
-      - Youtube顺丰资源 US__41
-      - 梦歌|广港BGP_3
-      - "|25.33Mb"
-      - US美国(youtube阿伟科技) 30
-      - Youtube顺丰资源 _加拿大_31
       - Youtube顺丰资源 UA
-      - 美国-欢迎订阅【YouTube-由零開始】 11
-      - Youtube顺丰资源 _伯利兹_84
-      - YouTube梦歌|低速节点_16
-      - 梦歌|广港BGP_34
-      - _US_美国 2
-      - 中国-欢迎订阅【YouTube-由零開始】 4
-      - 美国-欢迎订阅【YouTube-由零開始】 12
-      - Youtube顺丰资源 CN__174
-      - LU卢森堡(youtube阿伟科技) 2
-      - Youtube顺丰资源 SG新加坡_1
-      - 梦歌|广港BGP_19
-      - US美国(youtube阿伟科技) 31
-      - Youtube顺丰资源 US__145
-      - Youtube顺丰资源 HK香港5
+      - US美国(youtube阿伟科技)
+      - "|17.16Mb"
       - Youtube顺丰资源 US__147
+      - "|25.33Mb"
+      - Youtube顺丰资源 CA__37
+      - 中国-欢迎订阅【YouTube-由零開始】 3
+      - FR法国YouTube阿伟科技)
+      - Youtube顺丰资源 US 15
+      - "|373.76Mb"
+      - Youtube顺丰资源 HK
+      - Youtube顺丰资源 US30
+      - US美国(youtube阿伟科技) 2
       - JP日本(youtube阿伟科技)
-      - YouTube梦歌|低速节点_35
-      - JP日本(youtube阿伟科技) 2
-      - US美国(youtube阿伟科技) 32
-      - Youtube顺丰资源 US__98
-      - SG新加坡(youtube阿伟科技) 6
-      - YouTube梦歌|低速节点_59
-      - 梦歌|广港BGP_12
-      - AU（YouTube-aweikeji）
-      - Youtube顺丰资源 CN__126
-      - Youtube顺丰资源 CN__237
-      - 梦歌|广港BGP_24
-      - US美国(youtube阿伟科技) 33
-      - Youtube顺丰资源 美国 CloudFlare节点 6
-      - 美国-欢迎订阅【YouTube-由零開始】 13
-      - US美国(youtube阿伟科技) 34
-      - 梦歌|广港BGP_43
-      - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源 CN__192
-      - Youtube顺丰资源 CN__227
-      - 美国-欢迎订阅【YouTube-由零開始】 14
-      - SG新加坡(youtube阿伟科技) 7
-      - Youtube顺丰资源 CN__199
-      - 梦歌|广港BGP_37
-      - US_youtube@资源分享师_64 2
-      - Youtube顺丰资源 CN__266
+      - "| 5.02Mb"
+      - Youtube顺丰资源 HK 3
+      - Youtube顺丰资源 江苏省南京市 小鸟云联通 2
+      - _CN_中国
+      - Youtube顺丰资源 SG 5
+      - Youtube顺丰资源 KR__198
+      - 塞浦路斯-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 US__26
+      - Youtube顺丰资源 GB__179
+      - Youtube顺丰资源 US 36
+      - Youtube顺丰资源 US__11
+      - Youtube顺丰资源 DE 2
       - Youtube顺丰资源 中国12
-      - Youtube顺丰资源 🇺🇲 美国 29
-      - YouTube梦歌|低速节点_24
-      - US_youtube@资源分享师_38
-      - GB_youtube@资源分享师_118
-      - Youtube顺丰资源 CN__42
-      - Youtube顺丰资源 CN__269
-      - 美国-欢迎订阅【YouTube-由零開始】 15
-      - Youtube顺丰资源 _36
-      - CN_youtube@资源分享师_109
-      - US美国(youtube阿伟科技) 35
-      - GB_youtube@资源分享师_121
+      - 伯利兹-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__129
+      - US_youtube@资源分享师_195
+      - US美国(youtube阿伟科技) 18
+      - Youtube顺丰资源 SG 4
+      - 美国-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 HK 3 2
+      - NL_youtube@资源分享师_87
+      - US美国(youtube阿伟科技) 15
+      - Youtube顺丰资源 US__213
+      - US美国(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 4
+      - Youtube顺丰资源 美国 CloudFlare节点 7
+      - Youtube顺丰资源 HK 3 3
+      - US美国(youtube阿伟科技) 5
+      - 加拿大-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 CN__6
+      - 荷兰-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 欧洲 16
+      - Youtube顺丰资源 CN__174
+      - Youtube顺丰资源 JP日本3
+      - US_youtube@资源分享师_154
+      - JP日本(youtube阿伟科技) 2
+      - US美国(youtube阿伟科技) 6
+      - Youtube顺丰资源 US 22
+      - 荷兰-欢迎订阅【YouTube-由零開始】 2
+      - "|15.80Mb"
+      - US美国(youtube阿伟科技) 7
+      - Youtube顺丰资源 US__11 2
+      - Youtube顺丰资源 US 15 2
+      - US美国(youtube阿伟科技) 8
       - Youtube顺丰资源 US 3
-      - 未知-欢迎订阅【YouTube-由零開始】 2
-      - 美国-欢迎订阅【YouTube-由零開始】 16
-      - Youtube顺丰资源 TUR土耳其
-      - Youtube顺丰资源 CN__161
-      - Youtube顺丰资源 SG 7
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 越南
-      - Youtube顺丰资源 CN__149
-      - 美国-欢迎订阅【YouTube-由零開始】 17
-      - US_youtube@资源分享师_46
-      - Youtube顺丰资源 DE
-      - Youtube顺丰资源 SG  8
-      - US_youtube@资源分享师_223
-      - DE_youtube@资源分享师_191
-      - 美国-欢迎订阅【YouTube-由零開始】 18
-      - Youtube顺丰资源  - 澳大利亚悉尼 2
-      - Youtube顺丰资源 CN__241
-      - 伯利兹-欢迎订阅【YouTube-由零開始】 2
+      - Youtube顺丰资源 美国 CloudFlare节点 6
+      - Youtube顺丰资源 CN__42
+      - YouTube梦歌|低速节点_60
+      - Youtube顺丰资源 HK 5
+      - "|108.40Mb"
+      - Youtube顺丰资源 SG新加坡7
+      - Youtube顺丰资源 DE 3
+      - Youtube顺丰资源 US__98
+      - LU卢森堡(youtube阿伟科技)
+      - Youtube顺丰资源 FR
+      - Youtube顺丰资源 TW2
+      - 未知-欢迎订阅【YouTube-由零開始】
+      - Youtube顺丰资源 BZ__66
+      - NL_youtube@资源分享师_90
+      - Youtube顺丰资源 US 24
+      - Youtube顺丰资源 CN__14
+      - Youtube顺丰资源 美国 48
+      - Youtube顺丰资源 US__55
+      - Youtube顺丰资源 US60
+      - Youtube顺丰资源 US__293
+      - Youtube顺丰资源 US 34
       - Youtube顺丰资源 US 36 2
+      - "| 8.85Mb"
+      - Youtube顺丰资源 SG新加坡_1
+      - Youtube顺丰资源  4
+      - Youtube顺丰资源 SG新加坡_9
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源 TW 3
+      - 荷兰-欢迎订阅【YouTube-由零開始】 3
+      - Youtube顺丰资源 US__27
+      - Youtube顺丰资源 HK 21
+      - 中国-欢迎订阅【YouTube-由零開始】141
+      - Youtube顺丰资源 US 28
+      - Youtube顺丰资源 undefined__187
+      - Youtube顺丰资源 CN__81
+      - US_youtube@资源分享师_36
+      - US美国(youtube阿伟科技) 9
+      - SG新加坡(youtube阿伟科技)
+      - Youtube顺丰资源 SG 12
+      - 未知-欢迎订阅【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 10
+      - Youtube顺丰资源 CN__199
+      - GB_youtube@资源分享师_118
+      - MO_youtube@资源分享师_267
+      - Youtube顺丰资源 _41
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 JP日本2
+      - Youtube顺丰资源 _51
+      - US美国(youtube阿伟科技) 11
+      - Youtube顺丰资源 美国 CloudFlare节点 5
+      - GB_youtube@资源分享师_121
+      - Youtube顺丰资源 德国
+      - Youtube顺丰资源 TW台湾2
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 TUR土耳其
+      - Youtube顺丰资源 US2
+      - _CN_中国 2
+      - Youtube顺丰资源 SG新加坡7 2
+      - 荷兰-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 US-ZFV
+      - Youtube顺丰资源 _36
+      - Youtube顺丰资源 CN__197
+      - Youtube顺丰资源 CN__266
+      - Youtube顺丰资源 SG新加坡8
+      - 中国-欢迎订阅【YouTube-由零開始】 4
+      - Youtube顺丰资源 CN__174 2
+      - Youtube顺丰资源 HK 3 4
+      - Youtube顺丰资源 CN__228
+      - 中国-欢迎订阅【YouTube-由零開始】 5
+      - Youtube顺丰资源 CN__161
+      - US美国(youtube阿伟科技) 12
+      - CN_youtube@资源分享师_142
+      - SG新加坡(youtube阿伟科技) 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
