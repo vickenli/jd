@@ -5,551 +5,495 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源 CN__4, server: live10.suijiceshi.xyz, port: 2052, type: vmess, uuid: 85b3a81d-d8bb-41e9-be33-09d1d4e4f24a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xvod/1f42f0ef9d0257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_7893.ts, ws-headers: {Host: 5.day.hi.cn}, udp: true}
-  - {name: Youtube顺丰资源 CN__2, server: live12.suijiceshi.xyz, port: 8080, type: vmess, uuid: 85b3a81d-d8bb-41e9-be33-09d1d4e4f24a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xbov/7lekbe0p5axwz0z23d8kdtdy5d1uv3gh/media_3003.ts, ws-headers: {Host: 6.day.hi.cn}, udp: true}
-  - {name: Youtube顺丰资源+上海市+电信, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技), server: 2f36c18cfe75.sanfen001.pics, port: 15526, type: vmess, uuid: 235d3cf3-6527-4124-abf6-79d1d901a4c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国【YouTube-由零開始】, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(YouTube阿伟科技), server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
-  - {name: Youtube顺丰资源 _25, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
-  - {name: 中国-欢迎订阅【YouTube-由零開始】, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 HK香港14, server: m.lwvzmdu.cn, port: 16620, type: vmess, uuid: c768719d-aa34-4962-a84d-096456c37a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.lwvzmdu.cn}, udp: true}
-  - {name: +|+8.79Mb, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: SG新加坡(youtube阿伟科技) 2, server: 2f36c18cfe75.sanfen001.pics, port: 15526, type: vmess, uuid: 235d3cf3-6527-4124-abf6-79d1d901a4c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US__68, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 84a514ba.8200860.xyz}, udp: true}
+  - {name: YouTube：ATOM科技_324, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
+  - {name: +|+9.43Mb, server: 178.18.244.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 97OnDEZYGja4, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_159, server: 107.167.31.194, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.66728533.xyz}, udp: true}
+  - {name: Pool_Pool_ |23.63Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.48816626.xyz}, udp: true}
   - {name: _CN_中国, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技), server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
-  - {name: +|14.86Mb, server: 38.64.138.145, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 _12, server: online-video-cutter.com, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: +|11.24Mb, server: 134.195.196.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 3, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /KTR, ws-headers: {Host: 4.arvanktbr.store}, udp: true}
-  - {name: YouTube：ATOM科技_16, server: 172.67.199.101, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: +|+9.16Mb, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_❤️telegram群组：https://t.me/xiaoxiange88_2, server: 144.34.175.46, port: 80, type: vmess, uuid: 751192f4-437e-4ea9-f34f-4f0252509267, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 144.34.175.46}, udp: true}
+  - {name: Youtube顺丰资源 _142, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
+  - {name: YouTube：ATOM科技_362, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
+  - {name: 芬兰(youtube阿伟科技), server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /c8e0f808-25d6-4911-833e-50b9f5050ba6, ws-headers: {Host: hax-us1.imnibaba.tk}, udp: true}
+  - {name: CA加拿大(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
+  - {name: US美国(youtube阿伟科技), server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
+  - {name: +|+5.23Mb, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +|25.28Mb, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US美国(youtube阿伟科技) 2, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
+  - {name: US美国(youtube阿伟科技) 3, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
+  - {name: IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
+  - {name: +|26.38Mb, server: 195.154.200.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: US美国(youtube阿伟科技) 4, server: news.microsoft.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_163, server: 170.178.179.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 170.178.179.189}, udp: true}
+  - {name: Youtube顺丰资源 US__17, server: c7d5ea85.ikunxiao.top, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: c7d5ea85.ikunxiao.top}, udp: true}
   - {name: +|+9.24Mb, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Pool_Pool_+|26.07Mb, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +|10.75Mb, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP日本(youtube阿伟科技), server: jp05.cctvvip.ml, port: 443, type: vmess, uuid: 12dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
+  - {name: US美国(youtube阿伟科技) 5, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
+  - {name: Youtube顺丰资源 DE德国3, server: 91.107.189.126, port: 80, type: vmess, uuid: 23f20593-79a2-46e7-d695-9bd6166c33f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 91.107.189.126}, udp: true}
+  - {name: US美国(youtube阿伟科技) 6, server: usdo.tzccifq.ga, port: 443, type: vmess, uuid: 58eb724d-5a95-4b9c-851e-2cb3b408e85f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usdo.tzccifq.ga}, udp: true}
+  - {name: BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: US美国(youtube阿伟科技) 7, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
   - {name: US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _7, server: 167.88.61.213, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: 85.208.108.22, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 _26, server: www.dachu.co, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: DE德国(youtube阿伟科技), server: servsermci15.numallas.shop, port: 2095, type: vmess, uuid: 3522d2e8-e880-4e3a-a836-496a0bb92f60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: servsermci15.numallas.shop}, udp: true}
-  - {name: 美国【YouTube-由零開始】 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
-  - {name: Pool_Pool_+|33.98Mb, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|+5.23Mb, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 _6, server: drive.sg, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: Pool_Pool_+|39.60Mb, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|11.88Mb, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_163, server: 170.178.179.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 170.178.179.189}, udp: true}
-  - {name: JP日本(youtube阿伟科技) 2, server: v2fly.samrta.website, port: 443, type: vmess, uuid: 22dc16dd-1118-457c-9ddf-453996cd7920, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp05.cctvvip.ml}, udp: true}
-  - {name: Youtube顺丰资源 US 13, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
-  - {name: +|20.23Mb, server: 172.99.190.61, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 CN__3, server: live04.suijiceshi.xyz, port: 8080, type: vmess, uuid: 85b3a81d-d8bb-41e9-be33-09d1d4e4f24a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /xvod/7f42f1ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts, ws-headers: {Host: 2.81yn.com}, udp: true}
-  - {name: Youtube顺丰资源 _7, server: ip.sb, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: Pool_Pool_+|23.39Mb, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: YouTube：ATOM科技_359, server: hongbozeng.ml, port: 443, type: vmess, uuid: 860b543f-5039-473b-96ec-4494aebe4416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xuexi, ws-headers: {Host: hongbozeng.ml}, udp: true}
-  - {name: 俄罗斯(youtube阿伟科技), server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技), server: szct.xn--dlq110j6ul.cc, port: 46643, type: vmess, uuid: ba699105-7fcf-4af0-8415-ad29b6e58d62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady, ws-headers: {Host: szct.xn--dlq110j6ul.cc}, udp: true}
-  - {name: Youtube顺丰资源 _69, server: www.iproperty.com.sg, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: YouTube：ATOM科技_318, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Pool_Pool_ |23.63Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.48816626.xyz}, udp: true}
-  - {name: Pool_🇺🇸US_167, server: 104.233.191.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 104.233.191.182}, udp: true}
-  - {name: +|17.62Mb, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 US__89, server: 141.101.115.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Youtube顺丰资源 KR__198, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}, udp: true}
-  - {name: Youtube顺丰资源 US__29, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ovh.cloudflare.quest}, udp: true}
-  - {name: Youtube顺丰资源 US__95, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: 59219c67-ba37-4260-8535-6b1754b24c5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: sgm2.targoocloud.live}, udp: true}
-  - {name: Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心, server: 185.212.200.76, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: KH柬埔寨(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: kh1.scproxy.top}, udp: true}
-  - {name: Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315, server: t3.teslacdn2.live, port: 443, type: trojan, password: e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, sni: t3.teslacdn2.live, skip-cert-verify: true, udp: true}
-  - {name: Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb, server: sky998dmit3.xyz, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: sky998dmit3.xyz, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__70, server: 172.64.153.158, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: YouTube：ATOM科技_362, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
-  - {name: +|+9.43Mb, server: 178.18.244.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 97OnDEZYGja4, udp: true}
-  - {name: YouTube：ATOM科技_270, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: Youtube顺丰资源 JP__45, server: jp80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 3b21ac2f-41be-4f9a-872d-1169250351f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: jp80.af49c4e4c2ef.sanfen001.pics}, udp: true}
-  - {name: Pool_🇺🇸US_155, server: 23.224.191.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 23.224.191.5}, udp: true}
-  - {name: +|+9.25Mb, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|11.72Mb, server: 169.197.141.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 英国1, server: amsterdam.sbzpl.space, port: 443, type: vmess, uuid: 20ebe1dc-7f8e-449b-fa52-ee585e112789, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: amsterdam.sbzpl.space}, udp: true}
-  - {name: YouTube：ATOM科技_395, server: 172.64.154.103, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Youtube顺丰资源 TW__133, server: twweb.dashedu.net, port: 50516, type: vmess, uuid: dd28265e-cda9-4638-8072-93170203f71a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: KR韩国(youtube阿伟科技), server: dsdfj2.dslovedfj.icu, port: 80, type: vmess, uuid: 9d8178ec-c6d8-44a7-8ada-aeb97cf69e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ray12345, ws-headers: {Host: dsdfj2.dslovedfj.icu}, udp: true}
-  - {name: Pool_Pool_+|19.61Mb, server: 85.208.108.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|25.33Mb, server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: YouTube：ATOM科技_455, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /SRhXKZqggNrPMELA525Kw, ws-headers: {Host: america2.yj2022.ga}, udp: true}
-  - {name: +|+5.39Mb, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|108.40Mb", server: 23.224.191.6, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 23.224.191.6}, udp: true}
-  - {name: US美国(youtube阿伟科技) 2, server: www.codepen.io, port: 443, type: vmess, uuid: c002de50-e64e-4328-b98a-fae82bdcafa4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: de-v.sshmax.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 3, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
-  - {name: YouTube：ATOM科技_95, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vsg1.0bad.com}, udp: true}
-  - {name: JP日本(youtube阿伟科技) 3, server: cdn.cctvvip.ml, port: 443, type: vmess, uuid: 228a73ee-a5a3-4dce-a832-5c3f60841032, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp03.cctvvip.ml}, udp: true}
-  - {name: YouTube：ATOM科技_529, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /XQ2WCa29jfDMGBcbnQ, ws-headers: {Host: germany1.yj2022.ga}, udp: true}
-  - {name: Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: +|11.77Mb, server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 美国 65, server: 103.21.244.222, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ccpp, ws-headers: {Host: ccpp.91pan.one}, udp: true}
-  - {name: Youtube顺丰资源 DE德国 6, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: bc08be42-471a-4149-b622-06df0862734d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 3464a64e.8200860.xyz}, udp: true}
-  - {name: +|13.53Mb, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|26.38Mb, server: 195.154.200.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_youtube@资源分享师_35, server: america1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vAambj4DgXrs5sfCFptMk, ws-headers: {Host: america1.yj2022.ga}, udp: true}
   - {name: YouTube：ATOM科技_88, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: YouTube：ATOM科技_469, server: fr1.pqjc.buzz, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/fr1?ed=2048", ws-headers: {Host: fr1.pqjc.buzz}, udp: true}
-  - {name: YouTube：ATOM科技_485, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /XQ2WCa29jfDMGBcbnQ, ws-headers: {Host: germany1.yj2022.ga}, udp: true}
-  - {name: YouTube：ATOM科技_518, server: finland2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yWJGGBHoVpr3DbNuVycP, ws-headers: {Host: finland2.yj2022.ga}, udp: true}
-  - {name: Youtube顺丰资源 英国, server: ai.com, port: 8880, type: vmess, uuid: 1a009014-28f7-4b34-97ce-afdf569975f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /c986, ws-headers: {Host: poland.seeworld.pro}, udp: true}
-  - {name: +|10.62Mb, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国(youtube阿伟科技) 4, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
-  - {name: YouTube：ATOM科技_166, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus5.0bad.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 5, server: foxpol2.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol2.fovi.tk}, udp: true}
-  - {name: +|10.75Mb, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国(youtube阿伟科技) 18, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: +|25.28Mb, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2, server: 203.30.189.190, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 6, server: www.udemy.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-ovh2.1server.co}, udp: true}
-  - {name: YouTube：ATOM科技_184, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /SRhXKZqggNrPMELA525Kw, ws-headers: {Host: america2.yj2022.ga}, udp: true}
-  - {name: GB_youtube@资源分享师_121, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: YouTube：ATOM科技_544, server: 190.93.246.137, port: 80, type: vmess, uuid: 735ff430-9d1a-4f57-fb66-e43a26a76f70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ccpp, ws-headers: {Host: ccpp.91pan.one}, udp: true}
-  - {name: YouTube：ATOM科技_202, server: cs1.bbcloud.life, port: 17127, type: vmess, uuid: b25693cd-1173-42f3-e609-51062d1c65c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@abcdefghijk147, ws-headers: {Host: cs1.bbcloud.life}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_159, server: 107.167.31.194, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.66728533.xyz}, udp: true}
-  - {name: Youtube顺丰资源 欧洲 31, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /UMW36262, ws-headers: {Host: frgt1.ssr-free2.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US__27, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: JP日本(youtube阿伟科技) 4, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: US美国(youtube阿伟科技) 7, server: news.microsoft.com, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 8, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源 _5, server: ping.pe, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: YouTube：ATOM科技_240, server: fr1.trump2023.org, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: YouTube：ATOM科技_369, server: fr1.trump2023.org, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: +|+9.52Mb, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: Youtube顺丰资源 US  4, server: 172.67.135.55, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: +|10.10Mb, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: US美国(youtube阿伟科技) 9, server: quiz.vidio.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-ovh2.1server.co}, udp: true}
-  - {name: FR法国(youtube阿伟科技), server: 141.193.213.21, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: US美国(youtube阿伟科技) 10, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.8200860.xyz}, udp: true}
-  - {name: AM亚美尼亚(youtube阿伟科技), server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 11, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: US_157, server: 170.64.133.209, port: 443, type: vmess, uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: YouTube：ATOM科技_523, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 _91, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
+  - {name: +|+8.79Mb, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 3, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /KTR, ws-headers: {Host: 4.arvanktbr.store}, udp: true}
   - {name: YouTube：ATOM科技_553, server: us1.wanwusheng.me, port: 443, type: vmess, uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us1.wanwusheng.me}, udp: true}
-  - {name: Youtube顺丰资源 _156, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp2.0bad.com}, udp: true}
-  - {name: US美国(youtube阿伟科技) 12, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
-  - {name: +|+7.41Mb, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 菲律宾(youtube阿伟科技), server: id.artunnel57.host, port: 443, type: vmess, uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-tls, ws-headers: {Host: id.artunnel57.host}, udp: true}
-  - {name: 英国(youtube阿伟科技), server: a-ct1.jsmmm.cyou, port: 39521, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube：ATOM科技_407, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.8200860.xyz}, udp: true}
-  - {name: "| 8.85Mb", server: 161.129.34.102, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 161.129.34.102}, udp: true}
-  - {name: JP日本(youtube阿伟科技) 5, server: 120.241.255.253, port: 21952, type: ss, cipher: aes-128-gcm, password: 8fe40424-de1a-48e7-9a78-247dae536cce, udp: true}
-  - {name: US美国(youtube阿伟科技) 13, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: 美国【YouTube-由零開始】 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: jp1.sharecentrepro.com}, udp: true}
+  - {name: DE德国(youtube阿伟科技), server: a8c74c6c.ikunxiao.top, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: a8c74c6c.ikunxiao.top}, udp: true}
+  - {name: 中国【YouTube-由零開始】, server: 36.139.166.231, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: YouTube：ATOM科技_257, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: Youtube顺丰资源 US__58, server: dp2.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp2.scproxy.top}, udp: true}
+  - {name: US美国(youtube阿伟科技) 8, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: US美国(youtube阿伟科技) 9, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
+  - {name: JP日本(youtube阿伟科技) 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: jp1.sharecentrepro.com}, udp: true}
+  - {name: HK香港(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: Youtube顺丰资源 US 13, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
+  - {name: US美国(youtube阿伟科技) 10, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: YouTube：ATOM科技_295, server: 172.67.132.15, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: ming2.kiwireich.com}, udp: true}
+  - {name: +|10.62Mb, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: YouTube：ATOM科技_529, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /XQ2WCa29jfDMGBcbnQ, ws-headers: {Host: germany1.yj2022.ga}, udp: true}
+  - {name: US美国(youtube阿伟科技) 11, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
+  - {name: US美国(youtube阿伟科技) 12, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb, server: sky998dmit3.xyz, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: sky998dmit3.xyz, skip-cert-verify: true, udp: true}
   - {name: GB_youtube@资源分享师_83, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: VN越南(youtube阿伟科技), server: 49.236.209.45, port: 80, type: vmess, uuid: 5bb6b5c3-40dd-4a1f-9f43-802320cc5b56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /project4gyuna.pw, ws-headers: {Host: 49.236.209.45}, udp: true}
-  - {name: YouTube：ATOM科技_194, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技), server: speed.cloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: v2.chigua.tk}, udp: true}
+  - {name: US美国(youtube阿伟科技) 13, server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /c8e0f808-25d6-4911-833e-50b9f5050ba6, ws-headers: {Host: vc-us1.imnibaba.tk}, udp: true}
+  - {name: Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: FR(youtube阿伟科技), server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: 77.v2ray1.xyz}, udp: true}
+  - {name: FI芬兰(youtube阿伟科技), server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.8200860.xyz}, udp: true}
+  - {name: +|11.88Mb, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +|+7.41Mb, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Youtube顺丰资源 US__8, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new3.hucloud-dns.xyz}, udp: true}
+  - {name: Youtube顺丰资源 undefined__212, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxpol.fovi.tk}, udp: true}
+  - {name: US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5, server: 66.235.200.21, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: US美国(YouTube阿伟科技), server: Kansas.v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
+  - {name: FR(youtube阿伟科技) 2, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: 77.v2ray1.xyz}, udp: true}
+  - {name: "|108.40Mb", server: 23.224.191.6, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 23.224.191.6}, udp: true}
+  - {name: US美国(youtube阿伟科技) 14, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp2.scproxy.top}, udp: true}
+  - {name: ID印尼(youtube阿伟科技), server: pt.tujuh-ion.vip-cloud.me, port: 80, type: vmess, uuid: be8d3b3a-6f95-4a47-b27e-673cc11b1f1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: pt.tujuh-ion.vip-cloud.me}, udp: true}
+  - {name: FR(youtube阿伟科技) 3, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: 77.v2ray1.xyz}, udp: true}
+  - {name: US美国(youtube阿伟科技) 15, server: a-cm1.jsmmm.cyou, port: 39911, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_582, server: b1.ss1011.top, port: 1509, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +|+9.25Mb, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US美国(youtube阿伟科技) 16, server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /c8e0f808-25d6-4911-833e-50b9f5050ba6, ws-headers: {Host: woiden-fr1.imnibaba.tk}, udp: true}
+  - {name: Youtube顺丰资源 US 18, server: 203.30.188.121, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Pool_Pool_+|39.60Mb, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 中国【YouTube-由零開始】 2, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 17, server: 4bb4ced4.ikunxiao.top, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.ikunxiao.top}, udp: true}
+  - {name: US美国(youtube阿伟科技) 18, server: quiz.vidio.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-ovh2.1server.co}, udp: true}
+  - {name: YouTube：ATOM科技_421, server: uns.xiaohouzi.club, port: 13328, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: uns.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 美国 25, server: yjz.hk, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: YouTube：ATOM科技_407, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.8200860.xyz}, udp: true}
+  - {name: US美国(youtube阿伟科技) 19, server: 172.67.201.204, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
+  - {name: YouTube：ATOM科技_16, server: 172.67.199.101, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: GB_youtube@资源分享师_118, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: JP日本(youtube阿伟科技) 3, server: jp02.wxfz.ga, port: 443, type: vmess, uuid: 16987709-af08-428c-eb00-a26efe1b8204, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.wxfz.ga}, udp: true}
+  - {name: Pool_🇺🇸US_155, server: 23.224.191.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 23.224.191.5}, udp: true}
+  - {name: YouTube：ATOM科技_140, server: 203.30.191.2, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: YouTube：ATOM科技_359, server: hongbozeng.ml, port: 443, type: vmess, uuid: 860b543f-5039-473b-96ec-4494aebe4416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xuexi, ws-headers: {Host: hongbozeng.ml}, udp: true}
+  - {name: JP日本(youtube阿伟科技) 4, server: 85.208.108.22, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 CA__37, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__19, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: +|13.53Mb, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 CN__174, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技) 20, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
+  - {name: _CN_中国 2, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +|11.77Mb, server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +|25.33Mb, server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 _36, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Pool_Pool_+|33.98Mb, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: AM亚美尼亚(youtube阿伟科技), server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: Youtube顺丰资源 US__34, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: +|+5.39Mb, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +|10.10Mb, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Youtube顺丰资源 US 13 2, server: 185.162.228.110, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: Youtube顺丰资源+CN__64, server: 36.138.193.128, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: YouTube：ATOM科技_445, server: hn.xiaohouzi.club, port: 18433, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: +|14.86Mb, server: 38.64.138.145, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: YouTube：ATOM科技_270, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
+  - {name: Youtube顺丰资源+TUR土耳其, server: hnm.xiaohouzi.club, port: 17105, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_579, server: 172.67.145.166, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
+  - {name: US美国(youtube阿伟科技) 21, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: US美国(youtube阿伟科技) 22, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
+  - {name: 中国-欢迎订阅【YouTube-由零開始】141, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -568,556 +512,500 @@ _7
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Youtube顺丰资源 HK香港14
+      - HK香港(youtube阿伟科技)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1133,138 +1021,124 @@ _7
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源 CN__4
-      - Youtube顺丰资源 CN__2
-      - Youtube顺丰资源+上海市+电信
-      - 美国【YouTube-由零開始】
-      - US美国(YouTube阿伟科技)
-      - Youtube顺丰资源 _25
-      - 中国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 HK香港14
-      - +|+8.79Mb
-      - _CN_中国
-      - US美国(youtube阿伟科技)
-      - +|14.86Mb
-      - Youtube顺丰资源 _12
-      - +|11.24Mb
-      - Youtube顺丰资源 美国 CloudFlare节点 3
-      - YouTube：ATOM科技_16
-      - +|+9.16Mb
-      - US_❤️telegram群组：https://t.me/xiaoxiange88_2
-      - +|+9.24Mb
-      - Pool_Pool_+|26.07Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_7
-      - JP日本(youtube阿伟科技)
-      - Youtube顺丰资源 _26
-      - DE德国(youtube阿伟科技)
-      - 美国【YouTube-由零開始】 2
-      - Pool_Pool_+|33.98Mb
-      - +|+5.23Mb
-      - Youtube顺丰资源 _6
-      - Pool_Pool_+|39.60Mb
-      - +|11.88Mb
-      - Relay_🇺🇸US-🇺🇸US_163
-      - JP日本(youtube阿伟科技) 2
-      - Youtube顺丰资源 US 13
-      - +|20.23Mb
-      - Youtube顺丰资源 CN__3
-      - Youtube顺丰资源 _7
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_359
-      - 俄罗斯(youtube阿伟科技)
       - SG新加坡(youtube阿伟科技)
-      - Youtube顺丰资源 _69
-      - YouTube：ATOM科技_318
-      - Pool_Pool_ |23.63Mb
-      - Pool_🇺🇸US_167
-      - +|17.62Mb
-      - Youtube顺丰资源 US__89
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 US__29
-      - Youtube顺丰资源 US__95
-      - Youtube顺丰资源+荷兰+北荷兰省阿姆斯特丹PhotonVPS数据中心
-      - KH柬埔寨(youtube阿伟科技)
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - Youtube顺丰资源 US__70
-      - YouTube：ATOM科技_362
+      - 美国【YouTube-由零開始】
+      - SG新加坡(youtube阿伟科技) 2
+      - Youtube顺丰资源 US__68
+      - YouTube：ATOM科技_324
       - +|+9.43Mb
-      - YouTube：ATOM科技_270
-      - Youtube顺丰资源 JP__45
-      - Pool_🇺🇸US_155
-      - +|+9.25Mb
-      - +|11.72Mb
-      - Youtube顺丰资源 英国1
-      - YouTube：ATOM科技_395
-      - Youtube顺丰资源 TW__133
-      - KR韩国(youtube阿伟科技)
-      - Pool_Pool_+|19.61Mb
-      - +|25.33Mb
-      - YouTube：ATOM科技_455
-      - +|+5.39Mb
-      - "|108.40Mb"
+      - Relay_🇺🇸US-🇺🇸US_159
+      - Pool_Pool_ |23.63Mb
+      - _CN_中国
+      - Youtube顺丰资源 _142
+      - YouTube：ATOM科技_362
+      - 芬兰(youtube阿伟科技)
+      - CA加拿大(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - +|+5.23Mb
+      - +|25.28Mb
       - US美国(youtube阿伟科技) 2
       - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_95
-      - JP日本(youtube阿伟科技) 3
-      - YouTube：ATOM科技_529
-      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 美国 65
-      - Youtube顺丰资源 DE德国 6
-      - +|13.53Mb
+      - IN_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - +|26.38Mb
-      - YouTube：ATOM科技_88
-      - YouTube：ATOM科技_469
-      - YouTube：ATOM科技_485
-      - YouTube：ATOM科技_518
-      - Youtube顺丰资源 英国
-      - +|10.62Mb
+      - 美国(yudou66.com 玉豆免费节点)
       - US美国(youtube阿伟科技) 4
-      - YouTube：ATOM科技_166
-      - US美国(youtube阿伟科技) 5
+      - Relay_🇺🇸US-🇺🇸US_163
+      - Youtube顺丰资源 US__17
+      - +|+9.24Mb
       - +|10.75Mb
-      - US美国(youtube阿伟科技) 18
-      - +|25.28Mb
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
+      - JP日本(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 5
+      - Youtube顺丰资源 DE德国3
       - US美国(youtube阿伟科技) 6
-      - YouTube：ATOM科技_184
-      - GB_youtube@资源分享师_121
-      - YouTube：ATOM科技_544
-      - YouTube：ATOM科技_202
-      - Relay_🇺🇸US-🇺🇸US_159
-      - Youtube顺丰资源 欧洲 31
-      - Youtube顺丰资源 US__27
-      - JP日本(youtube阿伟科技) 4
+      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
       - US美国(youtube阿伟科技) 7
-      - US美国(youtube阿伟科技) 8
-      - Youtube顺丰资源 _5
-      - YouTube：ATOM科技_240
-      - YouTube：ATOM科技_369
-      - +|+9.52Mb
-      - Youtube顺丰资源 US  4
-      - +|10.10Mb
-      - US美国(youtube阿伟科技) 9
-      - FR法国(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 10
-      - AM亚美尼亚(youtube阿伟科技)
-      - US美国(youtube阿伟科技) 11
-      - US_157
-      - YouTube：ATOM科技_523
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - US_youtube@资源分享师_35
+      - YouTube：ATOM科技_88
+      - Youtube顺丰资源 _91
+      - +|+8.79Mb
+      - Youtube顺丰资源 美国 CloudFlare节点 3
       - YouTube：ATOM科技_553
-      - Youtube顺丰资源 _156
+      - 美国【YouTube-由零開始】 2
+      - DE德国(youtube阿伟科技)
+      - 中国【YouTube-由零開始】
+      - YouTube：ATOM科技_257
+      - Youtube顺丰资源 US__58
+      - US美国(youtube阿伟科技) 8
+      - US美国(youtube阿伟科技) 9
+      - JP日本(youtube阿伟科技) 2
+      - HK香港(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US美国(youtube阿伟科技) 10
+      - YouTube：ATOM科技_295
+      - +|10.62Mb
+      - YouTube：ATOM科技_529
+      - US美国(youtube阿伟科技) 11
       - US美国(youtube阿伟科技) 12
-      - +|+7.41Mb
-      - 菲律宾(youtube阿伟科技)
-      - 英国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - "| 8.85Mb"
-      - JP日本(youtube阿伟科技) 5
-      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
       - GB_youtube@资源分享师_83
-      - VN越南(youtube阿伟科技)
-      - YouTube：ATOM科技_194
+      - 英国(youtube阿伟科技)
+      - US美国(youtube阿伟科技) 13
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - FR(youtube阿伟科技)
+      - FI芬兰(youtube阿伟科技)
+      - +|11.88Mb
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 undefined__212
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
+      - US美国(YouTube阿伟科技)
+      - FR(youtube阿伟科技) 2
+      - "|108.40Mb"
+      - US美国(youtube阿伟科技) 14
+      - ID印尼(youtube阿伟科技)
+      - FR(youtube阿伟科技) 3
+      - US美国(youtube阿伟科技) 15
+      - YouTube：ATOM科技_582
+      - +|+9.25Mb
+      - US美国(youtube阿伟科技) 16
+      - Youtube顺丰资源 US 18
+      - Pool_Pool_+|39.60Mb
+      - 中国【YouTube-由零開始】 2
+      - US美国(youtube阿伟科技) 17
+      - US美国(youtube阿伟科技) 18
+      - YouTube：ATOM科技_421
+      - Youtube顺丰资源 美国 25
+      - YouTube：ATOM科技_407
+      - US美国(youtube阿伟科技) 19
+      - YouTube：ATOM科技_16
+      - GB_youtube@资源分享师_118
+      - JP日本(youtube阿伟科技) 3
+      - Pool_🇺🇸US_155
+      - YouTube：ATOM科技_140
+      - YouTube：ATOM科技_359
+      - JP日本(youtube阿伟科技) 4
+      - Youtube顺丰资源 CA__37
+      - Youtube顺丰资源 US__19
+      - +|13.53Mb
+      - Youtube顺丰资源 CN__174
+      - US美国(youtube阿伟科技) 20
+      - _CN_中国 2
+      - +|11.77Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 _36
+      - Pool_Pool_+|33.98Mb
+      - AM亚美尼亚(youtube阿伟科技)
+      - Youtube顺丰资源 US__34
+      - +|+5.39Mb
+      - +|10.10Mb
+      - Youtube顺丰资源 US 13 2
+      - Youtube顺丰资源+CN__64
+      - YouTube：ATOM科技_445
+      - +|14.86Mb
+      - YouTube：ATOM科技_270
+      - Youtube顺丰资源+TUR土耳其
+      - YouTube：ATOM科技_579
+      - US美国(youtube阿伟科技) 21
+      - US美国(youtube阿伟科技) 22
+      - 中国-欢迎订阅【YouTube-由零開始】141
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
