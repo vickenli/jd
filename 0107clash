@@ -5,591 +5,299 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Youtube顺丰资源 KR韩国, server: azkr2-tg-data.amazonwebservicess.com, port: 10313, type: vmess, uuid: 502641e2-8086-4e85-9517-96b9f6f61263, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US__13, server: 173.245.59.168, port: 8080, type: vmess, uuid: 27848739-7e62-4138-9fd3-938a63964b6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /KTR, ws-headers: {Host: 4.arvanktbr.store}, udp: true}
-  - {name: Pool_Pool_+|19.61Mb, server: 85.208.108.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国【YouTube-由零開始】, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 US26, server: v2ray3.ibgfw.top, port: 2083, type: vmess, uuid: abea7285-5108-401f-9f29-320bae1ebc05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /LbRDKd7G/, ws-headers: {Host: v2ray3.ibgfw.top}, udp: true}
-  - {name: +|14.86Mb, server: 38.64.138.145, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|11.24Mb, server: 134.195.196.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|+9.52Mb, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: HK香港(youtube阿伟科技), server: 1807516e-rr0tc0-1cwfu.hk.tcpbbr.net, port: 8388, type: vmess, uuid: 6550ed3c-f4de-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(youtube阿伟科技), server: s-sg01.aikun.online, port: 10000, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-sg01.aikun.online, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(youtube阿伟科技), server: 3.36.108.65, port: 80, type: vmess, uuid: a3f07c3b-2761-4104-8bb3-8187f38f6210, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技), server: us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com, port: 7302, type: trojan, password: f2fc982f-3462-11e9-96d3-020b85e0a428, sni: us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_24, server: 216.107.139.191, port: 80, type: vmess, uuid: e176019a-df22-4895-fbd5-5556b090e4e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 216.107.139.191}, udp: true}
   - {name: US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9, server: us.disnet.gq, port: 443, type: trojan, password: 7c7e0edb-c45a-4c07-b66a-69b191179349, sni: us.disnet.gq, skip-cert-verify: true, udp: true}
-  - {name: +|10.62Mb, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 KR__198, server: 152.69.230.170, port: 80, type: vmess, uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.69.230.170}, udp: true}
-  - {name: _CN_中国, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: a8c74c6c.ikunxiao.top, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: a8c74c6c.ikunxiao.top}, udp: true}
-  - {name: +|20.23Mb, server: 172.99.190.61, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Pool_Pool_+|26.07Mb, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源+GB__74, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: +|25.28Mb, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: GB_youtube@资源分享师_121, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: Youtube顺丰资源+SG新加坡3, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 12334, type: trojan, password: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, sni: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇺🇸US_167, server: 104.233.191.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 104.233.191.182}, udp: true}
-  - {name: 新加坡(yudou66.com 玉豆免费节点), server: 18.143.123.35, port: 80, type: vmess, uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.143.123.35}, udp: true}
-  - {name: +|+9.16Mb, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源 US__6, server: 141.101.115.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: Pool_Pool_+|39.60Mb, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|11.03Mb, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: YouTube：ATOM科技_359, server: hongbozeng.ml, port: 443, type: vmess, uuid: 860b543f-5039-473b-96ec-4494aebe4416, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xuexi, ws-headers: {Host: hongbozeng.ml}, udp: true}
-  - {name: US美国(youtube阿伟科技), server: news.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: Youtube顺丰资源+SG新加坡5, server: 54.169.160.39, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ, udp: true}
-  - {name: Youtube顺丰资源 美国62, server: 172.67.201.204, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv2.sharecentrepro.org}, udp: true}
-  - {name: YouTube梦歌_34, server: 2.58.87.142, port: 80, type: vmess, uuid: f2c71a9d-5d81-48b7-9243-55f87221a964, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2.58.87.142}, udp: true}
-  - {name: CN_youtube@资源分享师_184, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: +|+7.41Mb, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: +|11.77Mb, server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+_7, server: 167.88.61.213, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: Youtube顺丰资源 JP__107, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
-  - {name: Youtube顺丰资源+上海市+电信, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Pool_Pool_ |23.63Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.48816626.xyz}, udp: true}
+  - {name: KR韩国(youtube阿伟科技) 2, server: sa.unlimitedtraffic.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 19323732-d371-43f0-a6c1-1833dc68a137, udp: true}
+  - {name: +|11.77Mb, server: 193.108.117.75, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: +|11.72Mb, server: 169.197.141.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /opt/video/images, ws-headers: {Host: hrgdvpn.flycdnedc55.vip}, udp: true}
-  - {name: Youtube顺丰资源 US__19, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
-  - {name: Youtube顺丰资源 US 13, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
-  - {name: KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1, server: 140.238.1.117, port: 80, type: vmess, uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4gmp, ws-headers: {Host: 140.238.1.117}, udp: true}
-  - {name: HK香港(youtube阿伟科技), server: 192.203.230.12, port: 443, type: vmess, uuid: a5f0b87e-4264-4ab5-b262-91ab61d32667, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwerty, ws-headers: {Host: hk01.kelecloud.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_159, server: 107.167.31.194, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120306182525, ws-headers: {Host: www.66728533.xyz}, udp: true}
-  - {name: US美国(youtube阿伟科技) 2, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
-  - {name: Youtube顺丰资源 HK香港1, server: hkt1-tg-data.amazonwebservicess.com, port: 80, type: vmess, uuid: 502641e2-8086-4e85-9517-96b9f6f61263, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aws-china-media/Y699Gjx2rNw.mp4, ws-headers: {Host: hkt1-tg-data.amazonwebservicess.com}, udp: true}
-  - {name: Youtube顺丰资源+_54, server: stonebreak.online, port: 443, type: trojan, password: xl87654321, sni: stonebreak.online, skip-cert-verify: true, udp: true}
-  - {name: +|10.75Mb, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +|+9.43Mb, server: 178.18.244.2, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 97OnDEZYGja4, udp: true}
+  - {name: Youtube顺丰资源+上海市+电信, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US__124, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus3.0bad.com}, udp: true}
+  - {name: Youtube顺丰资源 US 23, server: quiz.vidio.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-ovh2.1server.co}, udp: true}
   - {name: Youtube顺丰资源 _156, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp2.0bad.com}, udp: true}
-  - {name: GB_youtube@资源分享师_46, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: Youtube顺丰资源+US4, server: aman.101cloud.xyz, port: 33614, type: ss, cipher: chacha20-ietf-poly1305, password: 3772f7db-6ba0-47e3-bbd5-a9807cb87932, udp: true}
-  - {name: "|108.40Mb", server: 23.224.191.6, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 23.224.191.6}, udp: true}
-  - {name: JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2, server: 140.83.86.129, port: 80, type: vmess, uuid: 8700cfbd-71dc-42b0-84f2-53cd7fe5645b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.83.86.129}, udp: true}
-  - {name: 美国-欢迎订阅【YouTube-由零開始】, server: Tokyo.v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Tokyo.v2ray.online}, udp: true}
-  - {name: Youtube顺丰资源 卢森堡2, server: c7d5ea85.ikunxiao.top, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: c7d5ea85.ikunxiao.top}, udp: true}
+  - {name: US_FreeNode.me_125, server: 172.67.136.81, port: 443, type: vmess, uuid: 5eba5b30-7c4a-419c-c1b8-cafd0b4d4eee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /123, ws-headers: {Host: eu4.isi.lol}, udp: true}
+  - {name: Pool_🇺🇸US_167, server: 104.233.191.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 104.233.191.182}, udp: true}
+  - {name: HK香港(youtube阿伟科技) 2, server: 3.0.95.204, port: 9001, type: vmess, uuid: 6ab86c6d-1fe0-4ce0-857d-22cf9aed6e53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +|10.75Mb, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: GB_youtube@资源分享师_121, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: +|+9.25Mb, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1, server: muamua.cf, port: 443, type: vmess, uuid: 71e61b09-7a77-4ed0-b991-fa929b9e482a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vlgyvws, ws-headers: {Host: muamua.cf}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 10, server: 172.66.44.197, port: 443, type: vmess, uuid: fa4cb529-3ac9-4268-bb04-ed4253813508, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mR17oBKzZ7, ws-headers: {Host: d.pgypgykmoljklj.xyz}, udp: true}
+  - {name: Youtube顺丰资源+_54, server: stonebreak.online, port: 443, type: trojan, password: xl87654321, sni: stonebreak.online, skip-cert-verify: true, udp: true}
+  - {name: Youtube顺丰资源 US__58, server: dp2.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp2.scproxy.top}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: movie3.fun1yearsfun.top, port: 443, type: vmess, uuid: 4eee4324-b746-11ed-afa1-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bypass123, ws-headers: {Host: movie3.fun1yearsfun.top}, udp: true}
+  - {name: Youtube顺丰资源 BZ__47, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__8, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new3.hucloud-dns.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US11, server: v2ray.webgfw.top, port: 2096, type: vmess, uuid: afc92f6d-b33d-4bc1-9a34-97c9cced07c2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xWP5bQtI/, ws-headers: {Host: v2ray.webgfw.top}, udp: true}
+  - {name: Youtube顺丰资源 美国 18, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: GB_youtube@资源分享师_118, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: +|+7.41Mb, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Youtube顺丰资源 US__6, server: 141.101.115.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: +|17.62Mb, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: GB_youtube@资源分享师_83, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Youtube顺丰资源 US__136, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
+  - {name: +|10.62Mb, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +|13.53Mb, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 US__27, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: +|11.24Mb, server: 134.195.196.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: +|25.33Mb, server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 US26, server: v2ray3.ibgfw.top, port: 2083, type: vmess, uuid: abea7285-5108-401f-9f29-320bae1ebc05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /LbRDKd7G/, ws-headers: {Host: v2ray3.ibgfw.top}, udp: true}
+  - {name: Youtube顺丰资源 印度 2, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vin1.0bad.com}, udp: true}
+  - {name: Youtube顺丰资源+GB__74, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Youtube顺丰资源 US__161, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
+  - {name: +|26.38Mb, server: 195.154.200.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Pool_Pool_+|26.07Mb, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 US 9, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
+  - {name: Youtube顺丰资源 美国 CloudFlare节点 2, server: 172.67.199.34, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: +|+5.39Mb, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Youtube顺丰资源 US17, server: ny1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ny1.sharecentrepro.org}, udp: true}
   - {name: JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2, server: 85.208.108.22, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CN_youtube@资源分享师_192, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YTB-AWKJ}, udp: true}
-  - {name: US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29, server: 74.120.169.229, port: 80, type: vmess, uuid: d4d97aee-ebda-4a44-b208-9b5414d92033, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 74.120.169.229}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_163, server: 170.178.179.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/031730091420, ws-headers: {Host: 170.178.179.189}, udp: true}
-  - {name: +|+8.79Mb, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube顺丰资源+HK香港2, server: awshk14-data.amazon-azure.com, port: 443, type: trojan, password: 502641e2-8086-4e85-9517-96b9f6f61263, sni: awshk14-data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: +|11.88Mb, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 加拿大(yudou66.com 玉豆免费节点), server: shopify.com, port: 443, type: vmess, uuid: a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/a0aa5a85-ee0c-4b49-aaad-adbc2d07c8ea-vm?ed=2048", ws-headers: {Host: doprax.888173.xyz}, udp: true}
-  - {name: Pool_🇺🇸US_155, server: 23.224.191.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 23.224.191.5}, udp: true}
-  - {name: Youtube顺丰资源 BZ__47, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: uk1.scproxy.top}, udp: true}
-  - {name: Youtube顺丰资源 US 7, server: khvwycch.cymlr.xyz, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /videnset, ws-headers: {Host: khvwycch.cymlr.xyz}, udp: true}
-  - {name: Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb, server: sky998dmit3.xyz, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: sky998dmit3.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7, server: petal.ga, port: 443, type: vmess, uuid: b744f5cc-eab2-d2cd-f477-76646d17987f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /petalvws, ws-headers: {Host: petal.ga}, udp: true}
-  - {name: Youtube顺丰资源 US__161, server: 154.v2ray3.xyz, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
-  - {name: YouTube：ATOM科技_270, server: 190.93.245.2, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: lg1.trump2023.us}, udp: true}
-  - {name: "|15.80Mb", server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /opt/video/images, ws-headers: {Host: 182.16.1.194}, udp: true}
-  - {name: Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315, server: t3.teslacdn2.live, port: 443, type: trojan, password: e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, sni: t3.teslacdn2.live, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: clash1.ssr-free2.xyz}, udp: true}
-  - {name: Youtube顺丰资源+CN__63, server: 36.138.140.208, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
-  - {name: Youtube顺丰资源+TW台湾1, server: kcdtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 502641e2-8086-4e85-9517-96b9f6f61263, sni: kcdtw1-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 CN__59, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: +|25.33Mb, server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: +|13.53Mb, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CN_中国, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_FreeNode.me_78, server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
+  - {name: CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
+  - {name: US_youtube@资源分享师_59, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
+  - {name: +|11.03Mb, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: Youtube顺丰资源 US__11, server: 172.67.164.123, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US 18, server: 203.24.108.8, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: HK香港(youtube阿伟科技) 2, server: 43.154.190.26, port: 50744, type: vmess, uuid: ce387c33-6d75-4722-95dd-b265657f2802, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk8/getData, ws-headers: {Host: hk8.linkeden.co}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: movie3.fun1yearsfun.top, port: 443, type: vmess, uuid: 4eee4324-b746-11ed-afa1-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bypass123, ws-headers: {Host: movie3.fun1yearsfun.top}, udp: true}
-  - {name: Youtube顺丰资源 US 9, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
-  - {name: GB_youtube@资源分享师_83, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: Pool_Pool_ |23.63Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.48816626.xyz}, udp: true}
-  - {name: 中国【YouTube-由零開始】, server: 36.139.166.231, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
-  - {name: Youtube顺丰资源 US31, server: dp1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
-  - {name: US美国(youtube阿伟科技) 3, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: YouTube：ATOM科技_523, server: 188.114.99.10, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: YouTube：ATOM科技_132, server: aws.qiongqi8138.ga, port: 443, type: trojan, password: cf908616-6ab9-437d-a4f0-cea5e7ebc2c2, sni: aws.qiongqi8138.ga, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 7, server: 172.67.164.125, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3, server: 203.30.190.191, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源+TW台湾4, server: stw3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 502641e2-8086-4e85-9517-96b9f6f61263, sni: stw3-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: +|+5.39Mb, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3, server: suzhihan.eu.org, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /roewesu, ws-headers: {Host: suzhihan.eu.org}, udp: true}
-  - {name: Youtube顺丰资源 US11, server: v2ray.webgfw.top, port: 2096, type: vmess, uuid: afc92f6d-b33d-4bc1-9a34-97c9cced07c2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xWP5bQtI/, ws-headers: {Host: v2ray.webgfw.top}, udp: true}
-  - {name: Youtube顺丰资源 NL__48, server: 188.114.97.3, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp1.scproxy.top}, udp: true}
-  - {name: Pool_Pool_+|33.98Mb, server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Pool_Pool_+|23.39Mb, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: YouTube：ATOM科技_529, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /XQ2WCa29jfDMGBcbnQ, ws-headers: {Host: germany1.yj2022.ga}, udp: true}
-  - {name: Youtube顺丰资源 US 16, server: www.udemy.com, port: 8080, type: vmess, uuid: 397489e0-a0b4-11ed-b443-1577c1651679, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-ovh2.1server.co}, udp: true}
-  - {name: Youtube顺丰资源 GB__179, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vuk2.0bad.com}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: clash1.ssr-free2.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US__174, server: finland2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yWJGGBHoVpr3DbNuVycP, ws-headers: {Host: finland2.yj2022.ga}, udp: true}
-  - {name: Youtube顺丰资源 美国 惠普HP, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6b6a5d73-f1e0-4420-b261-49713b42b60e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: hk4.af49c4e4c2ef.sanfen001.pics}, udp: true}
-  - {name: +|+9.24Mb, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: SG新加坡(youtube阿伟科技), server: 104.26.3.39, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2, server: 203.30.191.192, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2, server: 190.93.244.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: "| 5.68Mb", server: 202.79.172.53, port: 443, type: vmess, uuid: 30216206-14b7-40e7-995d-61c1219ba584, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/220128071100, ws-headers: {Host: 202.79.172.53}, udp: true}
-  - {name: Youtube顺丰资源 JP3, server: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou, port: 43381, type: vmess, uuid: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tnt-dbfw, ws-headers: {Host: lv2iwahxwawhooiixzawx.occwaszxjjhwx.cyou}, udp: true}
-  - {name: Youtube顺丰资源+CN__115, server: 36.139.166.252, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
-  - {name: KR韩国(youtube阿伟科技), server: petal.tk, port: 443, type: vmess, uuid: b7718dc4-8c46-483b-d347-dd5d8209e023, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jjpwvws, ws-headers: {Host: petal.tk}, udp: true}
-  - {name: YouTube：ATOM科技_407, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 4bb4ced4.8200860.xyz}, udp: true}
-  - {name: SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 _36, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国(youtube阿伟科技), server: uk01.wxfz.ga, port: 443, type: vmess, uuid: 11113310-1e54-445c-c608-7850f47edd1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: uk01.wxfz.ga}, udp: true}
-  - {name: Youtube顺丰资源 SG新加坡1, server: awssg6-tg-data.amazonwebservicess.com, port: 10311, type: vmess, uuid: 502641e2-8086-4e85-9517-96b9f6f61263, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源+TH泰国, server: taig.101cloud.xyz, port: 58301, type: ss, cipher: chacha20-ietf-poly1305, password: 3772f7db-6ba0-47e3-bbd5-a9807cb87932, udp: true}
-  - {name: Youtube顺丰资源 CN__266, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube：ATOM科技_475, server: b1.ss1011.top, port: 1507, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 JP1, server: awsjp12-data.amazon-azure.com, port: 10313, type: vmess, uuid: 502641e2-8086-4e85-9517-96b9f6f61263, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源+CN__145, server: 36.137.106.45, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
-  - {name: Youtube顺丰资源 SG新加坡2, server: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou, port: 33336, type: vmess, uuid: 001a5927-bcf7-368a-8a4d-cb8c2fd6aab5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tnt-awsxjp3, ws-headers: {Host: lv3oiwdaxsaowhdnjkzxw.occwaszxjjhwx.cyou}, udp: true}
-  - {name: +|+9.25Mb, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国(youtube阿伟科技) 4, server: 141.193.213.20, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: 法国(yudou66.com 玉豆免费节点), server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: 77.v2ray1.xyz}, udp: true}
-  - {name: Youtube顺丰资源 US__58, server: dp2.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: dp2.scproxy.top}, udp: true}
-  - {name: CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1, server: 190.93.246.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5QNROSRV, ws-headers: {Host: oplg1.zhujicn2.com}, udp: true}
-  - {name: Youtube顺丰资源+CN__64, server: 36.138.193.128, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
-  - {name: 澳洲(yudou66.com 玉豆免费节点), server: 168.138.102.89, port: 80, type: vmess, uuid: 0792ca95-a0ba-4510-eab3-8ea03239c532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 168.138.102.89}, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: jp02.wxfz.ga, port: 443, type: vmess, uuid: 11987709-af08-428c-eb00-a26efe1b8204, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctv13.m3u8, ws-headers: {Host: jp02.wxfz.ga}, udp: true}
-  - {name: YouTube：ATOM科技_363, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 HK香港6, server: hk80.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: ac105d51-b8bf-48cb-af88-3f66de6920b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: hk80.af49c4e4c2ef.sanfen001.pics}, udp: true}
-  - {name: Youtube顺丰资源+JP日本, server: hn.xiaohouzi.club, port: 18735, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
-  - {name: Youtube顺丰资源 美国 CloudFlare节点 4, server: new6.hucloud-dns.xyz, port: 443, type: vmess, uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new6.hucloud-dns.xyz}, udp: true}
-  - {name: +|26.38Mb, server: 195.154.200.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /reffs7y26g0ua, ws-headers: {Host: surongwei.eu.org}, udp: true}
-  - {name: MO_youtube@资源分享师_112, server: 45.64.22.56, port: 443, type: trojan, password: !<str> 123456, skip-cert-verify: true, udp: true}
-  - {name: IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1, server: muamua.cf, port: 443, type: vmess, uuid: 71e61b09-7a77-4ed0-b991-fa929b9e482a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vlgyvws, ws-headers: {Host: muamua.cf}, udp: true}
-  - {name: Youtube顺丰资源 BZ__107, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
+  - {name: Youtube顺丰资源 US__92, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
+  - {name: +|+9.52Mb, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 荷兰(youtube阿伟科技), server: sc.scyu.app, port: 80, type: vmess, uuid: 43930e8c-8347-4929-8e2c-9197e7c71423, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hax.scyu.app}, udp: true}
+  - {name: Youtube顺丰资源 US 13, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wo.php, ws-headers: {Host: els200.jslist.tk}, udp: true}
+  - {name: US_youtube@资源分享师_237, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: JP日本(youtube阿伟科技), server: jp05-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: a5b837b3-90fe-3333-8eaf-23a65d29b881, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp05-vm0.entry.srthdw.art}, udp: true}
+  - {name: Youtube顺丰资源 US 28, server: 172.67.137.72, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /videnset, ws-headers: {Host: khvwycch.cymlr.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -608,602 +316,305 @@ _2
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - HK香港(youtube阿伟科技)
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+HK香港2
-      - Youtube顺丰资源+TW台湾1
       - HK香港(youtube阿伟科技) 2
-      - Youtube顺丰资源+TW台湾4
-      - Youtube顺丰资源 HK香港6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1219,148 +630,75 @@ _2
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源 KR韩国
-      - Youtube顺丰资源 US__13
-      - Pool_Pool_+|19.61Mb
-      - 美国【YouTube-由零開始】
-      - Youtube顺丰资源 US26
-      - +|14.86Mb
-      - +|11.24Mb
-      - +|+9.52Mb
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
-_9
-      - +|10.62Mb
-      - Youtube顺丰资源 KR__198
-      - _CN_中国
-      - 美国(yudou66.com 玉豆免费节点)
-      - +|20.23Mb
-      - Pool_Pool_+|26.07Mb
-      - Youtube顺丰资源+GB__74
-      - +|25.28Mb
-      - GB_youtube@资源分享师_121
-      - Youtube顺丰资源+SG新加坡3
-      - Pool_🇺🇸US_167
-      - 新加坡(yudou66.com 玉豆免费节点)
-      - +|+9.16Mb
-      - Youtube顺丰资源 US__6
-      - Pool_Pool_+|39.60Mb
-      - +|11.03Mb
-      - YouTube：ATOM科技_359
-      - US美国(youtube阿伟科技)
-      - Youtube顺丰资源+SG新加坡5
-      - Youtube顺丰资源 美国62
-      - YouTube梦歌_34
-      - CN_youtube@资源分享师_184
-      - +|+7.41Mb
-      - +|11.77Mb
-      - Youtube顺丰资源 JP__107
-      - Youtube顺丰资源+上海市+电信
-      - +|11.72Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_6
-      - Youtube顺丰资源 US__19
-      - Youtube顺丰资源 US 13
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
       - HK香港(youtube阿伟科技)
-      - Relay_🇺🇸US-🇺🇸US_159
-      - US美国(youtube阿伟科技) 2
-      - Youtube顺丰资源 HK香港1
-      - Youtube顺丰资源+_54
-      - +|10.75Mb
+      - SG新加坡(youtube阿伟科技)
+      - KR韩国(youtube阿伟科技)
+      - US美国(youtube阿伟科技)
+      - US_youtube@资源分享师_24
+      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
+_7
+      - Youtube顺丰资源 JP__107
+      - Pool_Pool_ |23.63Mb
+      - KR韩国(youtube阿伟科技) 2
+      - +|11.77Mb
+      - +|11.72Mb
+      - +|+9.43Mb
+      - Youtube顺丰资源+上海市+电信
+      - Youtube顺丰资源 US__124
+      - Youtube顺丰资源 US 23
       - Youtube顺丰资源 _156
-      - GB_youtube@资源分享师_46
-      - Youtube顺丰资源+US4
-      - "|108.40Mb"
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - 美国-欢迎订阅【YouTube-由零開始】
-      - Youtube顺丰资源 卢森堡2
+      - US_FreeNode.me_125
+      - Pool_🇺🇸US_167
+      - HK香港(youtube阿伟科技) 2
+      - +|10.75Mb
+      - GB_youtube@资源分享师_121
+      - +|+9.25Mb
+      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
+      - Youtube顺丰资源 美国 CloudFlare节点 10
+      - Youtube顺丰资源+_54
+      - Youtube顺丰资源 US__58
+      - 美国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 BZ__47
+      - Youtube顺丰资源 US__8
+      - Youtube顺丰资源 US11
+      - Youtube顺丰资源 美国 18
+      - GB_youtube@资源分享师_118
+      - +|+7.41Mb
+      - Youtube顺丰资源 US__6
+      - +|17.62Mb
+      - GB_youtube@资源分享师_83
+      - Youtube顺丰资源 US__136
+      - +|10.62Mb
+      - +|13.53Mb
+      - Youtube顺丰资源 US__27
+      - +|11.24Mb
+      - Relay_Relay_🇺🇸US-🇺🇸US_1089+|100.30Mb
+      - +|25.33Mb
+      - Youtube顺丰资源 US26
+      - Youtube顺丰资源 印度 2
+      - Youtube顺丰资源+GB__74
+      - Youtube顺丰资源 US__161
+      - +|26.38Mb
+      - Pool_Pool_+|26.07Mb
+      - Youtube顺丰资源 US 9
+      - Youtube顺丰资源 美国 CloudFlare节点 2
+      - +|+5.39Mb
+      - Youtube顺丰资源 US17
       - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88
 _2
-      - CN_youtube@资源分享师_192
-      - US_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_29
-      - Relay_🇺🇸US-🇺🇸US_163
-      - +|+8.79Mb
-      - Youtube顺丰资源+HK香港2
-      - +|11.88Mb
-      - 加拿大(yudou66.com 玉豆免费节点)
-      - Pool_🇺🇸US_155
-      - Youtube顺丰资源 BZ__47
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - Youtube顺丰资源 US 7
-      - Relay_Relay_🇺🇸US-🇺🇸US_1077+|64.03Mb
-      - HK_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_7
-      - Youtube顺丰资源 US__161
-      - YouTube：ATOM科技_270
-      - "|15.80Mb"
-      - Relay_Relay_🇫🇷FR-🇫🇷FR_292🇫🇷FR-🇫🇷FR_315
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - Youtube顺丰资源+CN__63
-      - Youtube顺丰资源+TW台湾1
-      - Youtube顺丰资源 CN__59
-      - +|25.33Mb
-      - +|13.53Mb
+      - _CN_中国
+      - US_FreeNode.me_78
+      - CA_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
+      - US_youtube@资源分享师_59
+      - +|11.03Mb
       - Youtube顺丰资源 US__11
-      - Youtube顺丰资源 US 18
-      - HK香港(youtube阿伟科技) 2
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - Youtube顺丰资源 US 9
-      - GB_youtube@资源分享师_83
-      - Pool_Pool_ |23.63Mb
-      - 中国【YouTube-由零開始】
-      - Youtube顺丰资源 US31
-      - US美国(youtube阿伟科技) 3
-      - YouTube：ATOM科技_523
-      - YouTube：ATOM科技_132
-      - Youtube顺丰资源 美国 CloudFlare节点 7
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源+TW台湾4
-      - +|+5.39Mb
-      - JP_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_3
-      - Youtube顺丰资源 US11
-      - Youtube顺丰资源 NL__48
-      - Pool_Pool_+|33.98Mb
-      - Pool_Pool_+|23.39Mb
-      - YouTube：ATOM科技_529
-      - Youtube顺丰资源 US 16
-      - Youtube顺丰资源 GB__179
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - Youtube顺丰资源 US__174
-      - Youtube顺丰资源 美国 惠普HP
-      - +|+9.24Mb
-      - SG新加坡(youtube阿伟科技)
-      - BZ_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_2
-      - "| 5.68Mb"
-      - Youtube顺丰资源 JP3
-      - Youtube顺丰资源+CN__115
-      - KR韩国(youtube阿伟科技)
-      - YouTube：ATOM科技_407
-      - SG_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_8
-      - Youtube顺丰资源 _36
-      - 英国(youtube阿伟科技)
-      - Youtube顺丰资源 SG新加坡1
-      - Youtube顺丰资源+TH泰国
-      - Youtube顺丰资源 CN__266
-      - YouTube：ATOM科技_475
-      - Youtube顺丰资源 JP1
-      - Youtube顺丰资源+CN__145
-      - Youtube顺丰资源 SG新加坡2
-      - +|+9.25Mb
-      - US美国(youtube阿伟科技) 4
-      - 法国(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源 US__58
-      - CR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源+CN__64
-      - 澳洲(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源 US__92
+      - +|+9.52Mb
+      - 荷兰(youtube阿伟科技)
+      - Youtube顺丰资源 US 13
+      - US_youtube@资源分享师_237
       - JP日本(youtube阿伟科技)
-      - YouTube：ATOM科技_363
-      - Youtube顺丰资源 HK香港6
-      - Youtube顺丰资源+JP日本
-      - Youtube顺丰资源 美国 CloudFlare节点 4
-      - +|26.38Mb
-      - KR_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_5
-      - MO_youtube@资源分享师_112
-      - IT_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/xiaoxiange88_1
-      - Youtube顺丰资源 BZ__107
+      - Youtube顺丰资源 US 28
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
